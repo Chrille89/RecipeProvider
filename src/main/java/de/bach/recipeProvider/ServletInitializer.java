@@ -1,4 +1,4 @@
-package de.bach.alexa.recipeProvider;
+package de.bach.recipeProvider;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

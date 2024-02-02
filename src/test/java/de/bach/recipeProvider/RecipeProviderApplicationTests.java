@@ -1,4 +1,4 @@
-package de.bach.alexa.recipeProvider;
+package de.bach.recipeProvider;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
