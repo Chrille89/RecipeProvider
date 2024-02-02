@@ -1,0 +1,33 @@
+openapi: 3.0.0
+info:
+  title: Sample API
+  description: API for RecipeProvider
+  version: 0.1.9
+servers:
+  - url: http://localhost:8080
+    description: Optional server description, e.g. Main (production) server
+
+paths:
+  /recipes:
+    get:
+      summary: Returns a list of recipes.
+      description: Returns a list of recipes.
+      responses:
+        '200':    # status code
+          description: A JSON array of recipes
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                      format: UUID
+                    title:
+                      type: string
+
+
+
+
