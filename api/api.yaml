@@ -12,22 +12,34 @@ paths:
     get:
       summary: Returns a list of recipes.
       description: Returns a list of recipes.
+      operationId: getRecipes
       responses:
         '200':    # status code
           description: A JSON array of recipes
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    id:
-                      type: integer
-                      format: UUID
-                    title:
-                      type: string
-
+                $ref: '#/components/schemas/RecipeDto'
+components:
+  schemas:
+    RecipeDto:
+      type: array
+      items:
+        type: object
+        properties:
+          id:
+            type: string
+            format: uuid
+          title:
+            type: string
+          ingredients:
+            type: array
+            items:
+              type: string
+          preparation:
+            type: array
+            items:
+              type: string
 
 
 
