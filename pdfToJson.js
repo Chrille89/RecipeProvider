@@ -27,7 +27,7 @@ pdfParser.on("pdfParser_dataReady", pdfData => {
     .filter((t)=> t.R[0].S === -1)
     .map((t)=> decode(t.R[0].T))
     .filter((t)=> t !== "*")
-    .forEach((element,index) => {    
+    .forEach((element,index) => {
         preparationStr+= element + " ";
     });
     const preparationArray = preparationStr
@@ -39,28 +39,38 @@ pdfParser.on("pdfParser_dataReady", pdfData => {
     var ingredients = JSON.parse(JSON.stringify(pdfData)).Pages[1].Texts;
     ingredients = ingredients
     .filter((t)=> t.R[0].S === 2)
-    .map((t)=> decode(t.R[0].T))
+    .map((t)=> decode(t.R[0].T).replace("„Hello",""))
     .filter((t)=> t !== "*")
     .filter((t)=> t !== "(Drillinge)")
     .filter((t)=> t !== " | ")
-    .filter((t)=> t !== "„Hello  ")
+    .filter((t)=> t !== "„Hello ")
     .filter((t)=> t !== "Paprika“")
     ingredients = ingredients.slice(ingredients.indexOf("4P")+1,ingredients.indexOf("Portion")-1);
-    ingredients = ingredients.map((element,index) => {
-    console.log(element);
-        if(index === 0) {
-            return element + " "+ingredients[1];
-        } else if(index % 4 === 0) {
-            return element + " "+ingredients[index +1];
+
+    let ingredientsPersons = {};
+    let i =0;
+    while( i < ingredients.length) {
+        ingredientsPersons[ingredients[i].trim()]= {
+            persons: {
+                2: {
+                    amount: ingredients[i+1]
+                },
+                3: {
+                    amount: ingredients[i+2]
+                },
+                4: {
+                    amount: ingredients[i+3]
+                }
+            }
         }
-    }).filter((element) => element !== undefined)
+        i+=4;
+    }
 
     const requestDto = {
         "title": title,
-        "persons": 2,
-        "ingredients": ingredients,
+        "ingredients": ingredientsPersons,
         "preparation": preparationArray
-        
+
     }
 
     console.log("request: ",requestDto);
