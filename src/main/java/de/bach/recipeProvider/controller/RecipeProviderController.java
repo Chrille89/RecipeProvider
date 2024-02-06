@@ -1,7 +1,7 @@
 package de.bach.recipeProvider.controller;
 
 import org.openapitools.api.RecipesApi;
-import org.openapitools.model.RecipeDtoInner;
+import org.openapitools.model.RecipeReadDtoInner;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,10 +19,10 @@ public class RecipeProviderController implements RecipesApi {
 	}
 
 	@Override
-	public ResponseEntity<List<RecipeDtoInner>> getRecipes() {
-		List<RecipeDtoInner> recipes = new ArrayList<>();
+	public ResponseEntity<List<RecipeReadDtoInner>> getRecipes() {
+		List<RecipeReadDtoInner> recipes = new ArrayList<>();
 
-		RecipeDtoInner recipesDtoInner = new RecipeDtoInner();
+		RecipeReadDtoInner recipesDtoInner = new RecipeReadDtoInner();
 		recipesDtoInner.id(UUID.randomUUID());
 		recipesDtoInner.title("Bratkartoffeln");
 		recipesDtoInner.addIngredientsItem("500g Kartoffeln").addIngredientsItem("100g Zwiebeln");

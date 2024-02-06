@@ -47,10 +47,11 @@ pdfParser.on("pdfParser_dataReady", pdfData => {
     .filter((t)=> t !== "Paprika“")
     ingredients = ingredients.slice(ingredients.indexOf("4P")+1,ingredients.indexOf("Portion")-1);
 
-    let ingredientsPersons = {};
+    let ingredientsPersons = [];
     let i =0;
     while( i < ingredients.length) {
-        ingredientsPersons[ingredients[i].trim()]= {
+        let ingredient = {
+            name: ingredients[i].trim(),
             persons: {
                 2: {
                     amount: ingredients[i+1]
@@ -63,6 +64,7 @@ pdfParser.on("pdfParser_dataReady", pdfData => {
                 }
             }
         }
+        ingredientsPersons.push(ingredient);
         i+=4;
     }
 

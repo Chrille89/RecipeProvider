@@ -19,10 +19,23 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/RecipeDto'
+                $ref: '#/components/schemas/RecipeReadDto'
+    post:
+      summary: Create a recipe.
+      description: Create a recipe.
+      operationId: createRecipe
+      requestBody:
+        description: Created recipe in JSON format.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RecipeWriteDto'
+      responses:
+        '200':
+          description: callback successfully processed
 components:
   schemas:
-    RecipeDto:
+    RecipeReadDto:
       type: array
       items:
         type: object
@@ -40,6 +53,28 @@ components:
             type: array
             items:
               type: string
+    RecipeWriteDto:
+      type: object
+      properties:
+        title:
+          type: string
+        ingredients:
+          type: array
+          items:
+            type: object
+            properties:
+              name:
+                type: string
+              persons:
+                type: object
+                properties:
+                  count:
+                    type: object
+                    properties:
+                      amount:
+                        type: string
+
+
 
 
 
