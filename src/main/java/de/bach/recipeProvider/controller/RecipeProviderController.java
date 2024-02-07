@@ -27,17 +27,21 @@ public class RecipeProviderController implements RecipesApi {
 	}
 
 	@Override
-	public ResponseEntity<RecipeReadDto> getRandomRecipe() {
+	public ResponseEntity<RecipeReadDto> getRandomRecipe(Integer persons) {
+		if(persons < 2) persons = 2;
+		if(persons > 4) persons = 4;
 		List<Recipe> recipes = recipesRepository.findAll();
 		RecipeReadDto recipeReadDto = new RecipeReadDto();
-		Recipe recipe = recipes.get(recipes.size() -1);
+		Random r = new Random();
+		int randomIndex = r.nextInt(recipes.size());
+		Recipe recipe = recipes.get(randomIndex);
 		List<String> ingredients = new ArrayList<>();
-
-		recipe.getIngredients().stream().forEach(recipeIngredient -> {
-			Map<String, RecipeIngredientPersons> map = recipeIngredient.getPersons();
-			RecipeIngredientPersons recipeIngredientPersons =map.get(map.keySet().stream().iterator().next());
+		Integer finalPersons = persons;
+		recipe.getIngredients().forEach(recipeIngredient -> {
+					Map<String, RecipeIngredientPersons> map = recipeIngredient.getPersons();
+					RecipeIngredientPersons recipeIngredientPersons =map.get(finalPersons.toString());
 					ingredients.add(recipeIngredientPersons.getAmount()+" "+recipeIngredient.getName());
-		}
+				}
 		);
 		recipeReadDto.id(UUID.randomUUID());
 		recipeReadDto.title(recipe.title);
@@ -49,10 +53,10 @@ public class RecipeProviderController implements RecipesApi {
 	@Override
 	public ResponseEntity<Void> createRecipe(RecipeWriteDto recipeWriteDto) {
 		List<RecipeIngredient> recipeIngredients = new ArrayList<>();
-		recipeWriteDto.getIngredients().stream().forEach(ingredient -> {
+		recipeWriteDto.getIngredients().forEach(ingredient -> {
 			Map<String, RecipeWriteDtoIngredientsInnerPersonsValue> map = ingredient.getPersons();
 			Map<String, RecipeIngredientPersons> mapMongo = new HashMap<>();
-			map.keySet().stream().forEach(key -> {
+			map.keySet().forEach(key -> {
 				RecipeWriteDtoIngredientsInnerPersonsValue recipeWriteDtoIngredientsInnerPersonsValue = map.get(key);
 				RecipeIngredientPersons recipeIngredientsPersons = new RecipeIngredientPersons(recipeWriteDtoIngredientsInnerPersonsValue.getAmount());
 				mapMongo.put(key,recipeIngredientsPersons);

@@ -13,6 +13,12 @@ paths:
       summary: Return a random recipe.
       description: Return a random recipe.
       operationId: getRandomRecipe
+      parameters:
+        - in: query
+          name: persons
+          schema:
+            type: integer
+          description: the number of persons
       responses:
         '200':    # status code
           description: Return a random recipe
