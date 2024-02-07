@@ -1,7 +1,5 @@
 package de.bach.recipeProvider.mongodb.model;
 
-import org.openapitools.model.RecipeWriteDtoIngredientsInnerPersonsValue;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -28,5 +26,9 @@ public class RecipeIngredient {
 
     public Map<String, RecipeIngredientPersons> getPersons() {
         return persons;
+    }
+
+    public void setPersons(Map<String, RecipeIngredientPersons> persons) {
+        this.persons = persons;
     }
 }

@@ -1,12 +1,10 @@
 package de.bach.recipeProvider.mongodb.model;
 
-import jakarta.validation.Valid;
-import org.openapitools.model.RecipeWriteDtoIngredientsInner;
 import org.springframework.data.annotation.Id;
-
+import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.List;
 
-
+@Document(collection = "Recipes")
 public class Recipe {
 
     @Id

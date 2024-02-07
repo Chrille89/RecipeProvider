@@ -35,10 +35,11 @@ public class RecipeProviderController implements RecipesApi {
 
 		recipe.getIngredients().stream().forEach(recipeIngredient -> {
 			Map<String, RecipeIngredientPersons> map = recipeIngredient.getPersons();
-					ingredients.add(recipeIngredient + " " +map.get(map.keySet().stream().iterator().next()));
+			RecipeIngredientPersons recipeIngredientPersons =map.get(map.keySet().stream().iterator().next());
+					ingredients.add(recipeIngredientPersons.getAmount()+" "+recipeIngredient.getName());
 		}
 		);
-
+		recipeReadDto.id(UUID.randomUUID());
 		recipeReadDto.title(recipe.title);
 		recipeReadDto.ingredients(ingredients);
 		recipeReadDto.preparation(recipe.getPreparation());
