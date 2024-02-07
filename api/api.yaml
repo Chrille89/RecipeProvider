@@ -16,6 +16,7 @@ paths:
       parameters:
         - in: query
           name: persons
+          required: true
           schema:
             type: integer
           description: the number of persons
@@ -46,7 +47,6 @@ components:
       properties:
         id:
           type: string
-          format: uuid
         title:
           type: string
         ingredients:

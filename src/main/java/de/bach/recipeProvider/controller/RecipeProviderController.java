@@ -28,6 +28,7 @@ public class RecipeProviderController implements RecipesApi {
 
 	@Override
 	public ResponseEntity<RecipeReadDto> getRandomRecipe(Integer persons) {
+		if(persons == null) persons = 2;
 		if(persons < 2) persons = 2;
 		if(persons > 4) persons = 4;
 		List<Recipe> recipes = recipesRepository.findAll();
@@ -43,7 +44,7 @@ public class RecipeProviderController implements RecipesApi {
 					ingredients.add(recipeIngredientPersons.getAmount()+" "+recipeIngredient.getName());
 				}
 		);
-		recipeReadDto.id(UUID.randomUUID());
+		recipeReadDto.id(recipe.id);
 		recipeReadDto.title(recipe.title);
 		recipeReadDto.ingredients(ingredients);
 		recipeReadDto.preparation(recipe.getPreparation());
@@ -65,6 +66,6 @@ public class RecipeProviderController implements RecipesApi {
 		});
 		Recipe recipe = new Recipe(recipeWriteDto.getTitle(),recipeIngredients,recipeWriteDto.getPreparation());
 		recipesRepository.save(recipe);
-		return RecipesApi.super.createRecipe(recipeWriteDto);
+		return ResponseEntity.noContent().build();
 	}
 }
