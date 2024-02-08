@@ -2,7 +2,6 @@ const fs = require("fs");
 const PDFParser = require("pdf2json");
 const decode = require('urldecode')
 const request = require('sync-request');
-//const URL = "http://h2857701.stratoserver.net:8080/RecipeProvider/recipes";
 const URL = "http://localhost:8080/recipes";
 
 const pdfParser = new PDFParser(this, 1);
