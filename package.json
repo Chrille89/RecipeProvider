@@ -9,9 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fs": "latest",
     "http": "^0.0.1-security",
     "pdf2json": "^3.0.5",
-    "fs":"latest",
-    "urldecode":"latest"
+    "request": "^2.88.2",
+    "sync-request": "^6.1.0",
+    "urldecode": "latest"
   }
 }
