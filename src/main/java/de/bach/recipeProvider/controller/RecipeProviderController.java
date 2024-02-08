@@ -18,6 +18,9 @@ import java.util.*;
 @RestController
 public class RecipeProviderController implements RecipesApi {
 
+	private static long time;
+	private static RecipeReadDto recipeReadDtoCache;
+
 	@Autowired
 	RecipesRepository recipesRepository;
 
@@ -28,6 +31,12 @@ public class RecipeProviderController implements RecipesApi {
 
 	@Override
 	public ResponseEntity<RecipeReadDto> getRandomRecipe(Integer persons) {
+		if(recipeReadDtoCache != null && ((System.currentTimeMillis() - time) < 86400000)) {
+			System.out.println("Use cache ...");
+			return ResponseEntity.ok(recipeReadDtoCache);
+		}
+		System.out.println("Get data from database ...");
+		time = System.currentTimeMillis();
 		if(persons == null) persons = 2;
 		if(persons < 2) persons = 2;
 		if(persons > 4) persons = 4;
@@ -48,6 +57,7 @@ public class RecipeProviderController implements RecipesApi {
 		recipeReadDto.title(recipe.title);
 		recipeReadDto.ingredients(ingredients);
 		recipeReadDto.preparation(recipe.getPreparation());
+		recipeReadDtoCache = recipeReadDto;
 		return ResponseEntity.ok(recipeReadDto);
 	}
 
