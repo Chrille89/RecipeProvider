@@ -87,7 +87,6 @@ pdfParser.on("pdfParser_dataReady", pdfData => {
     });
     if (res.statusCode == 204) {
         console.log("Request successfully.");
-
     } else {
         console.log("Request failed: ", res)
     }
