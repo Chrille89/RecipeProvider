@@ -9,14 +9,17 @@ const pdfParser = new PDFParser(this, 1);
 pdfParser.on("pdfParser_dataError", errData => console.error(errData.parserError));
 pdfParser.on("pdfParser_dataReady", pdfData => {
     let texts = JSON.parse(JSON.stringify(pdfData)).Pages[0].Texts;
-    const regex = new RegExp('[A-Za-z]');
+    const regex = new RegExp('[A-Za-z0-9]');
 
     // title
     var title = "";
     const filtered = texts
-        .filter((t) => regex.test(decode(t.R[0].T)))
-        .map((t) => decode(t.R[0].T))
-        .slice(0, 4)
+        .filter((t) => {
+          return t.R[0].S === -1 && t.R[0].T !== "%20%20" && t.R[0].T !== "43" ;
+        })
+        .map((t) => {
+        return decode(t.R[0].T);
+        })
         .forEach((element, index) => {
             if (index === 1) title += element + ", ";
             else title += element;
@@ -51,13 +54,15 @@ pdfParser.on("pdfParser_dataReady", pdfData => {
         .filter((t) => t !== " | ")
         .filter((t) => t !== "„Hello ")
         .filter((t) => t !== "Paprika“")
-    ingredients = ingredients.slice(ingredients.indexOf("4P") + 1, ingredients.indexOf("Portion") - 1);
+    ingredients = ingredients
 
+    .slice(ingredients.indexOf("4P") + 1, ingredients.indexOf("Portion") - 1)
+      .filter((i) => regex.test(i))
     let ingredientsPersons = [];
     let i = 0;
     while (i < ingredients.length) {
         let ingredient = {
-            name: ingredients[i].trim(),
+            name: ingredients[i],
             persons: {
                 2: {
                     amount: ingredients[i + 1]
@@ -91,4 +96,4 @@ pdfParser.on("pdfParser_dataReady", pdfData => {
     }
 });
 
-pdfParser.loadPDF("./test.pdf");
+pdfParser.loadPDF("recipes/654907c8210a8fb22c3400de.pdf");
