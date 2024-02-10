@@ -29,14 +29,18 @@ var loadPDF = function(filePath){
           var title = "";
           const filtered = texts
               .filter((t) => {
-                return t.R[0].S === -1 && t.R[0].T !== "%20%20" && t.R[0].T !== "43" ;
+              console.log("t.R[0]:",t.R[0]);
+                return t.R[0].S === -1 && t.R[0].T !== "%20%20";
               })
               .map((t) => {
               return decode(t.R[0].T);
               })
               .forEach((element, index) => {
-                  if (index === 1) title += element + ", ";
-                  else title += element;
+              console.log("element:",element);
+              if(regex.test(element)) {
+                if (index === 1) title += element + ", ";
+                                else title += element;
+              }
               });
 
           //zubereitung
@@ -65,6 +69,7 @@ var loadPDF = function(filePath){
               .map((t) => decode(t.R[0].T).replace("„Hello", ""))
               .filter((t) => t !== "*")
               .filter((t) => t !== "(Drillinge)")
+              .filter((t) => t !== "(Scheiben)")
               .filter((t) => t !== " | ")
               .filter((t) => t !== "„Hello ")
               .filter((t) => t !== "Paprika“")
@@ -99,7 +104,8 @@ var loadPDF = function(filePath){
               "preparation": preparationArray
 
           }
-
+          console.log("recipeWriteDto: ",recipeWriteDto);
+/*`
           var res = request('POST', URL, {
               json: recipeWriteDto,
           });
@@ -107,7 +113,7 @@ var loadPDF = function(filePath){
               console.log("Request successfully.");
           } else {
               console.log("Request failed: ", res)
-          }
+          }*/
       fileCont++; //increase the file counter
       loadPDF(fileFolder + fileNames[fileCont]); //parse the next file
     });

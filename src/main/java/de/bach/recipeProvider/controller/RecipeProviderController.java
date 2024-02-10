@@ -31,10 +31,11 @@ public class RecipeProviderController implements RecipesApi {
 
 	@Override
 	public ResponseEntity<RecipeReadDto> getRandomRecipe(Integer persons) {
-		if(recipeReadDtoCache != null && ((System.currentTimeMillis() - time) < 86400000)) {
+
+		/*if(recipeReadDtoCache != null && ((System.currentTimeMillis() - time) < 86400000)) {
 			System.out.println("Use cache ...");
 			return ResponseEntity.ok(recipeReadDtoCache);
-		}
+		}*/
 		System.out.println("Get data from database ...");
 		time = System.currentTimeMillis();
 		if(persons == null) persons = 2;
