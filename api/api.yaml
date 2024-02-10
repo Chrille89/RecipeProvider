@@ -38,7 +38,7 @@ paths:
             schema:
               $ref: '#/components/schemas/RecipeWriteDto'
       responses:
-        '200':
+        '204':
           description: callback successfully processed
 components:
   schemas:
