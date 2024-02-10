@@ -23,21 +23,21 @@ var loadPDF = function(filePath){
 
     pdfParser.on('pdfParser_dataReady', function(pdfData){
       let texts = JSON.parse(JSON.stringify(pdfData)).Pages[0].Texts;
-          const regex = new RegExp('[A-Za-z0-9]');
+          const regexCharsNumbers = new RegExp('[A-Za-z0-9]');
+          const regexChars = new RegExp('[A-Za-z]');
 
           // title
           var title = "";
           const filtered = texts
               .filter((t) => {
-              console.log("t.R[0]:",t.R[0]);
                 return t.R[0].S === -1 && t.R[0].T !== "%20%20";
               })
               .map((t) => {
               return decode(t.R[0].T);
               })
               .forEach((element, index) => {
-              console.log("element:",element);
-              if(regex.test(element)) {
+
+              if(regexChars.test(element)) {
                 if (index === 1) title += element + ", ";
                                 else title += element;
               }
@@ -58,6 +58,7 @@ var loadPDF = function(filePath){
               .replaceAll("Min .", "Minuten")
               .replaceAll(" EL ", "Esslöffel")
               .replaceAll(" TL ", "Teelöffel")
+               .replaceAll(" Sek ", "Sekunden")
               .replaceAll(" –  ", " bis ")
 
               .slice(0, preparationStr.indexOf("Guten Appetit!")).split(".")
@@ -76,7 +77,7 @@ var loadPDF = function(filePath){
           ingredients = ingredients
 
           .slice(ingredients.indexOf("4P") + 1, ingredients.indexOf("Portion") - 1)
-            .filter((i) => regex.test(i))
+            .filter((i) => regexCharsNumbers.test(i))
           let ingredientsPersons = [];
           let i = 0;
           while (i < ingredients.length) {
@@ -103,9 +104,7 @@ var loadPDF = function(filePath){
               "ingredients": ingredientsPersons,
               "preparation": preparationArray
 
-          }
-          console.log("recipeWriteDto: ",recipeWriteDto);
-/*`
+          }`
           var res = request('POST', URL, {
               json: recipeWriteDto,
           });
@@ -113,7 +112,7 @@ var loadPDF = function(filePath){
               console.log("Request successfully.");
           } else {
               console.log("Request failed: ", res)
-          }*/
+          }
       fileCont++; //increase the file counter
       loadPDF(fileFolder + fileNames[fileCont]); //parse the next file
     });
