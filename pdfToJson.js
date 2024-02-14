@@ -37,6 +37,7 @@ var loadPDF = function (filePath) {
           return decode(t.R[0].T);
         })
         .forEach((element, index) => {
+        element = element.replace("&","und");
           if (regexChars.test(element)) {
             if (index === 1) title += element + ", ";
             else title += element;
@@ -64,6 +65,7 @@ var loadPDF = function (filePath) {
         .replaceAll(" g ", " Gramm ")
         .replaceAll(" cm ", " Zentimeter ")
         .replaceAll(" ml ", " Milliliter ")
+        .replaceAll("&", "und")
         .slice(0, preparationStr.indexOf("Guten Appetit!")).split(".")
 
       //zutaten
@@ -84,7 +86,7 @@ var loadPDF = function (filePath) {
       let ingredientsPersons = [];
       let i = 0;
       while (i < ingredients.length) {
-        let ingredientName = ingredients[i];
+        let ingredientName = ingredients[i].replace("&","und");
         let ingredientAmount = ingredients[i + 1];
         if (ingredientAmount) {
           if (ingredientAmount.split(" ").length != 2 && !regexNumbers.test(ingredientAmount.split(" ")[0])) {
@@ -93,7 +95,7 @@ var loadPDF = function (filePath) {
           }
         }
         let ingredient = {
-          name: ingredients[i],
+          name: ingredientName,
           persons: {
             2: {
               amount: ingredients[i + 1]
