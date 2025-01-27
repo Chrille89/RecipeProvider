@@ -8,6 +8,27 @@ servers:
     description: Optional server description, e.g. Main (production) server
 
 paths:
+  /recipes/all:
+    get:
+      summary: Return all recipes.
+      description: Return all recipes.
+      operationId: getAllRecipes
+      responses:
+        '200': # status code
+          description: Return all recipe
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/RecipeReadDto'
+    delete:
+      summary: Delete all recipes.
+      description: Delete all recipes.
+      operationId: deleteAllRecipes
+      responses:
+        '200': # status code
+          description: Delete all recipes
   /recipes:
     get:
       summary: Return a random recipe.
@@ -49,7 +70,14 @@ components:
           type: string
         title:
           type: string
+        image:
+          type: string
+          format: uri
         ingredients:
+          type: array
+          items:
+            type: string
+        nutrients:
           type: array
           items:
             type: string
@@ -62,6 +90,9 @@ components:
       properties:
         title:
           type: string
+        image:
+          type: string
+          format: uri
         ingredients:
           type: array
           items:
@@ -76,6 +107,10 @@ components:
                     properties:
                       amount:
                         type: string
+        nutrients:
+          type: array
+          items:
+            type: string
         preparation:
           type: array
           items:

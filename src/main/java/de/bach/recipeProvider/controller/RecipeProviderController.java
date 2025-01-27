@@ -12,8 +12,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.context.request.NativeWebRequest;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 @RestController
 public class RecipeProviderController implements RecipesApi {
@@ -30,11 +32,35 @@ public class RecipeProviderController implements RecipesApi {
 	}
 
 	@Override
+	public Optional<NativeWebRequest> getRequest() {
+		return RecipesApi.super.getRequest();
+	}
+
+	@Override
+	public ResponseEntity<List<RecipeReadDto>> getAllRecipes() {
+		Integer finalPersons = 2;
+		List<Recipe> recipes = recipesRepository.findAll();
+		List<RecipeReadDto> recipeReadDtos = recipes.stream().map(recipe ->
+				new RecipeReadDto()
+						.id(recipe.id)
+						.title(recipe.title)
+						.image(recipe.uri)
+						.nutrients(recipe.getNutrients())
+						.preparation(recipe.getPreparation())
+						.ingredients(recipe.getIngredients()
+								.stream()
+								.map(ingredient -> {
+									Map<String, RecipeIngredientPersons> map = ingredient.getPersons();
+									RecipeIngredientPersons recipeIngredientPersons =map.get(finalPersons.toString());
+									return recipeIngredientPersons.getAmount()+" "+ingredient.getName();
+								}).collect(Collectors.toList()))).collect(Collectors.toList());
+
+		return ResponseEntity.ok(recipeReadDtos);
+
+	}
+
+	@Override
 	public ResponseEntity<RecipeReadDto> getRandomRecipe(Integer persons) {
-		if(recipeReadDtoCache != null && ((System.currentTimeMillis() - time) < 86400000)) {
-			System.out.println("Use cache ...");
-			return ResponseEntity.ok(recipeReadDtoCache);
-		}
 		System.out.println("Get data from database ...");
 		time = System.currentTimeMillis();
 		if(persons == null) persons = 2;
@@ -74,8 +100,20 @@ public class RecipeProviderController implements RecipesApi {
 			});
 			recipeIngredients.add(new RecipeIngredient(ingredient.getName(),mapMongo));
 		});
-		Recipe recipe = new Recipe(recipeWriteDto.getTitle(),recipeIngredients,recipeWriteDto.getPreparation());
+
+		Recipe recipe = new Recipe(
+				recipeWriteDto.getTitle(),
+				recipeWriteDto.getImage(),
+				recipeIngredients,
+				recipeWriteDto.getNutrients(),
+				recipeWriteDto.getPreparation());
 		recipesRepository.save(recipe);
 		return ResponseEntity.noContent().build();
+	}
+
+	@Override
+	public ResponseEntity<Void> deleteAllRecipes() {
+		recipesRepository.deleteAll();
+		return ResponseEntity.ok().build();
 	}
 }
