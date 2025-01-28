@@ -16,20 +16,28 @@ public class Recipe {
 
     public URI uri;
 
-    private List<RecipeIngredient> ingredients;
+    private List<Amount> ingredients;
 
-    private List<String> nutrients;
+    private List<Amount> nutrients;
 
     private List<String> preparation;
 
     public Recipe() {}
 
-    public Recipe(String title, URI uri, List<RecipeIngredient> ingredients, List<String> nutrients, List<String> preparation) {
+    public Recipe(String title, URI uri, List<Amount> ingredients, List<Amount> nutrients, List<String> preparation) {
         this.title = title;
         this.uri = uri;
         this.ingredients = ingredients;
         this.nutrients = nutrients;
         this.preparation = preparation;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getTitle() {
@@ -40,19 +48,27 @@ public class Recipe {
         this.title = title;
     }
 
-    public List<RecipeIngredient> getIngredients() {
+    public URI getUri() {
+        return uri;
+    }
+
+    public void setUri(URI uri) {
+        this.uri = uri;
+    }
+
+    public List<Amount> getIngredients() {
         return ingredients;
     }
 
-    public void setIngredients(List<RecipeIngredient> ingredients) {
+    public void setIngredients(List<Amount> ingredients) {
         this.ingredients = ingredients;
     }
 
-    public List<String> getNutrients() {
+    public List<Amount> getNutrients() {
         return nutrients;
     }
 
-    public void setNutrients(List<String> nutrients) {
+    public void setNutrients(List<Amount> nutrients) {
         this.nutrients = nutrients;
     }
 

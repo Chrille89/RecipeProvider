@@ -34,13 +34,6 @@ paths:
       summary: Return a random recipe.
       description: Return a random recipe.
       operationId: getRandomRecipe
-      parameters:
-        - in: query
-          name: persons
-          required: true
-          schema:
-            type: integer
-          description: the number of persons
       responses:
         '200':    # status code
           description: Return a random recipe
@@ -76,11 +69,11 @@ components:
         ingredients:
           type: array
           items:
-            type: string
+            $ref: '#/components/schemas/AmountDto'
         nutrients:
           type: array
           items:
-            type: string
+            $ref: '#/components/schemas/AmountDto'
         preparation:
           type: array
           items:
@@ -96,24 +89,27 @@ components:
         ingredients:
           type: array
           items:
-            type: object
-            properties:
-              name:
-                type: string
-              persons:
-                type: object
-                additionalProperties:
-                    type: object
-                    properties:
-                      amount:
-                        type: string
+            $ref: '#/components/schemas/AmountDto'
         nutrients:
           type: array
           items:
-            type: string
+            $ref: '#/components/schemas/AmountDto'
         preparation:
           type: array
           items:
             type: string
-
-
+    AmountDto:
+      type: object
+      properties:
+        name:
+          type: string
+        amount:
+          type: integer
+        unit:
+          type: string
+          enum:
+            - gramm
+            - kilogramm
+            - stueck
+            - milliliter
+            - liter
