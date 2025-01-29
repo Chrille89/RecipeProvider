@@ -66,6 +66,10 @@ components:
         image:
           type: string
           format: uri
+        duration:
+          type: integer
+          description: Duration in minutes
+          example: 30
         ingredients:
           type: array
           items:
@@ -86,6 +90,10 @@ components:
         image:
           type: string
           format: uri
+        duration:
+          type: integer
+          description: Duration in minutes
+          example: 30
         ingredients:
           type: array
           items:

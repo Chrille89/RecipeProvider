@@ -40,6 +40,7 @@ public class RecipeProviderController implements RecipesApi {
                         new RecipeReadDto()
                                 .id(recipe.id)
                                 .title(recipe.title)
+                                .duration(recipe.duration)
                                 .image(recipe.uri)
                                 .nutrients(recipe
                                         .getNutrients()
@@ -73,6 +74,8 @@ public class RecipeProviderController implements RecipesApi {
 
         recipeReadDto.id(recipe.id);
         recipeReadDto.title(recipe.title);
+        recipeReadDto.duration(recipe.duration);
+        recipeReadDto.image(recipe.uri);
         recipeReadDto
                 .ingredients(recipe
                         .getIngredients()
@@ -89,7 +92,8 @@ public class RecipeProviderController implements RecipesApi {
                         .stream()
                         .map(amount -> new AmountDto()
                                 .name(amount.getName())
-                                .amount(amount.getAmount()))
+                                .amount(amount.getAmount())
+                                .unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name())))
                         .collect(Collectors.toList()));
         recipeReadDto.preparation(recipe.getPreparation());
         return ResponseEntity.ok(recipeReadDto);
@@ -99,6 +103,7 @@ public class RecipeProviderController implements RecipesApi {
     public ResponseEntity<Void> createRecipe(RecipeWriteDto recipeWriteDto) {
         Recipe recipe = new Recipe(
                 recipeWriteDto.getTitle(),
+                recipeWriteDto.getDuration(),
                 recipeWriteDto.getImage(),
                 recipeWriteDto
                         .getIngredients()
