@@ -63,6 +63,17 @@ components:
           type: string
         title:
           type: string
+        labels:
+          type: array
+          items:
+            type: string
+            enum:
+              - lowcarb
+              - lowfat
+              - vegetarian
+              - pig
+              - beef
+              - fish
         image:
           type: string
           format: uri
@@ -87,6 +98,17 @@ components:
       properties:
         title:
           type: string
+        labels:
+          type: array
+          items:
+            type: string
+            enum:
+              - lowcarb
+              - lowfat
+              - vegetarian
+              - pig
+              - beef
+              - fish
         image:
           type: string
           format: uri

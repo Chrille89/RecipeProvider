@@ -14,6 +14,8 @@ public class Recipe {
 
     public String title;
 
+    public List<LabelEnum> labels;
+
     public Integer duration;
 
     public URI uri;
@@ -26,8 +28,9 @@ public class Recipe {
 
     public Recipe() {}
 
-    public Recipe(String title, Integer duration, URI uri, List<Amount> ingredients, List<Amount> nutrients, List<String> preparation) {
+    public Recipe(String title, List<LabelEnum> labels, Integer duration, URI uri, List<Amount> ingredients, List<Amount> nutrients, List<String> preparation) {
         this.title = title;
+        this.labels = labels;
         this.duration = duration;
         this.uri = uri;
         this.ingredients = ingredients;
@@ -49,6 +52,14 @@ public class Recipe {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public List<LabelEnum> getLabels() {
+        return labels;
+    }
+
+    public void setLabels(List<LabelEnum> labels) {
+        this.labels = labels;
     }
 
     public Integer getDuration() {

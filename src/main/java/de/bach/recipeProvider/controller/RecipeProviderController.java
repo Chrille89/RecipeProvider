@@ -1,6 +1,7 @@
 package de.bach.recipeProvider.controller;
 
 import de.bach.recipeProvider.mongodb.model.Amount;
+import de.bach.recipeProvider.mongodb.model.LabelEnum;
 import de.bach.recipeProvider.mongodb.model.Recipe;
 import de.bach.recipeProvider.mongodb.RecipesRepository;
 import de.bach.recipeProvider.mongodb.model.UnitEnum;
@@ -40,6 +41,9 @@ public class RecipeProviderController implements RecipesApi {
                         new RecipeReadDto()
                                 .id(recipe.id)
                                 .title(recipe.title)
+                                .labels(recipe.getLabels()
+                        .stream()
+                        .map(labelEnum -> RecipeReadDto.LabelsEnum.fromValue(labelEnum.getValue())).collect(Collectors.toList()))
                                 .duration(recipe.duration)
                                 .image(recipe.uri)
                                 .nutrients(recipe
@@ -74,6 +78,9 @@ public class RecipeProviderController implements RecipesApi {
 
         recipeReadDto.id(recipe.id);
         recipeReadDto.title(recipe.title);
+        recipeReadDto.labels(recipe.getLabels()
+                .stream()
+                .map(labelEnum -> RecipeReadDto.LabelsEnum.fromValue(labelEnum.getValue())).collect(Collectors.toList()));
         recipeReadDto.duration(recipe.duration);
         recipeReadDto.image(recipe.uri);
         recipeReadDto
@@ -103,6 +110,10 @@ public class RecipeProviderController implements RecipesApi {
     public ResponseEntity<Void> createRecipe(RecipeWriteDto recipeWriteDto) {
         Recipe recipe = new Recipe(
                 recipeWriteDto.getTitle(),
+                recipeWriteDto.getLabels()
+                        .stream()
+                        .map(labelsEnum -> LabelEnum.valueOf(labelsEnum.name()))
+                        .collect(Collectors.toList()),
                 recipeWriteDto.getDuration(),
                 recipeWriteDto.getImage(),
                 recipeWriteDto
