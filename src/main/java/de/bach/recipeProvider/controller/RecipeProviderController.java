@@ -21,6 +21,10 @@ import java.util.stream.Collectors;
 @RestController
 public class RecipeProviderController implements RecipesApi {
 
+    private RecipeReadDto firstRecipe;
+
+    private RecipeReadDto secondRecipe;
+
     @Autowired
     RecipesRepository recipesRepository;
 
@@ -69,41 +73,22 @@ public class RecipeProviderController implements RecipesApi {
     }
 
     @Override
-    public ResponseEntity<RecipeReadDto> getRandomRecipe() {
+    public ResponseEntity<List<RecipeReadDto>> getRandomRecipes() {
         List<Recipe> recipes = recipesRepository.findAll();
-        RecipeReadDto recipeReadDto = new RecipeReadDto();
         Random r = new Random();
         int randomIndex = r.nextInt(recipes.size());
-        Recipe recipe = recipes.get(randomIndex);
+        final Recipe firstRecipe = recipes.get(randomIndex);
 
-        recipeReadDto.id(recipe.id);
-        recipeReadDto.title(recipe.title);
-        recipeReadDto.labels(recipe.getLabels()
-                .stream()
-                .map(labelEnum -> RecipeReadDto.LabelsEnum.fromValue(labelEnum.getValue())).collect(Collectors.toList()));
-        recipeReadDto.duration(recipe.duration);
-        recipeReadDto.image(recipe.uri);
-        recipeReadDto
-                .ingredients(recipe
-                        .getIngredients()
-                        .stream()
-                        .map(amount -> new AmountDto()
-                                .name(amount.getName())
-                                .amount(amount.getAmount())
-                                .unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name())))
-                        .collect(Collectors.toList()));
-        recipeReadDto.preparation(recipe.getPreparation());
-        recipeReadDto
-                .nutrients(recipe
-                        .getNutrients()
-                        .stream()
-                        .map(amount -> new AmountDto()
-                                .name(amount.getName())
-                                .amount(amount.getAmount())
-                                .unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name())))
-                        .collect(Collectors.toList()));
-        recipeReadDto.preparation(recipe.getPreparation());
-        return ResponseEntity.ok(recipeReadDto);
+        recipes = recipes.stream().filter(recipe -> recipe.id != firstRecipe.id).collect(Collectors.toList());
+        randomIndex = r.nextInt(recipes.size());
+        Recipe secondRecipe = recipes.get(randomIndex);
+
+        this.firstRecipe = createReadDto(firstRecipe);
+        this.secondRecipe = createReadDto(secondRecipe);
+
+        Date date = new Date();
+   
+        return ResponseEntity.ok(List.of(this.firstRecipe,this.secondRecipe));
     }
 
     @Override
@@ -135,5 +120,39 @@ public class RecipeProviderController implements RecipesApi {
     public ResponseEntity<Void> deleteAllRecipes() {
         recipesRepository.deleteAll();
         return ResponseEntity.ok().build();
+    }
+
+    private RecipeReadDto createReadDto(Recipe recipe) {
+        RecipeReadDto recipeReadDto = new RecipeReadDto();
+
+        recipeReadDto.id(recipe.id);
+        recipeReadDto.title(recipe.title);
+        recipeReadDto.labels(recipe.getLabels()
+                .stream()
+                .map(labelEnum -> RecipeReadDto.LabelsEnum.fromValue(labelEnum.getValue())).collect(Collectors.toList()));
+        recipeReadDto.duration(recipe.duration);
+        recipeReadDto.image(recipe.uri);
+        recipeReadDto
+                .ingredients(recipe
+                        .getIngredients()
+                        .stream()
+                        .map(amount -> new AmountDto()
+                                .name(amount.getName())
+                                .amount(amount.getAmount())
+                                .unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name())))
+                        .collect(Collectors.toList()));
+        recipeReadDto.preparation(recipe.getPreparation());
+        recipeReadDto
+                .nutrients(recipe
+                        .getNutrients()
+                        .stream()
+                        .map(amount -> new AmountDto()
+                                .name(amount.getName())
+                                .amount(amount.getAmount())
+                                .unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name())))
+                        .collect(Collectors.toList()));
+        recipeReadDto.preparation(recipe.getPreparation());
+        return recipeReadDto;
+
     }
 }

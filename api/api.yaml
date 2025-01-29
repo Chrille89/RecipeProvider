@@ -31,16 +31,18 @@ paths:
           description: Delete all recipes
   /recipes:
     get:
-      summary: Return a random recipe.
-      description: Return a random recipe.
-      operationId: getRandomRecipe
+      summary: Return two random recipes
+      description: Return two random recipes
+      operationId: getRandomRecipes
       responses:
         '200':    # status code
-          description: Return a random recipe
+          description: Return two random recipes
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/RecipeReadDto'
+                type: array
+                items:
+                  $ref: '#/components/schemas/RecipeReadDto'
     post:
       summary: Create a recipe.
       description: Create a recipe.
