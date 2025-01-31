@@ -8,7 +8,7 @@ servers:
     description: Optional server description, e.g. Main (production) server
 
 paths:
-  /recipes/all:
+  /recipes:
     get:
       summary: Return all recipes.
       description: Return all recipes.
@@ -29,7 +29,21 @@ paths:
       responses:
         '200': # status code
           description: Delete all recipes
-  /recipes:
+  /recipes/actual:
+    get:
+      summary: Return the actual recipes
+      description: Return the actual recipes
+      operationId: getActualRecipes
+      responses:
+        '200': # status code
+          description: Return the actual recipes
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/RecipeReadDto'
+  /recipes/random:
     get:
       summary: Return two random recipes
       description: Return two random recipes
@@ -72,10 +86,14 @@ components:
             enum:
               - lowcarb
               - lowfat
+              - highprotein
               - vegetarian
               - pig
               - beef
               - fish
+              - thermomix
+              - airfryer
+              - express
         image:
           type: string
           format: uri

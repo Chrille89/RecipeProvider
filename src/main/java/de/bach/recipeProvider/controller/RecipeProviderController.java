@@ -21,9 +21,11 @@ import java.util.stream.Collectors;
 @RestController
 public class RecipeProviderController implements RecipesApi {
 
-    private RecipeReadDto firstRecipe;
+    private static long time;
 
-    private RecipeReadDto secondRecipe;
+    private static RecipeReadDto firstRecipe;
+
+    private static RecipeReadDto secondRecipe;
 
     @Autowired
     RecipesRepository recipesRepository;
@@ -85,8 +87,6 @@ public class RecipeProviderController implements RecipesApi {
 
         this.firstRecipe = createReadDto(firstRecipe);
         this.secondRecipe = createReadDto(secondRecipe);
-
-        Date date = new Date();
    
         return ResponseEntity.ok(List.of(this.firstRecipe,this.secondRecipe));
     }
