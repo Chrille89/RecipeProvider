@@ -47,11 +47,12 @@ public class RecipeProviderController implements RecipesApi {
                         new RecipeReadDto()
                                 .id(recipe.id)
                                 .title(recipe.title)
+                                .subtitle(recipe.subtitle)
                                 .labels(recipe.getLabels()
                         .stream()
                         .map(labelEnum -> RecipeReadDto.LabelsEnum.fromValue(labelEnum.getValue())).collect(Collectors.toList()))
                                 .duration(recipe.duration)
-                                .image(recipe.uri)
+                                .image(recipe.image)
                                 .nutrients(recipe
                                         .getNutrients()
                                         .stream()
@@ -71,30 +72,19 @@ public class RecipeProviderController implements RecipesApi {
                                         .collect(Collectors.toList())))
                 .collect(Collectors.toList());
         return ResponseEntity.ok(recipeReadDtos);
-
     }
 
     @Override
-    public ResponseEntity<List<RecipeReadDto>> getRandomRecipes() {
-        List<Recipe> recipes = recipesRepository.findAll();
-        Random r = new Random();
-        int randomIndex = r.nextInt(recipes.size());
-        final Recipe firstRecipe = recipes.get(randomIndex);
-
-        recipes = recipes.stream().filter(recipe -> recipe.id != firstRecipe.id).collect(Collectors.toList());
-        randomIndex = r.nextInt(recipes.size());
-        Recipe secondRecipe = recipes.get(randomIndex);
-
-        this.firstRecipe = createReadDto(firstRecipe);
-        this.secondRecipe = createReadDto(secondRecipe);
-   
-        return ResponseEntity.ok(List.of(this.firstRecipe,this.secondRecipe));
+    public ResponseEntity<Void> deleteAllRecipes() {
+        recipesRepository.deleteAll();
+        return ResponseEntity.ok().build();
     }
 
     @Override
     public ResponseEntity<Void> createRecipe(RecipeWriteDto recipeWriteDto) {
         Recipe recipe = new Recipe(
                 recipeWriteDto.getTitle(),
+                recipeWriteDto.getSubtitle(),
                 recipeWriteDto.getLabels()
                         .stream()
                         .map(labelsEnum -> LabelEnum.valueOf(labelsEnum.name()))
@@ -117,9 +107,22 @@ public class RecipeProviderController implements RecipesApi {
     }
 
     @Override
-    public ResponseEntity<Void> deleteAllRecipes() {
-        recipesRepository.deleteAll();
-        return ResponseEntity.ok().build();
+    public ResponseEntity<List<RecipeReadDto>> getActualMenu(Boolean random) {
+        if(this.firstRecipe == null && this.secondRecipe == null || random) {
+            List<Recipe> recipes = recipesRepository.findAll();
+            Random r = new Random();
+            int randomIndex = r.nextInt(recipes.size());
+            final Recipe firstRecipe = recipes.get(randomIndex);
+
+            recipes = recipes.stream().filter(recipe -> recipe.id != firstRecipe.id).collect(Collectors.toList());
+            randomIndex = r.nextInt(recipes.size());
+            Recipe secondRecipe = recipes.get(randomIndex);
+
+            this.firstRecipe = createReadDto(firstRecipe);
+            this.secondRecipe = createReadDto(secondRecipe);
+            return ResponseEntity.ok(List.of(this.firstRecipe,this.secondRecipe));
+        }
+        return ResponseEntity.ok(List.of(this.firstRecipe,this.secondRecipe));
     }
 
     private RecipeReadDto createReadDto(Recipe recipe) {
@@ -127,11 +130,12 @@ public class RecipeProviderController implements RecipesApi {
 
         recipeReadDto.id(recipe.id);
         recipeReadDto.title(recipe.title);
+        recipeReadDto.subtitle(recipe.subtitle);
         recipeReadDto.labels(recipe.getLabels()
                 .stream()
                 .map(labelEnum -> RecipeReadDto.LabelsEnum.fromValue(labelEnum.getValue())).collect(Collectors.toList()));
         recipeReadDto.duration(recipe.duration);
-        recipeReadDto.image(recipe.uri);
+        recipeReadDto.image(recipe.image);
         recipeReadDto
                 .ingredients(recipe
                         .getIngredients()

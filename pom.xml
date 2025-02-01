@@ -101,7 +101,6 @@
 								<useSpringController>true</useSpringController>
 								<!-- javax.* to jakarta.* -->
 								<useSpringBoot3>true</useSpringBoot3>
-
 							</configOptions>
 						</configuration>
 					</execution>
@@ -119,8 +118,11 @@
 							<generateApiTests>false</generateApiTests>
 							<generateModelTests>false</generateModelTests>
 							<configOptions>
-								<library>jvm-ktor</library>
 								<oas3>true</oas3>
+								<library>jvm-ktor</library>
+								<serializableModel>true</serializableModel>
+								<serializationLibrary>kotlinx_serialization</serializationLibrary>
+								<useCoroutines>true</useCoroutines>
 							</configOptions>
 						</configuration>
 					</execution>

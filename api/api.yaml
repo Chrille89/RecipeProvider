@@ -29,34 +29,6 @@ paths:
       responses:
         '200': # status code
           description: Delete all recipes
-  /recipes/actual:
-    get:
-      summary: Return the actual recipes
-      description: Return the actual recipes
-      operationId: getActualRecipes
-      responses:
-        '200': # status code
-          description: Return the actual recipes
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/RecipeReadDto'
-  /recipes/random:
-    get:
-      summary: Return two random recipes
-      description: Return two random recipes
-      operationId: getRandomRecipes
-      responses:
-        '200':    # status code
-          description: Return two random recipes
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/RecipeReadDto'
     post:
       summary: Create a recipe.
       description: Create a recipe.
@@ -70,6 +42,27 @@ paths:
       responses:
         '204':
           description: callback successfully processed
+  /recipes/menu:
+    get:
+      summary: Return the actual menu
+      description: Return the actual menu
+      operationId: getActualMenu
+      parameters:
+        - in: query
+          name: random
+          schema:
+            type: boolean
+            default: false
+          description: Get a random menu or the actual menu
+      responses:
+        '200': # status code
+          description: Return the actual menu
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/RecipeReadDto'
 components:
   schemas:
     RecipeReadDto:
@@ -78,6 +71,8 @@ components:
         id:
           type: string
         title:
+          type: string
+        subtitle:
           type: string
         labels:
           type: array
@@ -96,7 +91,6 @@ components:
               - express
         image:
           type: string
-          format: uri
         duration:
           type: integer
           description: Duration in minutes
@@ -113,10 +107,15 @@ components:
           type: array
           items:
             type: string
+      required:
+        - id
+        - title
     RecipeWriteDto:
       type: object
       properties:
         title:
+          type: string
+        subtitle:
           type: string
         labels:
           type: array
@@ -131,7 +130,6 @@ components:
               - fish
         image:
           type: string
-          format: uri
         duration:
           type: integer
           description: Duration in minutes
@@ -148,6 +146,8 @@ components:
           type: array
           items:
             type: string
+      required:
+        - title
     AmountDto:
       type: object
       properties:

@@ -14,11 +14,13 @@ public class Recipe {
 
     public String title;
 
+    public String subtitle;
+
     public List<LabelEnum> labels;
 
     public Integer duration;
 
-    public URI uri;
+    public String image;
 
     private List<Amount> ingredients;
 
@@ -28,11 +30,12 @@ public class Recipe {
 
     public Recipe() {}
 
-    public Recipe(String title, List<LabelEnum> labels, Integer duration, URI uri, List<Amount> ingredients, List<Amount> nutrients, List<String> preparation) {
+    public Recipe(String title, String subtitle, List<LabelEnum> labels, Integer duration, String image, List<Amount> ingredients, List<Amount> nutrients, List<String> preparation) {
         this.title = title;
+        this.subtitle = subtitle;
         this.labels = labels;
         this.duration = duration;
-        this.uri = uri;
+        this.image = image;
         this.ingredients = ingredients;
         this.nutrients = nutrients;
         this.preparation = preparation;
@@ -54,6 +57,14 @@ public class Recipe {
         this.title = title;
     }
 
+    public String getSubtitle() {
+        return subtitle;
+    }
+
+    public void setSubtitle(String subtitle) {
+        this.subtitle = subtitle;
+    }
+
     public List<LabelEnum> getLabels() {
         return labels;
     }
@@ -70,12 +81,12 @@ public class Recipe {
         this.duration = duration;
     }
 
-    public URI getUri() {
-        return uri;
+    public String getImage() {
+        return image;
     }
 
-    public void setUri(URI uri) {
-        this.uri = uri;
+    public void setImage(String image) {
+        this.image = image;
     }
 
     public List<Amount> getIngredients() {
