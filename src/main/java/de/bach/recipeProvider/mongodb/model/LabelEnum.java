@@ -1,23 +1,32 @@
 package de.bach.recipeProvider.mongodb.model;
 
 
+import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
+import org.openapitools.model.RecipeWriteDto;
 
-/**
- * Gets or Sets label
- */
 public enum LabelEnum {
-    LOWCARB("lowcarb"),
+    KALORIENARM("Kalorienarm"),
 
-    LOWFAT("lowfat"),
+    FETTARM("Fettarm"),
 
-    VEGETARIAN("vegetarian"),
+    EIWEI_("Eiweiß"),
 
-    PIG("pig"),
+    VEGETARISCH("Vegetarisch"),
 
-    BEEF("beef"),
+    VEGAN("Vegan"),
 
-    FISH("fish");
+    SCHWEIN("Schwein"),
+
+    RIND("Rind"),
+
+    FISCH("Fisch"),
+
+    THERMOMIX("Thermomix"),
+
+    AIRFRYER("Airfryer"),
+
+    EXPRESS("Express");
 
     private String value;
 

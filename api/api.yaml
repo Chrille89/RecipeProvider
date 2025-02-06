@@ -34,6 +34,7 @@ paths:
       description: Create a recipe.
       operationId: createRecipe
       requestBody:
+        required: true
         description: Recipe in JSON format.
         content:
           application/json:
@@ -74,6 +75,7 @@ paths:
       description:  Update the actual menu
       operationId: updateMenu
       requestBody:
+        required: true
         description: Recipes for the new menu
         content:
           application/json:
@@ -154,12 +156,17 @@ components:
           items:
             type: string
             enum:
-              - lowcarb
-              - lowfat
-              - vegetarian
-              - pig
-              - beef
-              - fish
+              - Kalorienarm
+              - Fettarm
+              - Eiweiß
+              - Vegetarisch
+              - Vegan
+              - Schwein
+              - Rind
+              - Fisch
+              - Thermomix
+              - Airfryer
+              - Express
         image:
           type: string
         duration:

@@ -1,19 +1,21 @@
 package de.bach.recipeProvider.mongodb.model;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
-import org.openapitools.model.AmountDto;
 
 public enum UnitEnum {
-    GRAMM("gramm"),
+    G("g"),
 
-    KILOGRAMM("kilogramm"),
+    KG("kg"),
 
-    STUECK("stueck"),
+    ST("St"),
 
-    MILLILITER("milliliter"),
+    ML("ml"),
 
-    LITER("liter");
+    L("l"),
+
+    ESSL_FEL("Esslöfel"),
+
+    TEEL_FEL("Teelöfel");
 
     private String value;
 
@@ -31,4 +33,3 @@ public enum UnitEnum {
         return String.valueOf(value);
     }
 }
-

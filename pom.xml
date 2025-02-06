@@ -80,7 +80,7 @@
 			<plugin>
 				<groupId>org.openapitools</groupId>
 				<artifactId>openapi-generator-maven-plugin</artifactId>
-				<version>7.1.0</version>
+				<version>7.11.0</version>
 				<executions>
 					<execution>
 						<id>spring-boot-generator</id>
@@ -120,7 +120,7 @@
 							<configOptions>
 								<oas3>true</oas3>
 								<library>multiplatform</library>
-								<serializableModel>true</serializableModel>
+								<dateLibrary>kotlinx-datetime</dateLibrary>
 								<useCoroutines>true</useCoroutines>
 							</configOptions>
 							<additionalProperties>
