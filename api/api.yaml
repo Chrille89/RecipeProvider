@@ -40,8 +40,12 @@ paths:
             schema:
               $ref: '#/components/schemas/RecipeWriteDto'
       responses:
-        '204':
-          description: callback successfully processed
+        '200': # status code
+          description: Return the created recipe
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RecipeReadDto'
   /recipes/menu:
     get:
       summary: Return the actual menu
@@ -61,6 +65,33 @@ paths:
             application/json:
               schema:
                 type: array
+                minItems: 2
+                maxItems: 2
+                items:
+                  $ref: '#/components/schemas/RecipeReadDto'
+    put:
+      summary: Update the actual menu
+      description:  Update the actual menu
+      operationId: updateMenu
+      requestBody:
+        description: Recipes for the new menu
+        content:
+          application/json:
+            schema:
+              type: array
+              minItems: 2
+              maxItems: 2
+              items:
+                $ref: '#/components/schemas/RecipeReadDto'
+      responses:
+        '200': # status code
+          description: Return the actual menu
+          content:
+            application/json:
+              schema:
+                type: array
+                minItems: 2
+                maxItems: 2
                 items:
                   $ref: '#/components/schemas/RecipeReadDto'
 components:
@@ -79,16 +110,17 @@ components:
           items:
             type: string
             enum:
-              - lowcarb
-              - lowfat
-              - highprotein
-              - vegetarian
-              - pig
-              - beef
-              - fish
-              - thermomix
-              - airfryer
-              - express
+              - Kalorienarm
+              - Fettarm
+              - Eiweiß
+              - Vegetarisch
+              - Vegan
+              - Schwein
+              - Rind
+              - Fisch
+              - Thermomix
+              - Airfryer
+              - Express
         image:
           type: string
         duration:
@@ -158,8 +190,10 @@ components:
         unit:
           type: string
           enum:
-            - gramm
-            - kilogramm
-            - stueck
-            - milliliter
-            - liter
+            - g
+            - kg
+            - St
+            - ml
+            - l
+            - Esslöfel
+            - Teelöfel

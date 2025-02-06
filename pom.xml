@@ -119,11 +119,13 @@
 							<generateModelTests>false</generateModelTests>
 							<configOptions>
 								<oas3>true</oas3>
-								<library>jvm-ktor</library>
+								<library>multiplatform</library>
 								<serializableModel>true</serializableModel>
-								<serializationLibrary>kotlinx_serialization</serializationLibrary>
 								<useCoroutines>true</useCoroutines>
 							</configOptions>
+							<additionalProperties>
+								<basePath>http://192.168.178.22:8080</basePath>
+							</additionalProperties>
 						</configuration>
 					</execution>
 				</executions>
