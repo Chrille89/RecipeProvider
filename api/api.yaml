@@ -22,13 +22,6 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/RecipeReadDto'
-    delete:
-      summary: Delete all recipes.
-      description: Delete all recipes.
-      operationId: deleteAllRecipes
-      responses:
-        '200': # status code
-          description: Delete all recipes
     post:
       summary: Create a recipe.
       description: Create a recipe.
@@ -43,6 +36,43 @@ paths:
       responses:
         '200': # status code
           description: Return the created recipe
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RecipeReadDto'
+  /recipes/{id}:
+    get:
+      summary: Return a specific recipe by id.
+      description: Return a specific recipe by id.
+      operationId: getRecipeById
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: The Id of the recipe
+          schema:
+            type: string
+      responses:
+        '200': # status code
+          description: Return a specific recipe by id.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RecipeReadDto'
+    delete:
+      summary: Delete a specific recipe by id.
+      description: Delete a specific recipe by id.
+      operationId: deleteRecipeById
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: The Id of the recipe
+          schema:
+            type: string
+      responses:
+        '200': # status code
+          description: Return the deleted recipes
           content:
             application/json:
               schema:
@@ -119,6 +149,7 @@ components:
               - Vegan
               - Schwein
               - Rind
+              - Geflügel
               - Fisch
               - Thermomix
               - Airfryer
@@ -163,6 +194,7 @@ components:
               - Vegan
               - Schwein
               - Rind
+              - Geflügel
               - Fisch
               - Thermomix
               - Airfryer

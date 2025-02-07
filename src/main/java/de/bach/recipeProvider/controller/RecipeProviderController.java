@@ -5,6 +5,7 @@ import de.bach.recipeProvider.mongodb.model.LabelEnum;
 import de.bach.recipeProvider.mongodb.model.Recipe;
 import de.bach.recipeProvider.mongodb.RecipesRepository;
 import de.bach.recipeProvider.mongodb.model.UnitEnum;
+import org.bson.types.ObjectId;
 import org.openapitools.api.RecipesApi;
 import org.openapitools.model.AmountDto;
 import org.openapitools.model.RecipeReadDto;
@@ -75,12 +76,6 @@ public class RecipeProviderController implements RecipesApi {
     }
 
     @Override
-    public ResponseEntity<Void> deleteAllRecipes() {
-        recipesRepository.deleteAll();
-        return ResponseEntity.ok().build();
-    }
-
-    @Override
     public ResponseEntity<RecipeReadDto> createRecipe(RecipeWriteDto recipeWriteDto) {
         Recipe recipe = new Recipe(
                 recipeWriteDto.getTitle(),
@@ -104,6 +99,69 @@ public class RecipeProviderController implements RecipesApi {
                 recipeWriteDto.getPreparation());
         recipe = recipesRepository.save(recipe);
 
+        RecipeReadDto recipeReadDto= new RecipeReadDto()
+                .id(recipe.id)
+                .title(recipe.title)
+                .subtitle(recipe.subtitle)
+                .labels(recipe.getLabels()
+                        .stream()
+                        .map(labelEnum -> RecipeReadDto.LabelsEnum.fromValue(labelEnum.getValue())).collect(Collectors.toList()))
+                .duration(recipe.duration)
+                .image(recipe.image)
+                .nutrients(recipe
+                        .getNutrients()
+                        .stream()
+                        .map(amount -> new AmountDto()
+                                .name(amount.getName())
+                                .amount(amount.getAmount())
+                                .unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name())))
+                        .collect(Collectors.toList()))
+                .preparation(recipe.getPreparation())
+                .ingredients(recipe
+                        .getIngredients()
+                        .stream()
+                        .map(amount -> new AmountDto()
+                                .name(amount.getName())
+                                .amount(amount.getAmount())
+                                .unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name()))).collect(Collectors.toList()));
+        return ResponseEntity.ok(recipeReadDto);
+    }
+
+    @Override
+    public ResponseEntity<RecipeReadDto> deleteRecipeById(String id) {
+        Recipe recipe = this.recipesRepository.findById(new ObjectId(id)).get();
+        this.recipesRepository.deleteById(new ObjectId(id));
+        RecipeReadDto recipeReadDto= new RecipeReadDto()
+                .id(recipe.id)
+                .title(recipe.title)
+                .subtitle(recipe.subtitle)
+                .labels(recipe.getLabels()
+                        .stream()
+                        .map(labelEnum -> RecipeReadDto.LabelsEnum.fromValue(labelEnum.getValue())).collect(Collectors.toList()))
+                .duration(recipe.duration)
+                .image(recipe.image)
+                .nutrients(recipe
+                        .getNutrients()
+                        .stream()
+                        .map(amount -> new AmountDto()
+                                .name(amount.getName())
+                                .amount(amount.getAmount())
+                                .unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name())))
+                        .collect(Collectors.toList()))
+                .preparation(recipe.getPreparation())
+                .ingredients(recipe
+                        .getIngredients()
+                        .stream()
+                        .map(amount -> new AmountDto()
+                                .name(amount.getName())
+                                .amount(amount.getAmount())
+                                .unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name()))).collect(Collectors.toList()));
+        return ResponseEntity.ok(recipeReadDto);
+    }
+
+    @Override
+    public ResponseEntity<RecipeReadDto> getRecipeById(String id) {
+        Recipe recipe = this.recipesRepository.findById(new ObjectId(id)).get();
         RecipeReadDto recipeReadDto= new RecipeReadDto()
                 .id(recipe.id)
                 .title(recipe.title)

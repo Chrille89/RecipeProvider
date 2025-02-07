@@ -3,6 +3,7 @@ package de.bach.recipeProvider.mongodb.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
+import org.openapitools.model.RecipeReadDto;
 import org.openapitools.model.RecipeWriteDto;
 
 public enum LabelEnum {
@@ -19,6 +20,8 @@ public enum LabelEnum {
     SCHWEIN("Schwein"),
 
     RIND("Rind"),
+
+    GEFL_GEL("Geflügel"),
 
     FISCH("Fisch"),
 
@@ -43,5 +46,4 @@ public enum LabelEnum {
     public String toString() {
         return String.valueOf(value);
     }
-
 }
