@@ -3,10 +3,10 @@
 
 const Alexa = require("ask-sdk");
 const https = require("https");
-const request = require("sync-request");
-const weekendMenu = JSON.parse(request('GET', 'http://h2857701.stratoserver.net:8080/RecipeProvider/recipes').getBody('utf8'))[0];
+const axios = require("axios");
 
-const invocationName = "menü am wochenende";
+
+const invocationName = "gerichte wochenende";
 
 // Session Attributes
 //   Alexa will track attributes for you, by default only during the lifespan of your session.
@@ -16,12 +16,12 @@ const invocationName = "menü am wochenende";
 function getMemoryAttributes() {   const memoryAttributes = {
        "history":[],
 
-        // The remaining attributes will be useful after DynamoDB persistence is configured
+
        "launchCount":0,
        "lastUseTimestamp":0,
 
        "lastSpeechOutput":{},
-       "nextIntent":[]
+       // "nextIntent":[]
 
        // "favoriteColor":"",
        // "name":"",
@@ -73,15 +73,16 @@ const AMAZON_HelpIntent_Handler =  {
         const responseBuilder = handlerInput.responseBuilder;
         let sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
 
+        let history = sessionAttributes['history'];
         let intents = getCustomIntents();
         let sampleIntent = randomElement(intents);
 
         let say = 'You asked for help. ';
 
-        // let previousIntent = getPreviousIntent(sessionAttributes);
-        // if (previousIntent && !handlerInput.requestEnvelope.session.new) {
-        //     say += 'Your last intent was ' + previousIntent + '. ';
-        // }
+        let previousIntent = getPreviousIntent(sessionAttributes);
+        if (previousIntent && !handlerInput.requestEnvelope.session.new) {
+             say += 'Your last intent was ' + previousIntent + '. ';
+         }
         // say +=  'I understand  ' + intents.length + ' intents, '
 
         say += ' Here something you can ask me, ' + getSampleUtterance(sampleIntent);
@@ -109,26 +110,6 @@ const AMAZON_StopIntent_Handler =  {
         return responseBuilder
             .speak(say)
             .withShouldEndSession(true)
-            .getResponse();
-    },
-};
-
-const IngredientsIntent_Handler =  {
-    canHandle(handlerInput) {
-        const request = handlerInput.requestEnvelope.request;
-        return request.type === 'IntentRequest' && request.intent.name === 'IngredientsIntent' ;
-    },
-    handle(handlerInput) {
-        const request = handlerInput.requestEnvelope.request;
-        const responseBuilder = handlerInput.responseBuilder;
-        let sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
-
-        let say = "Zutaten: "+weekendMenu.ingredients.toString();
-
-
-        return responseBuilder
-            .speak(say)
-            .reprompt('try again, ' + say)
             .getResponse();
     },
 };
@@ -172,18 +153,26 @@ const AMAZON_FallbackIntent_Handler =  {
     },
 };
 
-const PreparationIntent_Handler =  {
+const RandomNewMenu_Handler =  {
     canHandle(handlerInput) {
         const request = handlerInput.requestEnvelope.request;
-        return request.type === 'IntentRequest' && request.intent.name === 'PreparationIntent' ;
+        return request.type === 'IntentRequest' && request.intent.name === 'RandomNewMenu' ;
     },
-    handle(handlerInput) {
+    async handle(handlerInput) {
         const request = handlerInput.requestEnvelope.request;
         const responseBuilder = handlerInput.responseBuilder;
         let sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
-
-        let say = weekendMenu.preparation.toString();
-
+        let say = 'Menü konnte nicht aktualisiert werden.';
+        await axios.get('http://h2857701.stratoserver.net:8080/RecipeProvider/recipes/menu?random=true')
+            .then(response => {
+                let menu = response.data;
+                let firstMenu = menu[0].title + " " + menu[0].subtitle;
+                let secondMenu = menu[1].title + " " + menu[1].subtitle;
+                say = "Ich habe zwei neue Gerichte für euch gefunden: "+ firstMenu + " und " + secondMenu;
+                })
+            .catch(error => {
+                console.log(error);
+            });
 
         return responseBuilder
             .speak(say)
@@ -197,13 +186,21 @@ const LaunchRequest_Handler =  {
         const request = handlerInput.requestEnvelope.request;
         return request.type === 'LaunchRequest';
     },
-    handle(handlerInput) {
+    async handle(handlerInput) {
         const responseBuilder = handlerInput.responseBuilder;
-
-        let say = 'Dieses Wochenende wird '+weekendMenu.title+' gekocht!';
+        let say = 'Menü konnte nicht ermittelt werden.';
+        await axios.get('http://h2857701.stratoserver.net:8080/RecipeProvider/recipes/menu')
+            .then(response => {
+                let menu = response.data;
+                let firstMenu = menu[0].title + " " + menu[0].subtitle;
+                let secondMenu = menu[1].title + " " + menu[1].subtitle;
+                say = firstMenu + " und " + secondMenu;
+                })
+            .catch(error => {
+                console.log(error);
+            });
 
         let skillTitle = capitalize(invocationName);
-
 
         return responseBuilder
             .speak(say)
@@ -237,8 +234,8 @@ const ErrorHandler =  {
         // console.log(`Original Request was: ${JSON.stringify(request, null, 2)}`);
 
         return handlerInput.responseBuilder
-            .speak('Sorry, an error occurred.  Please say again.')
-            .reprompt('Sorry, an error occurred.  Please say again.')
+            .speak(`Sorry, your skill got this error.  ${error.message} `)
+            .reprompt(`Sorry, your skill got this error.  ${error.message} `)
             .getResponse();
     }
 };
@@ -303,7 +300,7 @@ function getSlotValues(filledSlots) {
             }
         } else {
             slotValues[name] = {
-                heardAs: filledSlots[item].value,
+                heardAs: filledSlots[item].value || '', // may be null
                 resolved: '',
                 ERstatus: ''
             };
@@ -339,6 +336,7 @@ function getExampleSlotValues(intentName, slotName) {
         }
     }
 
+    slotValuesFull = shuffleArray(slotValuesFull);
 
     examples.push(slotValuesFull[0].name.value);
     examples.push(slotValuesFull[1].name.value);
@@ -618,7 +616,22 @@ const ResponsePersistenceInterceptor = {
 };
 
 
+function shuffleArray(array) {  // Fisher Yates shuffle!
 
+    let currentIndex = array.length, temporaryValue, randomIndex;
+
+    while (0 !== currentIndex) {
+
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+}
 // 4. Exports handler function and setup ===================================================
 const skillBuilder = Alexa.SkillBuilders.standard();
 exports.handler = skillBuilder
@@ -626,10 +639,9 @@ exports.handler = skillBuilder
         AMAZON_CancelIntent_Handler,
         AMAZON_HelpIntent_Handler,
         AMAZON_StopIntent_Handler,
-        IngredientsIntent_Handler,
         AMAZON_NavigateHomeIntent_Handler,
         AMAZON_FallbackIntent_Handler,
-        PreparationIntent_Handler,
+        RandomNewMenu_Handler,
         LaunchRequest_Handler,
         SessionEndedHandler
     )
@@ -654,7 +666,7 @@ exports.handler = skillBuilder
 const model = {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "menü wochenende",
+      "invocationName": "gerichte wochenende",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -669,14 +681,6 @@ const model = {
           "samples": []
         },
         {
-          "name": "IngredientsIntent",
-          "slots": [],
-          "samples": [
-            "was brauche ich dafür",
-            "welche zutaten brauche ich dafür"
-          ]
-        },
-        {
           "name": "AMAZON.NavigateHomeIntent",
           "samples": []
         },
@@ -685,12 +689,12 @@ const model = {
           "samples": []
         },
         {
-          "name": "PreparationIntent",
+          "name": "RandomNewMenu",
           "slots": [],
           "samples": [
-            "kochanleitung",
-            "gibt es eine anleitung",
-            "wie kocht man das"
+            "Was gibt's zum Einschmeißen",
+            "Nächstes Wochenend-Menü",
+            "Nächstes Menü"
           ]
         },
         {
