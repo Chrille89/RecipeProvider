@@ -15,7 +15,9 @@ public enum UnitEnum {
 
     ESSL_FEL("Esslöfel"),
 
-    TEEL_FEL("Teelöfel");
+    TEEL_FEL("Teelöfel"),
+
+    KCAL("kcal");
 
     private String value;
 

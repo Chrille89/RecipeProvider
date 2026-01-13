@@ -5,6 +5,7 @@ import de.bach.recipeProvider.mongodb.model.LabelEnum;
 import de.bach.recipeProvider.mongodb.model.Recipe;
 import de.bach.recipeProvider.mongodb.RecipesRepository;
 import de.bach.recipeProvider.mongodb.model.UnitEnum;
+import jakarta.validation.Valid;
 import org.bson.types.ObjectId;
 import org.openapitools.api.RecipesApi;
 import org.openapitools.model.AmountDto;
@@ -50,8 +51,8 @@ public class RecipeProviderController implements RecipesApi {
                                 .title(recipe.title)
                                 .subtitle(recipe.subtitle)
                                 .labels(recipe.getLabels()
-                        .stream()
-                        .map(labelEnum -> RecipeReadDto.LabelsEnum.fromValue(labelEnum.getValue())).collect(Collectors.toList()))
+                                        .stream()
+                                        .map(labelEnum -> RecipeReadDto.LabelsEnum.fromValue(labelEnum.getValue())).collect(Collectors.toList()))
                                 .duration(recipe.duration)
                                 .image(recipe.image)
                                 .nutrients(recipe
@@ -60,7 +61,7 @@ public class RecipeProviderController implements RecipesApi {
                                         .map(amount -> new AmountDto()
                                                 .name(amount.getName())
                                                 .amount(amount.getAmount())
-												.unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name())))
+                                                .unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name())))
                                         .collect(Collectors.toList()))
                                 .preparation(recipe.getPreparation())
                                 .ingredients(recipe
@@ -69,69 +70,22 @@ public class RecipeProviderController implements RecipesApi {
                                         .map(amount -> new AmountDto()
                                                 .name(amount.getName())
                                                 .amount(amount.getAmount())
-												.unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name())))
+                                                .unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name())))
                                         .collect(Collectors.toList())))
                 .collect(Collectors.toList());
         return ResponseEntity.ok(recipeReadDtos);
     }
 
     @Override
-    public ResponseEntity<RecipeReadDto> createRecipe(RecipeWriteDto recipeWriteDto) {
-        Recipe recipe = new Recipe(
-                recipeWriteDto.getTitle(),
-                recipeWriteDto.getSubtitle(),
-                recipeWriteDto.getLabels()
-                        .stream()
-                        .map(labelsEnum -> LabelEnum.valueOf(labelsEnum.name()))
-                        .collect(Collectors.toList()),
-                recipeWriteDto.getDuration(),
-                recipeWriteDto.getImage(),
-                recipeWriteDto
-                        .getIngredients()
-                        .stream()
-                        .map(amountDto -> new Amount(amountDto.getName(), amountDto.getAmount(), UnitEnum.valueOf(amountDto.getUnit().name())))
-                        .collect(Collectors.toList()),
-                recipeWriteDto
-                        .getNutrients()
-                        .stream()
-                        .map(amountDto -> new Amount(amountDto.getName(), amountDto.getAmount(), UnitEnum.valueOf(amountDto.getUnit().name())))
-                        .collect(Collectors.toList()),
-                recipeWriteDto.getPreparation());
-        recipe = recipesRepository.save(recipe);
-
-        RecipeReadDto recipeReadDto= new RecipeReadDto()
-                .id(recipe.id)
-                .title(recipe.title)
-                .subtitle(recipe.subtitle)
-                .labels(recipe.getLabels()
-                        .stream()
-                        .map(labelEnum -> RecipeReadDto.LabelsEnum.fromValue(labelEnum.getValue())).collect(Collectors.toList()))
-                .duration(recipe.duration)
-                .image(recipe.image)
-                .nutrients(recipe
-                        .getNutrients()
-                        .stream()
-                        .map(amount -> new AmountDto()
-                                .name(amount.getName())
-                                .amount(amount.getAmount())
-                                .unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name())))
-                        .collect(Collectors.toList()))
-                .preparation(recipe.getPreparation())
-                .ingredients(recipe
-                        .getIngredients()
-                        .stream()
-                        .map(amount -> new AmountDto()
-                                .name(amount.getName())
-                                .amount(amount.getAmount())
-                                .unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name()))).collect(Collectors.toList()));
-        return ResponseEntity.ok(recipeReadDto);
+    public ResponseEntity<List<RecipeReadDto>> createRecipes(List<@Valid RecipeWriteDto> recipeWriteDtos) {
+        return ResponseEntity.ok(recipeWriteDtos.stream().map(this::createRecipe).collect(Collectors.toList()));
     }
 
     @Override
     public ResponseEntity<RecipeReadDto> deleteRecipeById(String id) {
         Recipe recipe = this.recipesRepository.findById(new ObjectId(id)).get();
         this.recipesRepository.deleteById(new ObjectId(id));
-        RecipeReadDto recipeReadDto= new RecipeReadDto()
+        RecipeReadDto recipeReadDto = new RecipeReadDto()
                 .id(recipe.id)
                 .title(recipe.title)
                 .subtitle(recipe.subtitle)
@@ -162,7 +116,7 @@ public class RecipeProviderController implements RecipesApi {
     @Override
     public ResponseEntity<RecipeReadDto> getRecipeById(String id) {
         Recipe recipe = this.recipesRepository.findById(new ObjectId(id)).get();
-        RecipeReadDto recipeReadDto= new RecipeReadDto()
+        RecipeReadDto recipeReadDto = new RecipeReadDto()
                 .id(recipe.id)
                 .title(recipe.title)
                 .subtitle(recipe.subtitle)
@@ -192,31 +146,82 @@ public class RecipeProviderController implements RecipesApi {
 
     @Override
     public ResponseEntity<List<RecipeReadDto>> getActualMenu(Boolean random) {
-        if(this.firstRecipe == null && this.secondRecipe == null || random) {
+        if (RecipeProviderController.firstRecipe == null && RecipeProviderController.secondRecipe == null || random) {
             List<Recipe> recipes = recipesRepository.findAll();
             Random r = new Random();
             int randomIndex = r.nextInt(recipes.size());
             final Recipe firstRecipe = recipes.get(randomIndex);
 
-            recipes = recipes.stream().filter(recipe -> recipe.id != firstRecipe.id).collect(Collectors.toList());
+            recipes = recipes.stream().filter(recipe -> !recipe.id.equals(firstRecipe.id)).collect(Collectors.toList());
             randomIndex = r.nextInt(recipes.size());
             Recipe secondRecipe = recipes.get(randomIndex);
 
-            this.firstRecipe = createReadDto(firstRecipe);
-            this.secondRecipe = createReadDto(secondRecipe);
-            return ResponseEntity.ok(List.of(this.firstRecipe,this.secondRecipe));
+            RecipeProviderController.firstRecipe = createReadDto(firstRecipe);
+            RecipeProviderController.secondRecipe = createReadDto(secondRecipe);
+            return ResponseEntity.ok(List.of(RecipeProviderController.firstRecipe, RecipeProviderController.secondRecipe));
         }
-        return ResponseEntity.ok(List.of(this.firstRecipe,this.secondRecipe));
+        return ResponseEntity.ok(List.of(RecipeProviderController.firstRecipe, RecipeProviderController.secondRecipe));
     }
 
     @Override
     public ResponseEntity<List<RecipeReadDto>> updateMenu(List<RecipeReadDto> recipeReadDto) {
-        if(recipeReadDto.size() != 2) {
+        if (recipeReadDto.size() != 2) {
             return ResponseEntity.badRequest().build();
         }
         firstRecipe = recipeReadDto.get(0);
         secondRecipe = recipeReadDto.get(1);
-        return ResponseEntity.ok(List.of(firstRecipe,secondRecipe));
+        return ResponseEntity.ok(List.of(firstRecipe, secondRecipe));
+    }
+
+    private RecipeReadDto createRecipe(RecipeWriteDto recipeWriteDto) {
+        Recipe recipe = new Recipe(
+                recipeWriteDto.getTitle(),
+                recipeWriteDto.getSubtitle(),
+                recipeWriteDto.getLabels()
+                        .stream()
+                        .map(labelsEnum -> LabelEnum.valueOf(labelsEnum.name()))
+                        .collect(Collectors.toList()),
+                recipeWriteDto.getDuration(),
+                recipeWriteDto.getImage(),
+                recipeWriteDto
+                        .getIngredients()
+                        .stream()
+                        .map(amountDto -> new Amount(amountDto.getName(), amountDto.getAmount(), UnitEnum.valueOf(amountDto.getUnit().name())))
+                        .collect(Collectors.toList()),
+                recipeWriteDto
+                        .getNutrients()
+                        .stream()
+                        .map(amountDto -> new Amount(amountDto.getName(), amountDto.getAmount(), UnitEnum.valueOf(amountDto.getUnit().name())))
+                        .collect(Collectors.toList()),
+                recipeWriteDto.getPreparation());
+        recipe = recipesRepository.save(recipe);
+
+        RecipeReadDto recipeReadDto = new RecipeReadDto()
+                .id(recipe.id)
+                .title(recipe.title)
+                .subtitle(recipe.subtitle)
+                .labels(recipe.getLabels()
+                        .stream()
+                        .map(labelEnum -> RecipeReadDto.LabelsEnum.fromValue(labelEnum.getValue())).collect(Collectors.toList()))
+                .duration(recipe.duration)
+                .image(recipe.image)
+                .nutrients(recipe
+                        .getNutrients()
+                        .stream()
+                        .map(amount -> new AmountDto()
+                                .name(amount.getName())
+                                .amount(amount.getAmount())
+                                .unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name())))
+                        .collect(Collectors.toList()))
+                .preparation(recipe.getPreparation())
+                .ingredients(recipe
+                        .getIngredients()
+                        .stream()
+                        .map(amount -> new AmountDto()
+                                .name(amount.getName())
+                                .amount(amount.getAmount())
+                                .unit(AmountDto.UnitEnum.valueOf(amount.getUnitEnum().name()))).collect(Collectors.toList()));
+        return recipeReadDto;
     }
 
     private RecipeReadDto createReadDto(Recipe recipe) {

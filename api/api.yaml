@@ -23,23 +23,27 @@ paths:
                 items:
                   $ref: '#/components/schemas/RecipeReadDto'
     post:
-      summary: Create a recipe.
-      description: Create a recipe.
-      operationId: createRecipe
+      summary: Create recipes.
+      description: Create recipes.
+      operationId: createRecipes
       requestBody:
         required: true
-        description: Recipe in JSON format.
+        description: Recipes in JSON array format.
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/RecipeWriteDto'
+              type: array
+              items:
+                $ref: '#/components/schemas/RecipeWriteDto'
       responses:
         '200': # status code
-          description: Return the created recipe
+          description: Return the created recipes
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/RecipeReadDto'
+                type: array
+                items:
+                  $ref: '#/components/schemas/RecipeReadDto'
   /recipes/{id}:
     get:
       summary: Return a specific recipe by id.
@@ -236,3 +240,4 @@ components:
             - l
             - Esslöfel
             - Teelöfel
+            - kcal
