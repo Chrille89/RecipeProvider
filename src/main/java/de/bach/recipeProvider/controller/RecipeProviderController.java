@@ -5,6 +5,7 @@ import de.bach.recipeProvider.mongodb.model.LabelEnum;
 import de.bach.recipeProvider.mongodb.model.Recipe;
 import de.bach.recipeProvider.mongodb.RecipesRepository;
 import de.bach.recipeProvider.mongodb.model.UnitEnum;
+import de.bach.recipeProvider.services.OpenAiRecipeGeneratorService;
 import jakarta.validation.Valid;
 import org.bson.types.ObjectId;
 import org.openapitools.api.RecipesApi;
@@ -25,12 +26,20 @@ public class RecipeProviderController implements RecipesApi {
 
     private static long time;
 
+    private OpenAiRecipeGeneratorService openAiRecipeGeneratorService;
+    private RecipesRepository recipesRepository;
+
     private static RecipeReadDto firstRecipe;
 
     private static RecipeReadDto secondRecipe;
 
-    @Autowired
-    RecipesRepository recipesRepository;
+    public RecipeProviderController(
+            OpenAiRecipeGeneratorService openAiRecipeGeneratorService,
+            RecipesRepository recipesRepository
+    ) {
+        this.openAiRecipeGeneratorService = openAiRecipeGeneratorService;
+        this.recipesRepository = recipesRepository;
+    }
 
     @GetMapping(path = "/test", produces = "application/json")
     public String ping() {
@@ -147,6 +156,14 @@ public class RecipeProviderController implements RecipesApi {
     @Override
     public ResponseEntity<List<RecipeReadDto>> getActualMenu(Boolean random) {
         if (RecipeProviderController.firstRecipe == null && RecipeProviderController.secondRecipe == null || random) {
+
+            try {
+                RecipeProviderController.firstRecipe = this.openAiRecipeGeneratorService.generateRecipe();
+                RecipeProviderController.secondRecipe = this.openAiRecipeGeneratorService.generateRecipe();
+            } catch (Exception e) {
+                return ResponseEntity.badRequest().build();
+            }
+           /*
             List<Recipe> recipes = recipesRepository.findAll();
             Random r = new Random();
             int randomIndex = r.nextInt(recipes.size());
@@ -158,6 +175,8 @@ public class RecipeProviderController implements RecipesApi {
 
             RecipeProviderController.firstRecipe = createReadDto(firstRecipe);
             RecipeProviderController.secondRecipe = createReadDto(secondRecipe);
+            */
+
             return ResponseEntity.ok(List.of(RecipeProviderController.firstRecipe, RecipeProviderController.secondRecipe));
         }
         return ResponseEntity.ok(List.of(RecipeProviderController.firstRecipe, RecipeProviderController.secondRecipe));
