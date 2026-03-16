@@ -28,13 +28,13 @@ public class OpenAiRecipeGeneratorService {
                 .build();
     }
 
-    public RecipeReadDto generateRecipe() throws Exception {
+    public RecipeReadDto generateRecipe(String recipePrompt) throws Exception {
         String schema = schemaService.generateSchema();
 
         // Prompt explicitly enforces allowed units
-        String prompt = """
-                Generate a healthy and delicious recipe.
-                
+        String prompt = recipePrompt +
+                """
+            
                 Requirements:
                 - return ONLY JSON
                 - follow exactly this schema
@@ -42,25 +42,6 @@ public class OpenAiRecipeGeneratorService {
                 - include a working food image URL
                 - all labels in lowercase!
                 - please recipe in german language!
-                
-                Extract the ingredients as a JSON array of objects with the following schema:
-                
-                {
-                   "name": "<ingredient name>",
-                   "amount": <number>,
-                   "unit": "<unit>"
-                }
-                
-                **Important:** The "unit" field must be one of the following:
-                g, kg, St, ml, l, Esslöfel, Teelöfel, kcal
-                No other units are allowed.
-                
-                Example:
-                {
-                   "name": "Flour",
-                   "amount": 200,
-                   "unit": "g"
-                }
                 
                 Schema:
                 """ + schema;
@@ -87,8 +68,9 @@ public class OpenAiRecipeGeneratorService {
 
         String normalizedJson = json.toLowerCase()
                 .replace("\"st\"", "\"St\"")
-                .replace("\"esslöfel\"", "\"Esslöfel\"")
-                .replace("\"teelöfel\"", "\"Teelöfel\"")
+                .replace("\"essl_fel\"", "\"Esslöfel\"")
+                .replace("\"teel_fel\"", "\"Teelöfel\"")
+                .replace("\"gefl_gel\"", "\"Geflügel\"")
                 .replace("\"kalorienarm\"", "\"Kalorienarm\"")
                 .replace("\"fettarm\"", "\"Fettarm\"")
                 .replace("\"eiwei_\"", "\"Eiweiß\"")

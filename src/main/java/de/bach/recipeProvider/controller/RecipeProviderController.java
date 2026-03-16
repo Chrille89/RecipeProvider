@@ -158,8 +158,14 @@ public class RecipeProviderController implements RecipesApi {
         if (RecipeProviderController.firstRecipe == null && RecipeProviderController.secondRecipe == null || random) {
 
             try {
-                RecipeProviderController.firstRecipe = this.openAiRecipeGeneratorService.generateRecipe();
-                RecipeProviderController.secondRecipe = this.openAiRecipeGeneratorService.generateRecipe();
+                String recipePrompt = """
+                Generate a random healthy, delicious and varied recipe with vegetarian, beef, chicken or fish as ingredients.
+                Use for example thermomix or airfryer in your generated recipe.
+                Use also the german home cooking recipes such as "Gulasch", "Frikassee", "Rouladen" or "Bouletten".
+                """;
+                String childrenRecipePrompt = "Generate a random healthy, delicious and varied recipe special for children.";
+                RecipeProviderController.firstRecipe = this.openAiRecipeGeneratorService.generateRecipe(recipePrompt);
+                RecipeProviderController.secondRecipe = this.openAiRecipeGeneratorService.generateRecipe(childrenRecipePrompt);
             } catch (Exception e) {
                 return ResponseEntity.badRequest().build();
             }
