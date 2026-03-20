@@ -7,6 +7,7 @@ import com.openai.client.okhttp.OpenAIOkHttpClient;
 import com.openai.models.ChatCompletion;
 import com.openai.models.ChatCompletionCreateParams;
 import org.openapitools.model.RecipeReadDto;
+import org.openapitools.model.RecipeWriteDto;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -28,7 +29,7 @@ public class OpenAiRecipeGeneratorService {
                 .build();
     }
 
-    public RecipeReadDto generateRecipe(String recipePrompt) throws Exception {
+    public RecipeWriteDto generateRecipe(String recipePrompt) throws Exception {
         String schema = schemaService.generateSchema();
 
         // Prompt explicitly enforces allowed units
@@ -86,7 +87,7 @@ public class OpenAiRecipeGeneratorService {
                 .replace("\"express\"", "\"Express\"");
 
         // Deserialize into RecipeReadDto (uses case-insensitive enums)
-        RecipeReadDto recipe = mapper.readValue(normalizedJson, RecipeReadDto.class);
+        RecipeWriteDto recipe = mapper.readValue(normalizedJson, RecipeWriteDto.class);
 
         // Optional: validate that each ingredient uses allowed units
         recipe.getIngredients().forEach(a -> {

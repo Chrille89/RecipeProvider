@@ -6,6 +6,7 @@ import com.github.victools.jsonschema.generator.SchemaGenerator;
 import com.github.victools.jsonschema.generator.SchemaGeneratorConfigBuilder;
 import com.github.victools.jsonschema.generator.SchemaVersion;
 import org.openapitools.model.RecipeReadDto;
+import org.openapitools.model.RecipeWriteDto;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -23,7 +24,7 @@ public class JsonSchemaService {
                 new SchemaGenerator(configBuilder.build());
 
         JsonNode jsonSchema =
-                generator.generateSchema(RecipeReadDto.class);
+                generator.generateSchema(RecipeWriteDto.class);
 
         return jsonSchema.toPrettyString();
     }
