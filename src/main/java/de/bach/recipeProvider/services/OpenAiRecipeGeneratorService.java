@@ -36,13 +36,13 @@ public class OpenAiRecipeGeneratorService {
         String prompt = recipePrompt +
                 """
             
-                Requirements:
-                - return ONLY JSON
-                - follow exactly this schema
-                - use integer amounts
-                - include a working food image URL
-                - all labels in lowercase!
-                - please recipe in german language!
+                Anforderungen:
+                - return NUR JSON
+                - folge exakt dem Schema
+                - verwende Integer Mengen-Angaben
+                - verwende eine funktionierende food image URL
+                - alle labels bitte kleingeschrieben!
+                - Rezepte bitte in deutscher Sprache
                 
                 Schema:
                 """ + schema;

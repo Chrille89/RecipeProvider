@@ -85,19 +85,24 @@ public class RecipeProviderController implements RecipesApi {
     @Override
     public ResponseEntity<List<RecipeReadDto>> getActualMenu(Boolean random) {
         if (RecipeProviderController.firstRecipe == null && RecipeProviderController.secondRecipe == null || random) {
-           // List<String> recipesTitlesInDatabase = recipesRepository.findAll().stream().map(Recipe::getTitle).toList();
             try {
+                List<String> recipesTitlesInDatabase = recipesRepository.findAll().stream().map(Recipe::getTitle).toList();
+                List<String> ingredient = List.of("Schwein","Frikadellen","Rind","Geflügel","Fisch","Vegetarisch", "Nudeln", "Auflauf");
+                String randomIngredient = ingredient.get(new Random().nextInt(ingredient.size()));
+                String actualRecipes = String.join(", ", recipesTitlesInDatabase);
                 String recipePrompt = """
-                Generate a random delicious and varied recipe.
-                Please not only vegetarian. Use also beef, chicken or fish as ingredients.
-                Use for example thermomix or airfryer in your generated recipe.
-                Do not repeat the following dishes:
-                """;
+                Generiere bitte ein leckeres Rezept für 3 Personen.
+                Wir essen gern %s.
+                Wir verwenden zum Kochen oft den Thermomix TM5 und/oder den Ninja Airfryer.
+                Bitte die folgenden Gerichte nicht wiederholen: %s
+                """.formatted(randomIngredient,actualRecipes);
+
                 String childrenRecipePrompt = """
-                Generate a random delicious and varied recipe special for children.
-                Please not only vegetarian. Use also beef, chicken or fish as ingredients.
-                Do not repeat the following dishes:
-                """;
+                Generiere bitte ein leckeres Rezept für 2 Kinder.
+                Wir essen gern %s.
+                Wir verwenden zum Kochen oft den Thermomix TM5 und/oder den Ninja Airfryer.
+                Bitte die folgenden Gerichte nicht wiederholen: %s
+                """.formatted(randomIngredient,actualRecipes);
                 RecipeWriteDto firstWriteDto = this.openAiRecipeGeneratorService.generateRecipe(recipePrompt);
                 RecipeWriteDto secondWriteDto  = this.openAiRecipeGeneratorService.generateRecipe(childrenRecipePrompt);
                 List<Recipe> recipes = recipesRepository.saveAll(List.of(RecipeMapper.toRecipe(firstWriteDto) ,RecipeMapper.toRecipe(secondWriteDto)));
