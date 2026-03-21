@@ -6,6 +6,8 @@ import com.openai.client.OpenAIClient;
 import com.openai.client.okhttp.OpenAIOkHttpClient;
 import com.openai.models.ChatCompletion;
 import com.openai.models.ChatCompletionCreateParams;
+import com.openai.models.ImageGenerateParams;
+import com.openai.models.ImagesResponse;
 import org.openapitools.model.RecipeReadDto;
 import org.openapitools.model.RecipeWriteDto;
 import org.springframework.stereotype.Component;
@@ -31,7 +33,6 @@ public class OpenAiRecipeGeneratorService {
 
     public RecipeWriteDto generateRecipe(String recipePrompt) throws Exception {
         String schema = schemaService.generateSchema();
-
         // Prompt explicitly enforces allowed units
         String prompt = recipePrompt +
                 """
@@ -40,8 +41,6 @@ public class OpenAiRecipeGeneratorService {
                 - return NUR JSON
                 - folge exakt dem Schema
                 - verwende Integer Mengen-Angaben
-                - WICHTIG: Verwende eine FUNKTIONIERENDE image URL, die nicht 404 zurückliefert!
-                - ähnliche images sind auch willkommen, hauptsache die meisten Zutaten sind dargestellt!
                 - alle labels bitte kleingeschrieben!
                 - Rezepte bitte in deutscher Sprache
                 
@@ -87,9 +86,11 @@ public class OpenAiRecipeGeneratorService {
                 .replace("\"airfryer\"", "\"Airfryer\"")
                 .replace("\"express\"", "\"Express\"");
 
+
         // Deserialize into RecipeReadDto (uses case-insensitive enums)
         RecipeWriteDto recipe = mapper.readValue(normalizedJson, RecipeWriteDto.class);
 
+        this.generateImage(recipe.getTitle());
         // Optional: validate that each ingredient uses allowed units
         recipe.getIngredients().forEach(a -> {
             if (a.getUnit() == null || !isAllowedUnit(a.getUnit().getValue())) {
@@ -97,6 +98,16 @@ public class OpenAiRecipeGeneratorService {
             }
         });
         return recipe;
+    }
+
+    private String generateImage(String recipeTitle) {
+        ImagesResponse image = client.images().generate(
+                ImageGenerateParams.builder()
+                        .model("gpt-image-1")
+                        .prompt(recipeTitle+", professional food photography")
+                        .build());
+        String base64 = image.data().get(0).b64Json().get();
+        return base64;
     }
 
     private boolean isAllowedUnit(String unit) {
