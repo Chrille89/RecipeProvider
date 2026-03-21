@@ -40,7 +40,8 @@ public class OpenAiRecipeGeneratorService {
                 - return NUR JSON
                 - folge exakt dem Schema
                 - verwende Integer Mengen-Angaben
-                - verwende eine funktionierende food image URL
+                - WICHTIG: Verwende eine FUNKTIONIERENDE image URL, die nicht 404 zurückliefert!
+                - ähnliche images sind auch willkommen, hauptsache die meisten Zutaten sind dargestellt!
                 - alle labels bitte kleingeschrieben!
                 - Rezepte bitte in deutscher Sprache
                 

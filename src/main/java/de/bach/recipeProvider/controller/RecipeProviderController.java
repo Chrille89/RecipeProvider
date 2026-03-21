@@ -87,20 +87,18 @@ public class RecipeProviderController implements RecipesApi {
         if (RecipeProviderController.firstRecipe == null && RecipeProviderController.secondRecipe == null || random) {
             try {
                 List<String> recipesTitlesInDatabase = recipesRepository.findAll().stream().map(Recipe::getTitle).toList();
-                List<String> ingredient = List.of("Schwein","Frikadellen","Rind","Geflügel","Fisch","Vegetarisch", "Nudeln", "Auflauf");
+                List<String> ingredient = List.of("Schwein","Frikadellen","Rind","Geflügel","Fisch","Vegetarisch", "Nudeln", "Reis", "Auflauf","Eintopf");
                 String randomIngredient = ingredient.get(new Random().nextInt(ingredient.size()));
                 String actualRecipes = String.join(", ", recipesTitlesInDatabase);
                 String recipePrompt = """
                 Generiere bitte ein leckeres Rezept für 3 Personen.
                 Wir essen gern %s.
-                Wir verwenden zum Kochen oft den Thermomix TM5 und/oder den Ninja Airfryer.
                 Bitte die folgenden Gerichte nicht wiederholen: %s
                 """.formatted(randomIngredient,actualRecipes);
 
                 String childrenRecipePrompt = """
                 Generiere bitte ein leckeres Rezept für 2 Kinder.
                 Wir essen gern %s.
-                Wir verwenden zum Kochen oft den Thermomix TM5 und/oder den Ninja Airfryer.
                 Bitte die folgenden Gerichte nicht wiederholen: %s
                 """.formatted(randomIngredient,actualRecipes);
                 RecipeWriteDto firstWriteDto = this.openAiRecipeGeneratorService.generateRecipe(recipePrompt);
