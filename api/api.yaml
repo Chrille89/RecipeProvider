@@ -44,6 +44,13 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/RecipeReadDto'
+    delete:
+        summary: Delete all recipes.
+        description: Delete all recipes.
+        operationId: deleteAllRecipes
+        responses:
+            '200':
+              description: All recipes have been deleted.
   /recipes/{id}:
     get:
       summary: Return a specific recipe by id.
@@ -158,8 +165,14 @@ components:
               - Thermomix
               - Airfryer
               - Express
+              - Ofen
+              - Römertopf
         image:
           type: string
+          description: image as URL
+        imageBase64:
+          type: string
+          description: Base64 encoded image data (optional, can be used instead of image URL)
         duration:
           type: integer
           description: Duration in minutes
@@ -203,8 +216,14 @@ components:
               - Thermomix
               - Airfryer
               - Express
+              - Ofen
+              - Römertopf
         image:
           type: string
+          description: image as URL
+        imageBase64:
+          type: string
+          description: Base64 encoded image data (optional, can be used instead of image URL)
         duration:
           type: integer
           description: Duration in minutes
@@ -229,7 +248,8 @@ components:
         name:
           type: string
         amount:
-          type: integer
+          type: number
+          minimum: 0
         unit:
           type: string
           enum:
@@ -238,6 +258,7 @@ components:
             - St
             - ml
             - l
-            - Esslöfel
-            - Teelöfel
+            - EL
+            - TL
+            - Prise
             - kcal

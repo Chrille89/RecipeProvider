@@ -22,6 +22,8 @@ public class Recipe {
 
     public String image;
 
+    public String imageBase64;
+
     private List<Amount> ingredients;
 
     private List<Amount> nutrients;
@@ -30,12 +32,13 @@ public class Recipe {
 
     public Recipe() {}
 
-    public Recipe(String title, String subtitle, List<LabelEnum> labels, Integer duration, String image, List<Amount> ingredients, List<Amount> nutrients, List<String> preparation) {
+    public Recipe(String title, String subtitle, List<LabelEnum> labels, Integer duration, String image, String imageBase64,List<Amount> ingredients, List<Amount> nutrients, List<String> preparation) {
         this.title = title;
         this.subtitle = subtitle;
         this.labels = labels;
         this.duration = duration;
         this.image = image;
+        this.imageBase64 = imageBase64;
         this.ingredients = ingredients;
         this.nutrients = nutrients;
         this.preparation = preparation;
@@ -87,6 +90,13 @@ public class Recipe {
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    public String getImageBase64() {
+        return imageBase64;
+    }
+    public void setImageBase64(String imageBase64) {
+        this.imageBase64 = imageBase64;
     }
 
     public List<Amount> getIngredients() {

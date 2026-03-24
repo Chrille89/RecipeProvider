@@ -13,9 +13,11 @@ public enum UnitEnum {
 
     L("l"),
 
-    ESSL_FEL("Esslöfel"),
+    EL("EL"),
 
-    TEEL_FEL("Teelöfel"),
+    TL("TL"),
+
+    PRISE("Prise"),
 
     KCAL("kcal");
 

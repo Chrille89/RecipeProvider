@@ -1,21 +1,16 @@
 package de.bach.recipeProvider.controller;
 
 import de.bach.recipeProvider.mapper.RecipeMapper;
-import de.bach.recipeProvider.mongodb.model.Amount;
-import de.bach.recipeProvider.mongodb.model.LabelEnum;
 import de.bach.recipeProvider.mongodb.model.Recipe;
 import de.bach.recipeProvider.mongodb.RecipesRepository;
-import de.bach.recipeProvider.mongodb.model.UnitEnum;
 import de.bach.recipeProvider.services.OpenAiRecipeGeneratorService;
 import jakarta.validation.Valid;
 import org.bson.types.ObjectId;
 import org.openapitools.api.RecipesApi;
-import org.openapitools.model.AmountDto;
 import org.openapitools.model.RecipeReadDto;
 import org.openapitools.model.RecipeWriteDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -74,6 +69,12 @@ public class RecipeProviderController implements RecipesApi {
         Recipe recipe = this.recipesRepository.findById(new ObjectId(id)).get();
         this.recipesRepository.deleteById(new ObjectId(id));
         return ResponseEntity.ok( RecipeMapper.toRecipeReadDto(recipe));
+    }
+
+    @Override
+    public ResponseEntity<Void> deleteAllRecipes() {
+        this.recipesRepository.deleteAll();
+        return ResponseEntity.ok().build();
     }
 
     @Override

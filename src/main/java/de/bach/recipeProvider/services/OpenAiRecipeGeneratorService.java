@@ -44,6 +44,17 @@ public class OpenAiRecipeGeneratorService {
                 - alle labels bitte kleingeschrieben!
                 - Rezepte bitte in deutscher Sprache
                 
+                Das Image muss eine real existierende URL sein.
+                Mögliche domains:
+                - hellofresh.com
+                - chefkoch.de
+                - kochbar.de
+                - eat.de
+                - tmecosys.com
+                
+                Bitte erzeuge eine direkte image URL, die den Status-Code 200 zurückgibt. 
+                Bitte erfinde keine eigene URL.
+
                 Schema:
                 """ + schema;
 
@@ -69,8 +80,9 @@ public class OpenAiRecipeGeneratorService {
 
         String normalizedJson = json.toLowerCase()
                 .replace("\"st\"", "\"St\"")
-                .replace("\"essl_fel\"", "\"Esslöfel\"")
-                .replace("\"teel_fel\"", "\"Teelöfel\"")
+                .replace("\"el\"", "\"EL\"")
+                .replace("\"tl\"", "\"TL\"")
+                .replace("\"prise\"", "\"Prise\"")
                 .replace("\"gefl_gel\"", "\"Geflügel\"")
                 .replace("\"kalorienarm\"", "\"Kalorienarm\"")
                 .replace("\"fettarm\"", "\"Fettarm\"")
@@ -80,17 +92,18 @@ public class OpenAiRecipeGeneratorService {
                 .replace("\"vegan\"", "\"Vegan\"")
                 .replace("\"schwein\"", "\"Schwein\"")
                 .replace("\"rind\"", "\"Rind\"")
-                .replace("\"geflügel\"", "\"Geflügel\"")
                 .replace("\"fisch\"", "\"Fisch\"")
                 .replace("\"thermomix\"", "\"Thermomix\"")
                 .replace("\"airfryer\"", "\"Airfryer\"")
+                .replace("\"ofen\"", "\"Ofen\"")
+                .replace("\"r_mertopf\"", "\"Römertopf\"")
                 .replace("\"express\"", "\"Express\"");
-
 
         // Deserialize into RecipeReadDto (uses case-insensitive enums)
         RecipeWriteDto recipe = mapper.readValue(normalizedJson, RecipeWriteDto.class);
 
-        this.generateImage(recipe.getTitle());
+        recipe.setImageBase64(this.generateImage(recipe.getTitle()));
+
         // Optional: validate that each ingredient uses allowed units
         recipe.getIngredients().forEach(a -> {
             if (a.getUnit() == null || !isAllowedUnit(a.getUnit().getValue())) {
@@ -104,7 +117,7 @@ public class OpenAiRecipeGeneratorService {
         ImagesResponse image = client.images().generate(
                 ImageGenerateParams.builder()
                         .model("gpt-image-1")
-                        .prompt(recipeTitle+", professional food photography")
+                        .prompt(recipeTitle+", low quality 512x512 food image")
                         .build());
         String base64 = image.data().get(0).b64Json().get();
         return base64;
@@ -113,7 +126,7 @@ public class OpenAiRecipeGeneratorService {
     private boolean isAllowedUnit(String unit) {
         if (unit == null) return false;
         return switch (unit) {
-            case "g", "kg", "St", "ml", "l", "Esslöfel", "Teelöfel", "kcal" -> true;
+            case "g", "kg", "St", "ml", "l", "EL", "TL", "Prise", "kcal" -> true;
             default -> false;
         };
     }

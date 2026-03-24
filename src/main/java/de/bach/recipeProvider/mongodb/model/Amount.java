@@ -1,16 +1,18 @@
 package de.bach.recipeProvider.mongodb.model;
 
+import java.math.BigDecimal;
+
 public class Amount {
 
     private String name;
 
-    private Integer amount;
+    private BigDecimal amount;
 
     private UnitEnum unitEnum;
 
     public Amount() {}
 
-    public Amount(String name, Integer amount, UnitEnum unitEnum) {
+    public Amount(String name, BigDecimal amount, UnitEnum unitEnum) {
         this.name = name;
         this.amount = amount;
         this.unitEnum = unitEnum;
@@ -24,11 +26,11 @@ public class Amount {
         this.name = name;
     }
 
-    public Integer getAmount() {
+    public BigDecimal getAmount() {
         return amount;
     }
 
-    public void setAmount(Integer amount) {
+    public void setAmount(BigDecimal amount) {
         this.amount = amount;
     }
 

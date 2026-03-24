@@ -23,6 +23,7 @@ public class RecipeMapper {
                         .collect(Collectors.toList()))
                 .duration(recipe.getDuration())
                 .image(recipe.getImage())
+                .imageBase64(recipe.getImageBase64())
                 .nutrients(recipe.getNutrients().stream()
                         .map(RecipeMapper::toAmountDto)
                         .collect(Collectors.toList()))
@@ -48,6 +49,7 @@ public class RecipeMapper {
                         .collect(Collectors.toList()),
                 dto.getDuration(),
                 dto.getImage(),
+                dto.getImageBase64(),
                 dto.getIngredients().stream()
                         .map(RecipeMapper::toAmount)
                         .collect(Collectors.toList()),
