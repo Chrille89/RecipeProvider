@@ -37,6 +37,9 @@ public class RecipeProviderController implements RecipesApi {
     ) {
         this.openAiRecipeGeneratorService = openAiRecipeGeneratorService;
         this.recipesRepository = recipesRepository;
+        List<Recipe> recipes = this.recipesRepository.findAll();
+        firstRecipe = RecipeMapper.toRecipeReadDto(recipes.get(0));
+        secondRecipe = RecipeMapper.toRecipeReadDto(recipes.get(1));
     }
 
     @GetMapping(path = "/test", produces = "application/json")
@@ -85,7 +88,8 @@ public class RecipeProviderController implements RecipesApi {
 
     @Override
     public ResponseEntity<List<RecipeReadDto>> getActualMenu(Boolean random) {
-        if (RecipeProviderController.firstRecipe == null && RecipeProviderController.secondRecipe == null || random) {
+        if (random) {
+            System.out.println("Generating new recipes...");
             try {
                 List<String> recipesTitlesInDatabase = recipesRepository.findAll().stream().map(Recipe::getTitle).toList();
                 List<String> ingredient = List.of("Schwein","Frikadellen","Rind","Geflügel","Fisch","Vegetarisch", "Nudeln", "Reis", "Auflauf","Eintopf");
@@ -109,6 +113,7 @@ public class RecipeProviderController implements RecipesApi {
                 RecipeProviderController.secondRecipe = RecipeMapper.toRecipeReadDto(recipes.get(1));
                 return ResponseEntity.ok(List.of(RecipeProviderController.firstRecipe, RecipeProviderController.secondRecipe));
             } catch (Exception e) {
+                System.out.println(e.getMessage());
                 return ResponseEntity.badRequest().build();
             }
         }

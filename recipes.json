@@ -1,6 +1,5 @@
 [
   {
-    "id": "69962aed17a115e0a5b6a453",
     "title": "Schnitzel mit Ofenkartoffeln",
     "duration": 40,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF210824_R05_W42_DE_FAM1800-18_KB_Main_low-a115d22f.jpg",
@@ -95,7 +94,6 @@
     "subtitle": "dazu Dill-Gurkensalat und Tomatenmayonaise"
   },
   {
-    "id": "69962aed17a115e0a5b6a454",
     "title": "Frische Eierspätzle mit Bacon",
     "duration": 25,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/frische-eierspatzle-mit-bacon-1d3a5465-09d8d5d1.jpg",
@@ -178,7 +176,6 @@
     "subtitle": "in cremiger Tomaten-Porree-Soße"
   },
   {
-    "id": "69962aed17a115e0a5b6a455",
     "title": "Feines gebratenes Lachsfilet auf Porreegemüse",
     "duration": 35,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R20_W30_DE_VP4558-1_Main_low-c7a5f54d.jpg",
@@ -262,7 +259,6 @@
     "subtitle": "mit käsigen Kartoffeln und Schnittlauch-Senf-Dip"
   },
   {
-    "id": "69962aed17a115e0a5b6a456",
     "title": "Chicken Bites mit Süßkartoffel-Bohnen-Salat",
     "duration": 40,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/chicken-bites-mit-suszkartoffel-bohnen-salat-944b57b5.jpg",
@@ -357,7 +353,6 @@
     "subtitle": "dazu Knoblauchdip"
   },
   {
-    "id": "69962aed17a115e0a5b6a457",
     "title": "Teriyaki-Hähnchen mit Kokosreis",
     "duration": 35,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/601d488a5df88101fa189b37-e80b3067-c43a84ab.jpg",
@@ -461,7 +456,6 @@
     "subtitle": "Brokkoli, Karotte und Sesam"
   },
   {
-    "id": "69962aed17a115e0a5b6a458",
     "title": "Zartes Lachsfilet mit grünem Spargel",
     "duration": 35,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/zartes-lachsfilet-mit-grunem-spargel-eb63f725.jpg",
@@ -544,7 +538,6 @@
     "subtitle": "in cremiger Zitronen-Soße"
   },
   {
-    "id": "69962aed17a115e0a5b6a459",
     "title": "Boulette mit Apfel-Speck-Soße",
     "duration": 40,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/boulette-mit-apfel-speck-sosze-thermomix-0d28c8ae.jpg",
@@ -631,7 +624,6 @@
     "subtitle": "dazu cremiger Kartoffelstampf"
   },
   {
-    "id": "69962aed17a115e0a5b6a45a",
     "title": "Fischfilet nach Art Bordelaise",
     "duration": 45,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/fischfilet-nach-art-bordelaise-259a600b.jpg",
@@ -704,12 +696,12 @@
       {
         "amount": 1,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 2,
         "name": "Milch",
-        "unit": "Esslöfel"
+        "unit": "EL"
       }
     ],
     "labels": [
@@ -752,7 +744,6 @@
     "subtitle": "mit Kartoffelstampf und Tomatensalat"
   },
   {
-    "id": "69962aed17a115e0a5b6a45b",
     "title": "BBQ Burritos mit Hackfleisch",
     "duration": 15,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R04_W13_DE_L4529-1_Main_low-c9881c34.jpg",
@@ -840,7 +831,6 @@
     "subtitle": "schwarzen Bohnen, Salat und Knoblauchdressing"
   },
   {
-    "id": "69962aed17a115e0a5b6a45c",
     "title": "Thüringer Rostbratwurst",
     "duration": 45,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/cipollata-bratwurstli-mit-feigen-senf-thermomix-5bee29e0-c277c195.jpg",
@@ -920,7 +910,6 @@
     "subtitle": "mit Apfel-Sauerkraut und Kartoffel-Spinat-Stampf"
   },
   {
-    "id": "69962aed17a115e0a5b6a45d",
     "title": "Möhren-Kartoffel-Eintopf",
     "duration": 40,
     "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/FF2761A4-0A0C-47C2-A9C6-73BC93AC7FCE/Derivates/DF2DF905-1600-4CC9-89EA-61C592FD450E.jpg",
@@ -953,12 +942,12 @@
       {
         "amount": 1,
         "name": "Majoran",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "Zucker",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 350,
@@ -968,7 +957,7 @@
       {
         "amount": 1,
         "name": "Gemüsebrühe",
-        "unit": "Teelöfel"
+        "unit": "TL"
       }
     ],
     "labels": [
@@ -1000,7 +989,6 @@
     "subtitle": ""
   },
   {
-    "id": "69962aed17a115e0a5b6a45e",
     "title": "Nudel-Möhren-Auflauf",
     "duration": 60,
     "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/C117860C-26FE-4C7C-B192-73D376A2816A/Derivates/37cd967c-d910-4401-a4af-a8c8c3731dcb.jpg",
@@ -1023,12 +1011,12 @@
       {
         "amount": 1,
         "name": "Rapsöl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "Gemüsebrühe",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 250,
@@ -1084,7 +1072,6 @@
     "subtitle": ""
   },
   {
-    "id": "69962aed17a115e0a5b6a45f",
     "title": "Klassische Pasta Bolognese mit Rinderhack",
     "duration": 30,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/klassische-pasta-bolognese-mit-rinderhack-bbacf739.jpg",
@@ -1142,7 +1129,7 @@
       {
         "amount": 1,
         "name": "Italienische Kräuter",
-        "unit": "Teelöfel"
+        "unit": "TL"
       }
     ],
     "labels": [
@@ -1182,7 +1169,6 @@
     "subtitle": "Karotte und geriebenem Hartkäse"
   },
   {
-    "id": "69962aed17a115e0a5b6a460",
     "title": "Hähnchenkeule mit Knollenselleriestampf",
     "duration": 45,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/hahnchenkeule-mit-knollenselleriestampf-d25a9324.jpg",
@@ -1285,7 +1271,6 @@
     "subtitle": "bunten Ofenkartoffeln und Balsamicosoße"
   },
   {
-    "id": "69962aed17a115e0a5b6a461",
     "title": "Hähnchenfilets in Kräuterpanade",
     "duration": 30,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R34_W42_DE_R1133-23_Main_low-ddaaad01.jpg",
@@ -1394,7 +1379,6 @@
     "subtitle": "mit Fettuccine und selbstgemachten Pesto"
   },
   {
-    "id": "69962aed17a115e0a5b6a462",
     "title": "Lachsfilet in Teriyakisoße",
     "duration": 15,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/lachsfilet-in-teriyakisosze-6ab6b850.jpg",
@@ -1477,7 +1461,6 @@
     "subtitle": "mit Sesamspinat und Avocado"
   },
   {
-    "id": "69962aed17a115e0a5b6a463",
     "title": "Hähnchen Piccata! in Kapern-Zitronen-Soße",
     "duration": 20,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/hahnchen-piccata-in-kapern-zitronen-sosze-c4304738.jpg",
@@ -1558,7 +1541,6 @@
     "subtitle": "dazu Bohnen und Kartoffeln"
   },
   {
-    "id": "69962aed17a115e0a5b6a464",
     "title": "Saftiges Hähnchen-Paprika-Gulasch",
     "duration": 30,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R35_W43_DE_R4899-1_Main__10low-f6e744e8.jpg",
@@ -1656,7 +1638,6 @@
     "subtitle": "dazu Konfetti-Mais-Reis und Joghurt"
   },
   {
-    "id": "69962aed17a115e0a5b6a465",
     "title": "Würzig gebratenes Schweinelachssteak",
     "duration": 25,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/wurzig-gebratenes-schweinelachssteak-b56b0e40.jpg",
@@ -1730,7 +1711,6 @@
     "subtitle": "mit Schupfnudeln und Rahmporree"
   },
   {
-    "id": "69962aed17a115e0a5b6a466",
     "title": "Spargelwok",
     "duration": 75,
     "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/36FDBEEC-86C6-4F07-8091-2F61121A562D/Derivates/8335B6D5-4064-4B2D-80F2-70A9F8591B4E.jpg",
@@ -1753,7 +1733,7 @@
       {
         "amount": 1,
         "name": "Sambal Oelek",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 40,
@@ -1773,7 +1753,7 @@
       {
         "amount": 1,
         "name": "Gemüsebrühe",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
@@ -1839,7 +1819,6 @@
     "subtitle": "mit Schweinefilet"
   },
   {
-    "id": "69962aed17a115e0a5b6a467",
     "title": "Mezze Rinderhackpfanne auf Tomatenreis",
     "duration": 30,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/64ccdd8f6c6eb9d59f0c70d7-d9ad5415-7d5c02ec.jpeg",
@@ -1936,7 +1915,6 @@
     "subtitle": "dazu Hirtenkäse und Zaziki"
   },
   {
-    "id": "69962aed17a115e0a5b6a468",
     "title": "Grüner Power-Bowl mit Quinoa und Avocado",
     "duration": 25,
     "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=800",
@@ -1969,7 +1947,7 @@
       {
         "amount": 1,
         "name": "Olivenöl, extra vergine",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
@@ -2026,7 +2004,6 @@
     "subtitle": "Cholesterinsenkende Superfoods aus dem Thermomix"
   },
   {
-    "id": "69962aed17a115e0a5b6a469",
     "title": "Grünes Gemüse-Curry",
     "duration": 30,
     "image": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg",
@@ -2059,7 +2036,7 @@
       {
         "amount": 1,
         "name": "Currypaste (grün)",
-        "unit": "Esslöfel"
+        "unit": "EL"
       }
     ],
     "labels": [
@@ -2094,7 +2071,6 @@
     "subtitle": "Mit Brokkoli, Spinat und Kokosmilch"
   },
   {
-    "id": "69962aed17a115e0a5b6a46a",
     "title": "Avocado-Bohnen-Bowl",
     "duration": 30,
     "image": "https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg",
@@ -2162,7 +2138,6 @@
     "subtitle": "Mit Quinoa und Limetten-Vinaigrette"
   },
   {
-    "id": "69962aed17a115e0a5b6a46b",
     "title": "Express-Pasta mit Rucola und Tomaten",
     "duration": 15,
     "image": "https://www.deinetraumkueche.de/media/image/b6/6c/73/Rucola_600x600.png",
@@ -2195,17 +2170,17 @@
       {
         "amount": 2,
         "name": "Olivenöl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       }
     ],
     "labels": [
@@ -2245,7 +2220,6 @@
     "subtitle": "Schnelles 15-Minuten-Gericht mit frischen Zutaten"
   },
   {
-    "id": "69962aed17a115e0a5b6a46c",
     "title": "Zucchini-Hackfleisch-Pfanne mit Tomaten und Feta",
     "duration": 30,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/zucchini-hackfleisch-pfanne-12736879.jpg",
@@ -2283,12 +2257,12 @@
       {
         "amount": 1,
         "name": "Olivenöl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "Italienische Kräuter (getrocknet)",
-        "unit": "Teelöfel"
+        "unit": "TL"
       }
     ],
     "labels": [
@@ -2326,7 +2300,6 @@
     "subtitle": "Mediterraner Genuss mit Feta und frischen Kräutern"
   },
   {
-    "id": "69962aed17a115e0a5b6a46d",
     "title": "Kohlrouladen klassisch gefüllt",
     "duration": 90,
     "image": "https://eat.de/wp-content/uploads/2022/09/kohlrouladen-backofen-9873.jpg",
@@ -2369,12 +2342,12 @@
       {
         "amount": 1,
         "name": "Tomatenmark",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "Olivenöl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 300,
@@ -2389,12 +2362,12 @@
       {
         "amount": 1,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       }
     ],
     "labels": [
@@ -2438,7 +2411,6 @@
     "subtitle": "Mit Hackfleisch‑Reis‑Füllung und würziger Tomatensauce"
   },
   {
-    "id": "69962aed17a115e0a5b6a46e",
     "title": "Gefüllte Zucchini mit Hackfleisch",
     "duration": 45,
     "image": "https://www.laux-deli.de/media/10/80/b7/1656938441/161474-gefuellte-zucchini-hackfleisch-r.jpeg?ts=1745570792",
@@ -2476,7 +2448,7 @@
       {
         "amount": 1,
         "name": "Olivenöl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 50,
@@ -2486,17 +2458,17 @@
       {
         "amount": 1,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Paprikapulver",
-        "unit": "Teelöfel"
+        "unit": "TL"
       }
     ],
     "labels": [
@@ -2538,7 +2510,6 @@
     "subtitle": "Überbackene Zucchinihälften mit würziger Hackfleischfüllung"
   },
   {
-    "id": "69962aed17a115e0a5b6a46f",
     "title": "Blue Cheese Burger",
     "duration": 40,
     "image": "https://www.diekuechebrennt.de/wp-content/uploads/2018/03/schweine-blauschimmelkaese-burger-mit-rucola-grillen.jpg",
@@ -2576,22 +2547,22 @@
       {
         "amount": 2,
         "name": "Mayo",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 2,
         "name": "Olivenöl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       }
     ],
     "labels": [
@@ -2632,7 +2603,6 @@
     "subtitle": "Mit Blauschimmelkäse, Rucola & Kartoffelwedges"
   },
   {
-    "id": "69962aed17a115e0a5b6a470",
     "title": "Gnocchi mit Roter Bete und Bacon",
     "duration": 30,
     "image": "https://media.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/gnocchi-mit-roter-bete-und-bacon-thermomix-9ae5eff9.jpg",
@@ -2670,7 +2640,7 @@
       {
         "amount": 1,
         "name": "Olivenöl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 10,
@@ -2680,12 +2650,12 @@
       {
         "amount": 1,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       }
     ],
     "labels": [
@@ -2727,7 +2697,6 @@
     "subtitle": "Cremige Pfanne mit Bacon, frischer Roter Bete und Gnocchi"
   },
   {
-    "id": "69962aed17a115e0a5b6a472",
     "title": "Klassisches Rindergulasch im Römertopf",
     "duration": 180,
     "image": "https://emmikochteinfach.de/wp-content/uploads/2022/02/seo_Gulasch-Nah-200.jpg",
@@ -2775,17 +2744,17 @@
       {
         "amount": 2,
         "name": "Paprikapulver, edelsüß",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Gulaschgewürz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Kümmel",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
@@ -2795,7 +2764,7 @@
       {
         "amount": 1,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       }
     ],
     "labels": [
@@ -2844,7 +2813,6 @@
     "subtitle": "mit Kartoffeln"
   },
   {
-    "id": "69962aed17a115e0a5b6a473",
     "title": "Bifteki mit pikantem Tomatendip und knusprigen Knoblauch-Kartoffeln",
     "duration": 45,
     "image": "https://img.chefkoch-cdn.de/rezepte/1219651227438701/bilder/136093/crop-640x360/bifteki.jpg",
@@ -2877,17 +2845,17 @@
       {
         "amount": 1,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 0,
         "name": "Pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Paprikapulver, edelsüß",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 200,
@@ -2922,7 +2890,7 @@
       {
         "amount": 1,
         "name": "Schwarze Senfkörner",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 15,
@@ -2942,7 +2910,7 @@
       {
         "amount": 2,
         "name": "Olivenöl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       }
     ],
     "labels": [
@@ -2986,7 +2954,6 @@
     "subtitle": "Saftige Hackfleisch-Frikadellen mit würzigem Dip und frittierten Kartoffeln aus dem Airfryer"
   },
   {
-    "id": "69962aed17a115e0a5b6a474",
     "title": "Königsberger Klopse nach DDR-Art mit Buttermilchsauce",
     "duration": 60,
     "image": "https://eat.de/wp-content/uploads/2021/10/koenigsberger-klopse-ddr-2976-2.jpg",
@@ -3014,12 +2981,12 @@
       {
         "amount": 1,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 750,
@@ -3039,17 +3006,17 @@
       {
         "amount": 1,
         "name": "Zucker",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Zitronensaft",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "Speisestärke",
-        "unit": "Esslöfel"
+        "unit": "EL"
       }
     ],
     "labels": [
@@ -3074,7 +3041,6 @@
     "subtitle": "Klassische Hackfleischklopse in milder Buttermilch-Königsberger Sauce mit Kapern"
   },
   {
-    "id": "69962aed17a115e0a5b6a475",
     "title": "Hühnerfrikassee mit Champignons, Spargel und Kapern",
     "duration": 45,
     "image": "https://shop.drk-hochtaunus.de/media/8e/7c/0e/1598254396/13797-00.jpg",
@@ -3127,17 +3093,17 @@
       {
         "amount": 2,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Weißer Pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Muskat",
-        "unit": "Teelöfel"
+        "unit": "TL"
       }
     ],
     "labels": [
@@ -3184,7 +3150,6 @@
     "subtitle": "Klassisches Frikassee mit besonders saftiger Hähnchenbrust"
   },
   {
-    "id": "69962aed17a115e0a5b6a476",
     "title": "Chicken Tikka Masala",
     "duration": 45,
     "image": "https://www.gaumenfreundin.de/wp-content/uploads/2025/01/Chicken-Tikka-Masala-einfaches-Rezept-680x453.jpg",
@@ -3202,7 +3167,7 @@
       {
         "amount": 1,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 50,
@@ -3217,32 +3182,32 @@
       {
         "amount": 1,
         "name": "Kurkuma",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Kreuzkümmel",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Koriander",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Garam Masala",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 2,
         "name": "Paprika Edelsüß",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 2,
         "name": "Zucker",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 10,
@@ -3267,7 +3232,7 @@
       {
         "amount": 1,
         "name": "Gewürzpaste für Hühnerbrühe",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 50,
@@ -3313,7 +3278,7 @@
     ],
     "preparation": [
       "Hähnchenbrust in grobe Stücke schneiden.",
-      "Marinade zubereiten: Naturjoghurt, 1 Teelöfel Garam Masala, 1 Teelöfel Paprikapulver, Salz, Pfeffer mischen.",
+      "Marinade zubereiten: Naturjoghurt, 1 TL Garam Masala, 1 TL Paprikapulver, Salz, Pfeffer mischen.",
       "Hähnchenstücke mit der Marinade vermengen und mindestens 2 Stunden im Kühlschrank ziehen lassen (besser über Nacht).",
       "Ingwer, Knoblauch und Salz in den Mixtopf geben, 5 Sek./Stufe 5 zerkleinern.",
       "Butter und Zwiebel in den Mixtopf geben, 5 Sek./Stufe 5 zerkleinern, dann 5 Min./120°C/Stufe  dünsten.",
@@ -3327,7 +3292,6 @@
     "subtitle": "Saftige Hähnchenbrust in würziger Tomaten-Currysauce"
   },
   {
-    "id": "69962aed17a115e0a5b6a477",
     "title": "Fish and Chips",
     "duration": 60,
     "image": "https://www.eatclub.de/wp-content/uploads/2021/08/fish-and-chips-e1629461849951.jpg",
@@ -3350,7 +3314,7 @@
       {
         "amount": 1,
         "name": "Speisestärke",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
@@ -3360,22 +3324,22 @@
       {
         "amount": 2,
         "name": "Remoulade",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 4,
         "name": "Ketchup",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Paprika Edelsüß",
-        "unit": "Teelöfel"
+        "unit": "TL"
       }
     ],
     "labels": [
@@ -3424,7 +3388,6 @@
     "subtitle": "Pommes mit Backfisch nach englischer Art"
   },
   {
-    "id": "69962aed17a115e0a5b6a478",
     "title": "Schnitzel Jäger-Art",
     "duration": 25,
     "image": "https://storefront-prod.de.picnicinternational.com/static/images/recipes/65927a7586d5cfb7240fdc712056d0f42a5d877340ca9f40538e38f0a4b2279e/filled-2000x2000.webp",
@@ -3499,7 +3462,6 @@
     "subtitle": "Schweineschnitzel mit Champignonsauce und Kroketten"
   },
   {
-    "id": "69962aed17a115e0a5b6a479",
     "title": "Gefüllte Paprikaschoten aus dem Römertopf",
     "duration": 120,
     "image": "https://images.eatsmarter.de/sites/default/files/styles/1600x1200/public/mit-hackfleisch-gefuellte-paprikaschoten-438166.jpg",
@@ -3537,32 +3499,32 @@
       {
         "amount": 1,
         "name": "Senf",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 2,
         "name": "Paprikapulver edelsüß",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Paprikapulver rosenscharf",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Majoran",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 2,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 500,
@@ -3633,7 +3595,6 @@
     "subtitle": "Langsam geschmort für maximalen Geschmack und besonders saftige Füllung"
   },
   {
-    "id": "69962aed17a115e0a5b6a47b",
     "title": "Senfeier",
     "duration": 25,
     "image": "https://www.jackymalina.com/wp-content/uploads/2023/04/EAC68572-FD5F-45A3-81E4-A163F34D6CE5-500x500.jpeg",
@@ -3661,7 +3622,7 @@
       {
         "amount": 1,
         "name": "Essig",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 50,
@@ -3671,12 +3632,12 @@
       {
         "amount": 2,
         "name": "Zucker",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "Hühnerbrühe",
-        "unit": "Teelöfel"
+        "unit": "TL"
       }
     ],
     "labels": [
@@ -3719,7 +3680,6 @@
     "subtitle": "mit Kartoffeln"
   },
   {
-    "id": "69962aed17a115e0a5b6a47c",
     "title": "Kaisergemüse-Auflauf",
     "duration": 40,
     "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/5021b723-cf2f-49c7-a808-3fe015f29fd4/Derivates/c1965bdf-f444-4536-83d6-981eb95424f0.jpg",
@@ -3747,7 +3707,7 @@
       {
         "amount": 1,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
@@ -3762,7 +3722,7 @@
       {
         "amount": 1,
         "name": "Paprika Edelsüß",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 500,
@@ -3814,7 +3774,6 @@
     "subtitle": "mit Kartoffeln"
   },
   {
-    "id": "69a4a2bb17a115e0a5b6a47e",
     "title": "Schweinenacken mit Zwiebel-Senf-Soße",
     "duration": 60,
     "image": "https://images.lecker.de/schweinenacken-mit-estragon-senf-haube/1x1,id=a62ac5d3,b=lecker,w=1600,h=,ca=0,1.78,100,98.22,rm=sk.jpeg",
@@ -3837,12 +3796,12 @@
       {
         "amount": 2,
         "name": "Senf, mittelscharf",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "Tomatenmark",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 250,
@@ -3852,27 +3811,27 @@
       {
         "amount": 1,
         "name": "Pflanzenöl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "Paprikapulver, edelsüß",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 0,
         "name": "Pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Speisestärke",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 50,
@@ -3920,7 +3879,6 @@
     "subtitle": "Zartes Schweinefleisch mit würziger Soße"
   },
   {
-    "id": "69bc6db417a115e0a5b6a47f",
     "title": "Klassische Rinderrouladen aus dem Römertopf",
     "duration": 150,
     "image": "https://www.familienkost.de/images/rinderrouladen.jpg",
@@ -3948,12 +3906,12 @@
       {
         "amount": 4,
         "name": "Senf",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 3,
         "name": "Öl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 40,
@@ -3978,22 +3936,22 @@
       {
         "amount": 2,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Zucker",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Speisestärke",
-        "unit": "Esslöfel"
+        "unit": "EL"
       }
     ],
     "labels": [
@@ -4023,7 +3981,7 @@
     ],
     "preparation": [
       "Römertopf und Deckel 15 Minuten vollständig wässern.",
-      "Rinderrouladen flach auslegen, mit Salz und Pfeffer würzen und jeweils mit 1 Esslöfel Senf bestreichen.",
+      "Rinderrouladen flach auslegen, mit Salz und Pfeffer würzen und jeweils mit 1 EL Senf bestreichen.",
       "Speckstreifen, Zwiebelstreifen und Gurkenstreifen darauf verteilen.",
       "Rouladen fest aufrollen und mit Küchengarn oder Rouladennadeln fixieren.",
       "Öl in einer Pfanne stark erhitzen und Rouladen rundherum scharf anbraten.",
@@ -4043,7 +4001,6 @@
     "subtitle": "Zart geschmorte Rouladen mit intensiver Bratensoße"
   },
   {
-    "id": "69bdd1c78da5798ba3c935ba",
     "title": "caprese-pasta mit ofen-mozzarella",
     "duration": 35,
     "image": "https://images.kochbar.de/recipe/730x486/0/5e/90/89488146fc7fbc49aeb3bf2254781b3f.jpg",
@@ -4086,7 +4043,7 @@
       {
         "amount": 2,
         "name": "esslöffel olivenöl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
@@ -4096,12 +4053,12 @@
       {
         "amount": 1,
         "name": "teelöffel oregano, getrocknet",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "teelöffel salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 0,
@@ -4148,7 +4105,6 @@
     "subtitle": "frische pasta mit ofen-mozzarella, tomaten und basilikum"
   },
   {
-    "id": "69bdd1c78da5798ba3c935bb",
     "title": "bunte penne-gemüsepfanne",
     "duration": 35,
     "image": "https://images.unsplash.com/photo-1519864600265-abb22972695c?auto=format&fit=crop&w=800&q=80",
@@ -4196,7 +4152,7 @@
       {
         "amount": 1,
         "name": "tl italienische kräuter",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
@@ -4206,12 +4162,12 @@
       {
         "amount": 1,
         "name": "salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       }
     ],
     "labels": [
@@ -4253,7 +4209,6 @@
     "subtitle": "bunte penne-gemüse-pfanne mit mozzarella"
   },
   {
-    "id": "69bdd62df150668066eb315a",
     "title": "gnocchi-schinken-brokkoli-auflauf",
     "duration": 55,
     "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
@@ -4316,7 +4271,7 @@
       {
         "amount": 2,
         "name": "olivenöl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
@@ -4326,12 +4281,12 @@
       {
         "amount": 1,
         "name": "salz",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "pfeffer",
-        "unit": "Esslöfel"
+        "unit": "EL"
       }
     ],
     "labels": [
@@ -4374,7 +4329,6 @@
     "subtitle": "herzhafter gnocchi-schinken-brokkoli-auflauf mit knuspriger käsedecke"
   },
   {
-    "id": "69bdd62df150668066eb315b",
     "title": "bunter gemüse-kartoffel-auflauf",
     "duration": 45,
     "image": "https://images.kochbar.de/media/recipes/101/345261/1140955-960x720-kinder-gemueseauflauf-mit-kartoffelpueree.jpg",
@@ -4469,7 +4423,6 @@
     "subtitle": "cremiger brokkoli-kartoffel-auflauf mit käse für kinder"
   },
   {
-    "id": "69bdee3edcd1f2dd30914968",
     "title": "frikadellen mit kohlrabi-kartoffel-püree",
     "duration": 40,
     "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
@@ -4512,27 +4465,27 @@
       {
         "amount": 2,
         "name": "esslöffel senf",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 2,
         "name": "esslöffel petersilie, frisch oder tiefgekühlt",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "teelöffel paprikapulver edelsüß",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "teelöffel salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "teelöffel pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 600,
@@ -4557,7 +4510,7 @@
       {
         "amount": 2,
         "name": "esslöffel gehackte petersilie",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
@@ -4602,7 +4555,6 @@
     "subtitle": "mit kohlrabi-kartoffel-püree aus dem thermomix und knusprigen airfryer-frikadellen"
   },
   {
-    "id": "69bdee3edcd1f2dd30914969",
     "title": "mini-frikadellen mit käsekern & kartoffelwürfeln",
     "duration": 40,
     "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=800&q=80",
@@ -4650,17 +4602,17 @@
       {
         "amount": 1,
         "name": "tl senf",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 2,
         "name": "el milch",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "tl kräuter (petersilie oder schnittlauch, gehackt)",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 0,
@@ -4723,7 +4675,6 @@
     "subtitle": "knusprige kinder-frikadellen mit käse im airfryer, dazu kartoffelwürfel und gemüsesnacks"
   },
   {
-    "id": "69be61c5dcd1f2dd3091496b",
     "title": "Chinesische Süß-Sauer-Scharf-Suppe (TM5)",
     "duration": 40,
     "image": "https://ais.kochbar.de/kbrezept/553933_1122889/1200x1200/suess-sauer-scharf-suppe-ala-szechuan-rezept-bild-nr-2.jpg",
@@ -4806,12 +4757,12 @@
       {
         "amount": 1,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Weißer Pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       }
     ],
     "labels": [
@@ -4858,7 +4809,6 @@
     "subtitle": "Klassische chinesische Suppe mit saftigem Hähnchen, Pilzen und feiner Schärfe – perfekt im Thermomix"
   },
   {
-    "id": "69be61e3dcd1f2dd3091496c",
     "title": "Kaiserbraten mit Spargel und kräftiger Bratensoße",
     "duration": 120,
     "image": "https://eat.de/wp-content/uploads/2022/04/spargel-mit-schweinebraten-1200x900.jpg",
@@ -4891,12 +4841,12 @@
       {
         "amount": 2,
         "name": "Olivenöl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "Tomatenmark",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 400,
@@ -4906,22 +4856,22 @@
       {
         "amount": 2,
         "name": "Salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Zucker",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "Speisestärke",
-        "unit": "Esslöfel"
+        "unit": "EL"
       }
     ],
     "labels": [
@@ -4957,7 +4907,6 @@
     "subtitle": "Saftiger Schweine-Kaiserbraten aus dem Ofen mit gebratenem Spargel"
   },
   {
-    "id": "69bef262dcd1f2dd3091496d",
     "title": "hackfleisch-kartoffel-auflauf mit spinat & pilzen",
     "duration": 50,
     "image": "https://images.kochbar.de/rezepte/167/167129/1000402/pilz-spinat-hack-auflauf-bild-5.jpg",
@@ -5015,22 +4964,22 @@
       {
         "amount": 2,
         "name": "olivenöl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 1,
         "name": "salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "muskatnuss (gerieben)",
-        "unit": "Teelöfel"
+        "unit": "TL"
       }
     ],
     "labels": [
@@ -5076,7 +5025,6 @@
     "subtitle": "herzhafter kartoffelauflauf mit hack, pilzen und spinat"
   },
   {
-    "id": "69bef262dcd1f2dd3091496e",
     "title": "kinderfreundlicher nudel-brokkoli-schinken-auflauf",
     "duration": 50,
     "image": "https://images.chefkoch-cdn.de/rezepte/3384981510856659/bilder/1348920/crop-960x720/kinderfreundlicher-nudel-brokkoli-schinken-auflauf.jpg",
@@ -5181,7 +5129,6 @@
     "subtitle": "mit brokkoli, nudeln und schinken – kinderfreundlich & cremig"
   },
   {
-    "id": "69c0748cdcd1f2dd3091496f",
     "title": "airfryer rinderhüftsteak mit parmesan-kartoffelstampf",
     "duration": 45,
     "image": "https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg",
@@ -5214,22 +5161,22 @@
       {
         "amount": 3,
         "name": "esslöffel olivenöl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 2,
         "name": "teelöffel grobes salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "teelöffel schwarzer pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 2,
         "name": "esslöffel butter",
-        "unit": "Esslöfel"
+        "unit": "EL"
       },
       {
         "amount": 100,
@@ -5283,7 +5230,6 @@
     "subtitle": "zartes rinderhüftsteak aus dem airfryer mit parmesan-kartoffelstampf und bohnen-tomaten-gemüse"
   },
   {
-    "id": "69c0748cdcd1f2dd30914970",
     "title": "rindersteak mit buntem gemüse-kartoffel-püree",
     "duration": 35,
     "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
@@ -5321,22 +5267,22 @@
       {
         "amount": 1,
         "name": "salz",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "pfeffer",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "paprikapulver, edelsüß",
-        "unit": "Teelöfel"
+        "unit": "TL"
       },
       {
         "amount": 1,
         "name": "olivenöl",
-        "unit": "Esslöfel"
+        "unit": "EL"
       }
     ],
     "labels": [

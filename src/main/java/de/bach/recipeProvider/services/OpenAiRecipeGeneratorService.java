@@ -25,13 +25,16 @@ public class OpenAiRecipeGeneratorService {
     ) {
         this.schemaService = schemaService;
         this.mapper = mapper;
+        String apiKey = System.getenv("OPENAI_API_KEY");
+        System.out.println("API-Key: "+apiKey);
         // Initialize OpenAI client
         this.client = OpenAIOkHttpClient.builder()
-                .apiKey(System.getenv("OPENAI_API_KEY"))
+                .apiKey(apiKey)
                 .build();
     }
 
     public RecipeWriteDto generateRecipe(String recipePrompt) throws Exception {
+        System.out.println("Generating recipe for: " + recipePrompt);
         String schema = schemaService.generateSchema();
         // Prompt explicitly enforces allowed units
         String prompt = recipePrompt +
