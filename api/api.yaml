@@ -167,6 +167,7 @@ components:
               - Express
               - Ofen
               - Römertopf
+              - Kids
         image:
           type: string
           description: image as URL
@@ -218,6 +219,7 @@ components:
               - Express
               - Ofen
               - Römertopf
+              - Kids
         image:
           type: string
           description: image as URL
