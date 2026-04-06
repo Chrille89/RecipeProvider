@@ -100,7 +100,8 @@ public class OpenAiRecipeGeneratorService {
                 .replace("\"airfryer\"", "\"Airfryer\"")
                 .replace("\"ofen\"", "\"Ofen\"")
                 .replace("\"r_mertopf\"", "\"Römertopf\"")
-                .replace("\"express\"", "\"Express\"");
+                .replace("\"express\"", "\"Express\"")
+                .replace("\"kids\"", "\"Kids\"");
 
         // Deserialize into RecipeReadDto (uses case-insensitive enums)
         RecipeWriteDto recipe = mapper.readValue(normalizedJson, RecipeWriteDto.class);
