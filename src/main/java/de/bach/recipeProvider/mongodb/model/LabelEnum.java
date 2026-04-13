@@ -29,6 +29,10 @@ public enum LabelEnum {
 
     AIRFRYER("Airfryer"),
 
+    OFEN("Ofen"),
+
+    R_MERTOPF("Römertopf"),
+
     EXPRESS("Express"),
 
     KIDS("Kids");
