@@ -29,7 +29,9 @@ public enum LabelEnum {
 
     AIRFRYER("Airfryer"),
 
-    EXPRESS("Express");
+    EXPRESS("Express"),
+
+    KIDS("Kids");
 
     private String value;
 

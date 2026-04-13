@@ -46,17 +46,7 @@ public class OpenAiRecipeGeneratorService {
                 - verwende Integer Mengen-Angaben
                 - alle labels bitte kleingeschrieben!
                 - Rezepte bitte in deutscher Sprache
-                
-                Das Image muss eine real existierende URL sein.
-                Mögliche domains:
-                - hellofresh.com
-                - chefkoch.de
-                - kochbar.de
-                - eat.de
-                - tmecosys.com
-                
-                Bitte erzeuge eine direkte image URL, die den Status-Code 200 zurückgibt. 
-                Bitte erfinde keine eigene URL.
+                - das Image bitte null setzen!
 
                 Schema:
                 """ + schema;
@@ -121,7 +111,7 @@ public class OpenAiRecipeGeneratorService {
         ImagesResponse image = client.images().generate(
                 ImageGenerateParams.builder()
                         .model("gpt-image-1")
-                        .prompt(recipeTitle+", low quality 512x512 food image")
+                        .prompt(recipeTitle+", low quality 256x256 food image")
                         .build());
         String base64 = image.data().get(0).b64Json().get();
         return base64;
