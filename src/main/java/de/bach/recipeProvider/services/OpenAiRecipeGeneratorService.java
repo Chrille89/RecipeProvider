@@ -44,6 +44,7 @@ public class OpenAiRecipeGeneratorService {
                 - return NUR JSON
                 - folge exakt dem Schema
                 - verwende Integer Mengen-Angaben
+                - Gericht bitte für 3 Personen
                 - alle labels bitte kleingeschrieben!
                 - Rezepte bitte in deutscher Sprache
                 - das Image bitte null setzen!

@@ -7,6 +7,7 @@ import de.bach.recipeProvider.services.OpenAiRecipeGeneratorService;
 import jakarta.validation.Valid;
 import org.bson.types.ObjectId;
 import org.openapitools.api.RecipesApi;
+import org.openapitools.model.RecipePromptDto;
 import org.openapitools.model.RecipeReadDto;
 import org.openapitools.model.RecipeWriteDto;
 import org.slf4j.Logger;
@@ -96,13 +97,13 @@ public class RecipeProviderController implements RecipesApi {
                 String randomIngredient = ingredient.get(new Random().nextInt(ingredient.size()));
                 String actualRecipes = String.join(", ", recipesTitlesInDatabase);
                 String recipePrompt = """
-                Generiere bitte ein leckeres Rezept für 3 Personen.
+                Generiere bitte ein leckeres Rezept.
                 Wir essen gern %s.
                 Bitte die folgenden Gerichte nicht wiederholen: %s
                 """.formatted(randomIngredient,actualRecipes);
 
                 String childrenRecipePrompt = """
-                Generiere bitte ein leckeres Rezept für 2 Kinder.
+                Generiere bitte ein leckeres Rezept für Kinder.
                 Wir essen gern %s.
                 Bitte die folgenden Gerichte nicht wiederholen: %s
                 """.formatted(randomIngredient,actualRecipes);
@@ -128,5 +129,18 @@ public class RecipeProviderController implements RecipesApi {
         firstRecipe = recipeReadDto.get(0);
         secondRecipe = recipeReadDto.get(1);
         return ResponseEntity.ok(List.of(firstRecipe, secondRecipe));
+    }
+
+    @Override
+    public ResponseEntity<RecipeReadDto> createRecipesWithAI(RecipePromptDto recipePromptDto) {
+        try {
+            RecipeWriteDto firstWriteDto = this.openAiRecipeGeneratorService.generateRecipe(recipePromptDto.getPrompt());
+            Recipe recipe = recipesRepository.save(RecipeMapper.toRecipe(firstWriteDto));
+            RecipeProviderController.firstRecipe = RecipeMapper.toRecipeReadDto(recipe);
+            return ResponseEntity.ok(RecipeProviderController.firstRecipe);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            return ResponseEntity.badRequest().build();
+        }
     }
 }

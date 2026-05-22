@@ -137,6 +137,30 @@ paths:
                 maxItems: 2
                 items:
                   $ref: '#/components/schemas/RecipeReadDto'
+  /recipes/ai:
+    post:
+      summary: Create recipes with AI.
+      description: Create recipes with AI.
+      operationId: createRecipesWithAI
+      requestBody:
+        required: true
+        description: Recipe prompts in JSON array format.
+        content:
+          application/json:
+            schema:
+              type: object
+              title: RecipePromptDto
+              properties:
+                prompt:
+                  type: string
+                  description: The prompt to generate recipes, e.g. "Generate a recipe for a low-carb dinner with chicken and vegetables.
+      responses:
+        '200': # status code
+          description: Return the created recipe
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RecipeReadDto'
 components:
   schemas:
     RecipeReadDto:
