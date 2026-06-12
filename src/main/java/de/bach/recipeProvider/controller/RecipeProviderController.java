@@ -54,8 +54,14 @@ public class RecipeProviderController implements RecipesApi {
     }
 
     @Override
-    public ResponseEntity<List<RecipeReadDto>> getAllRecipes() {
-        List<Recipe> recipes = recipesRepository.findAll();
+    public ResponseEntity<List<RecipeReadDto>> getAllRecipes(Boolean includeImages) {
+        boolean include = Boolean.TRUE.equals(includeImages);
+        List<Recipe> recipes;
+        if (include) {
+            recipes = recipesRepository.findAll();
+        } else {
+            recipes = recipesRepository.findAllWithoutImageBase64();
+        }
         List<RecipeReadDto> recipeReadDtos = recipes.stream()
                 .map(RecipeMapper::toRecipeReadDto)
                 .collect(Collectors.toList());
@@ -89,7 +95,8 @@ public class RecipeProviderController implements RecipesApi {
 
     @Override
     public ResponseEntity<List<RecipeReadDto>> getActualMenu(Boolean random) {
-        if (random) {
+        boolean isRandom = Boolean.TRUE.equals(random);
+        if (isRandom) {
             System.out.println("Generating new recipes...");
             try {
                 List<String> recipesTitlesInDatabase = recipesRepository.findAll().stream().map(Recipe::getTitle).toList();

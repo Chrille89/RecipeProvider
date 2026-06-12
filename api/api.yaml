@@ -13,6 +13,13 @@ paths:
       summary: Return all recipes.
       description: Return all recipes.
       operationId: getAllRecipes
+      parameters:
+        - in: query
+          name: includeImages
+          schema:
+            type: boolean
+            default: false
+          description: Include image data in the response (Base64 encoded) or not
       responses:
         '200': # status code
           description: Return all recipe
