@@ -1,8 +1,10 @@
 [
   {
+    "id": "69c3089c85b2fb13e18e818a",
     "title": "Schnitzel mit Ofenkartoffeln",
     "duration": 40,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF210824_R05_W42_DE_FAM1800-18_KB_Main_low-a115d22f.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 375,
@@ -94,9 +96,11 @@
     "subtitle": "dazu Dill-Gurkensalat und Tomatenmayonaise"
   },
   {
+    "id": "69c3089c85b2fb13e18e818b",
     "title": "Frische Eierspätzle mit Bacon",
     "duration": 25,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/frische-eierspatzle-mit-bacon-1d3a5465-09d8d5d1.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 600,
@@ -176,9 +180,11 @@
     "subtitle": "in cremiger Tomaten-Porree-Soße"
   },
   {
+    "id": "69c3089c85b2fb13e18e818c",
     "title": "Feines gebratenes Lachsfilet auf Porreegemüse",
     "duration": 35,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R20_W30_DE_VP4558-1_Main_low-c7a5f54d.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 450,
@@ -259,9 +265,11 @@
     "subtitle": "mit käsigen Kartoffeln und Schnittlauch-Senf-Dip"
   },
   {
+    "id": "69c3089c85b2fb13e18e818d",
     "title": "Chicken Bites mit Süßkartoffel-Bohnen-Salat",
     "duration": 40,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/chicken-bites-mit-suszkartoffel-bohnen-salat-944b57b5.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 1,
@@ -353,9 +361,11 @@
     "subtitle": "dazu Knoblauchdip"
   },
   {
+    "id": "69c3089c85b2fb13e18e818e",
     "title": "Teriyaki-Hähnchen mit Kokosreis",
     "duration": 35,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/601d488a5df88101fa189b37-e80b3067-c43a84ab.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 375,
@@ -456,91 +466,11 @@
     "subtitle": "Brokkoli, Karotte und Sesam"
   },
   {
-    "title": "Zartes Lachsfilet mit grünem Spargel",
-    "duration": 35,
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/zartes-lachsfilet-mit-grunem-spargel-eb63f725.jpg",
-    "ingredients": [
-      {
-        "amount": 450,
-        "name": "Lachsfilet",
-        "unit": "g"
-      },
-      {
-        "amount": 300,
-        "name": "Grüner Spargel",
-        "unit": "g"
-      },
-      {
-        "amount": 360,
-        "name": "Fettuccine",
-        "unit": "g"
-      },
-      {
-        "amount": 300,
-        "name": "Kochsahne",
-        "unit": "g"
-      },
-      {
-        "amount": 6,
-        "name": "Gemüsebrühe",
-        "unit": "g"
-      },
-      {
-        "amount": 2,
-        "name": "Knoblauchzehe",
-        "unit": "St"
-      },
-      {
-        "amount": 1,
-        "name": "Frühlingszwiebel",
-        "unit": "St"
-      },
-      {
-        "amount": 1,
-        "name": "Zitrone",
-        "unit": "St"
-      }
-    ],
-    "labels": [
-      "Fisch"
-    ],
-    "nutrients": [
-      {
-        "amount": 2,
-        "name": "Zucker",
-        "unit": "g"
-      },
-      {
-        "amount": 0,
-        "name": "Salz",
-        "unit": "g"
-      },
-      {
-        "amount": 8,
-        "name": "Eiweiß",
-        "unit": "g"
-      },
-      {
-        "amount": 8,
-        "name": "Gesättigte Fettsäuren",
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Fettuccine in reichlich Salzwasser 12 Min. bissfest kochen.",
-      "Lachsfilet waschen, etwas salzen, mit Zitronen-Saft beträufeln und 3 Min. je Seite in etwas Öl braten.",
-      "Lachsfilet aus der Pfanne nehmen, warmhalten und geschälten Spargel zusammen mit weißen Frühlingszwiebeln und Knoblauch hineingeben und 5 Min. braten.",
-      "Pfanneninhalt mit etwas Weißwein und 150 ml Gemüsebrühe ablöschen, Kochsahne, Zitronen-Saft, Salz und Pfeffer zugeben und 5 Min. köcheln lassen.",
-      "Lachsfilet vorsichtig zugeben und kurz erhitzen.",
-      "Fettuccine abgießen, zusammen mit Lachsfilet und Zitronen-Spargel-Soße anrichten und mit grünen Frühlingszwiebeln garnieren.",
-      "Küche aufräumen."
-    ],
-    "subtitle": "in cremiger Zitronen-Soße"
-  },
-  {
+    "id": "69c3089c85b2fb13e18e8190",
     "title": "Boulette mit Apfel-Speck-Soße",
     "duration": 40,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/boulette-mit-apfel-speck-sosze-thermomix-0d28c8ae.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 375,
@@ -624,9 +554,11 @@
     "subtitle": "dazu cremiger Kartoffelstampf"
   },
   {
+    "id": "69c3089c85b2fb13e18e8191",
     "title": "Fischfilet nach Art Bordelaise",
     "duration": 45,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/fischfilet-nach-art-bordelaise-259a600b.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 375,
@@ -744,9 +676,11 @@
     "subtitle": "mit Kartoffelstampf und Tomatensalat"
   },
   {
+    "id": "69c3089c85b2fb13e18e8192",
     "title": "BBQ Burritos mit Hackfleisch",
     "duration": 15,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R04_W13_DE_L4529-1_Main_low-c9881c34.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 375,
@@ -831,9 +765,11 @@
     "subtitle": "schwarzen Bohnen, Salat und Knoblauchdressing"
   },
   {
+    "id": "69c3089c85b2fb13e18e8193",
     "title": "Thüringer Rostbratwurst",
     "duration": 45,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/cipollata-bratwurstli-mit-feigen-senf-thermomix-5bee29e0-c277c195.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 300,
@@ -910,9 +846,11 @@
     "subtitle": "mit Apfel-Sauerkraut und Kartoffel-Spinat-Stampf"
   },
   {
+    "id": "69c3089c85b2fb13e18e8194",
     "title": "Möhren-Kartoffel-Eintopf",
     "duration": 40,
     "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/FF2761A4-0A0C-47C2-A9C6-73BC93AC7FCE/Derivates/DF2DF905-1600-4CC9-89EA-61C592FD450E.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 2,
@@ -989,9 +927,11 @@
     "subtitle": ""
   },
   {
+    "id": "69c3089c85b2fb13e18e8195",
     "title": "Nudel-Möhren-Auflauf",
     "duration": 60,
     "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/C117860C-26FE-4C7C-B192-73D376A2816A/Derivates/37cd967c-d910-4401-a4af-a8c8c3731dcb.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 180,
@@ -1072,9 +1012,11 @@
     "subtitle": ""
   },
   {
+    "id": "69c3089c85b2fb13e18e8196",
     "title": "Klassische Pasta Bolognese mit Rinderhack",
     "duration": 30,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/klassische-pasta-bolognese-mit-rinderhack-bbacf739.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 300,
@@ -1169,9 +1111,11 @@
     "subtitle": "Karotte und geriebenem Hartkäse"
   },
   {
+    "id": "69c3089c85b2fb13e18e8197",
     "title": "Hähnchenkeule mit Knollenselleriestampf",
     "duration": 45,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/hahnchenkeule-mit-knollenselleriestampf-d25a9324.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 750,
@@ -1271,9 +1215,11 @@
     "subtitle": "bunten Ofenkartoffeln und Balsamicosoße"
   },
   {
+    "id": "69c3089c85b2fb13e18e8198",
     "title": "Hähnchenfilets in Kräuterpanade",
     "duration": 30,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R34_W42_DE_R1133-23_Main_low-ddaaad01.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 375,
@@ -1379,9 +1325,11 @@
     "subtitle": "mit Fettuccine und selbstgemachten Pesto"
   },
   {
+    "id": "69c3089c85b2fb13e18e8199",
     "title": "Lachsfilet in Teriyakisoße",
     "duration": 15,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/lachsfilet-in-teriyakisosze-6ab6b850.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 375,
@@ -1461,9 +1409,11 @@
     "subtitle": "mit Sesamspinat und Avocado"
   },
   {
+    "id": "69c3089c85b2fb13e18e819a",
     "title": "Hähnchen Piccata! in Kapern-Zitronen-Soße",
     "duration": 20,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/hahnchen-piccata-in-kapern-zitronen-sosze-c4304738.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 375,
@@ -1541,9 +1491,11 @@
     "subtitle": "dazu Bohnen und Kartoffeln"
   },
   {
+    "id": "69c3089c85b2fb13e18e819b",
     "title": "Saftiges Hähnchen-Paprika-Gulasch",
     "duration": 30,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R35_W43_DE_R4899-1_Main__10low-f6e744e8.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 225,
@@ -1638,9 +1590,11 @@
     "subtitle": "dazu Konfetti-Mais-Reis und Joghurt"
   },
   {
+    "id": "69c3089c85b2fb13e18e819c",
     "title": "Würzig gebratenes Schweinelachssteak",
     "duration": 25,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/wurzig-gebratenes-schweinelachssteak-b56b0e40.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 375,
@@ -1711,9 +1665,11 @@
     "subtitle": "mit Schupfnudeln und Rahmporree"
   },
   {
+    "id": "69c3089c85b2fb13e18e819d",
     "title": "Spargelwok",
     "duration": 75,
     "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/36FDBEEC-86C6-4F07-8091-2F61121A562D/Derivates/8335B6D5-4064-4B2D-80F2-70A9F8591B4E.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 1,
@@ -1819,9 +1775,11 @@
     "subtitle": "mit Schweinefilet"
   },
   {
+    "id": "69c3089c85b2fb13e18e819e",
     "title": "Mezze Rinderhackpfanne auf Tomatenreis",
     "duration": 30,
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/64ccdd8f6c6eb9d59f0c70d7-d9ad5415-7d5c02ec.jpeg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 300,
@@ -1915,98 +1873,11 @@
     "subtitle": "dazu Hirtenkäse und Zaziki"
   },
   {
-    "title": "Grüner Power-Bowl mit Quinoa und Avocado",
-    "duration": 25,
-    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=800",
-    "ingredients": [
-      {
-        "amount": 100,
-        "name": "Quinoa",
-        "unit": "g"
-      },
-      {
-        "amount": 200,
-        "name": "Brokkoli",
-        "unit": "g"
-      },
-      {
-        "amount": 1,
-        "name": "Avocado",
-        "unit": "St"
-      },
-      {
-        "amount": 50,
-        "name": "Babyspinat",
-        "unit": "g"
-      },
-      {
-        "amount": 150,
-        "name": "Kichererbsen (gekocht)",
-        "unit": "g"
-      },
-      {
-        "amount": 1,
-        "name": "Olivenöl, extra vergine",
-        "unit": "EL"
-      },
-      {
-        "amount": 1,
-        "name": "Zitrone (Saft)",
-        "unit": "St"
-      },
-      {
-        "amount": 1,
-        "name": "Knoblauchzehe",
-        "unit": "St"
-      },
-      {
-        "amount": 10,
-        "name": "Petersilie, frisch",
-        "unit": "g"
-      }
-    ],
-    "labels": [
-      "Kalorienarm",
-      "Fettarm",
-      "Vegetarisch",
-      "Thermomix"
-    ],
-    "nutrients": [
-      {
-        "amount": 450,
-        "name": "Kalorien",
-        "unit": "kcal"
-      },
-      {
-        "amount": 18,
-        "name": "Fett",
-        "unit": "g"
-      },
-      {
-        "amount": 15,
-        "name": "Eiweiß",
-        "unit": "g"
-      },
-      {
-        "amount": 12,
-        "name": "Ballaststoffe",
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Quinoa 10 Sek. / Stufe 8 mahlen, dann mit 300 ml Wasser 15 Min. / 100 °C / Stufe 1 garen, in den Varoma geben und zur Seite stellen.",
-      "Brokkoli in Röschen teilen, in den Varoma legen.",
-      "500 ml Wasser in den Mixtopf geben, Varoma aufsetzen, 15 Min. / Varoma / Stufe 1 dampfgaren.",
-      "In der Zwischenzeit Avocado würfeln, Zitrone auspressen, Babyspinat waschen.",
-      "Knoblauch und Petersilie 5 Sek. / Stufe 7 hacken, dann mit Zitronensaft und Olivenöl 10 Sek. / Stufe 3 mischen.",
-      "Alle Zutaten in einer Bowl anrichten, Dressing darübergeben."
-    ],
-    "subtitle": "Cholesterinsenkende Superfoods aus dem Thermomix"
-  },
-  {
+    "id": "69c3089c85b2fb13e18e81a0",
     "title": "Grünes Gemüse-Curry",
     "duration": 30,
     "image": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 200,
@@ -2071,9 +1942,11 @@
     "subtitle": "Mit Brokkoli, Spinat und Kokosmilch"
   },
   {
+    "id": "69c3089c85b2fb13e18e81a1",
     "title": "Avocado-Bohnen-Bowl",
     "duration": 30,
     "image": "https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 100,
@@ -2138,171 +2011,11 @@
     "subtitle": "Mit Quinoa und Limetten-Vinaigrette"
   },
   {
-    "title": "Express-Pasta mit Rucola und Tomaten",
-    "duration": 15,
-    "image": "https://www.deinetraumkueche.de/media/image/b6/6c/73/Rucola_600x600.png",
-    "ingredients": [
-      {
-        "amount": 200,
-        "name": "Pasta (z. B. Spaghetti)",
-        "unit": "g"
-      },
-      {
-        "amount": 50,
-        "name": "Rucola",
-        "unit": "g"
-      },
-      {
-        "amount": 150,
-        "name": "Kirschtomaten",
-        "unit": "g"
-      },
-      {
-        "amount": 20,
-        "name": "Parmesan",
-        "unit": "g"
-      },
-      {
-        "amount": 1,
-        "name": "Knoblauch",
-        "unit": "St"
-      },
-      {
-        "amount": 2,
-        "name": "Olivenöl",
-        "unit": "EL"
-      },
-      {
-        "amount": 1,
-        "name": "Salz",
-        "unit": "TL"
-      },
-      {
-        "amount": 1,
-        "name": "Pfeffer",
-        "unit": "TL"
-      }
-    ],
-    "labels": [
-      "Vegetarisch",
-      "Express",
-      "Thermomix"
-    ],
-    "nutrients": [
-      {
-        "amount": 420,
-        "name": "Kalorien",
-        "unit": "kcal"
-      },
-      {
-        "amount": 13,
-        "name": "Eiweiß",
-        "unit": "g"
-      },
-      {
-        "amount": 17,
-        "name": "Fett",
-        "unit": "g"
-      },
-      {
-        "amount": 52,
-        "name": "Kohlenhydrate",
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Pasta in kochendem Salzwasser nach Packungsanweisung garen.",
-      "Knoblauch fein hacken, Kirschtomaten halbieren.",
-      "Knoblauch in Olivenöl kurz anbraten, dann Tomaten hinzufügen.",
-      "Abgetropfte Pasta mit der Soße und Rucola vermengen.",
-      "Mit Parmesan, Salz und Pfeffer bestreuen und servieren."
-    ],
-    "subtitle": "Schnelles 15-Minuten-Gericht mit frischen Zutaten"
-  },
-  {
-    "title": "Zucchini-Hackfleisch-Pfanne mit Tomaten und Feta",
-    "duration": 30,
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/zucchini-hackfleisch-pfanne-12736879.jpg",
-    "ingredients": [
-      {
-        "amount": 300,
-        "name": "Zucchini",
-        "unit": "g"
-      },
-      {
-        "amount": 300,
-        "name": "Hackfleisch (gemischt oder Rind)",
-        "unit": "g"
-      },
-      {
-        "amount": 150,
-        "name": "Kirschtomaten",
-        "unit": "g"
-      },
-      {
-        "amount": 1,
-        "name": "Zwiebel",
-        "unit": "St"
-      },
-      {
-        "amount": 1,
-        "name": "Knoblauch",
-        "unit": "St"
-      },
-      {
-        "amount": 100,
-        "name": "Feta",
-        "unit": "g"
-      },
-      {
-        "amount": 1,
-        "name": "Olivenöl",
-        "unit": "EL"
-      },
-      {
-        "amount": 1,
-        "name": "Italienische Kräuter (getrocknet)",
-        "unit": "TL"
-      }
-    ],
-    "labels": [
-      "Schwein",
-      "Rind",
-      "Eiweiß",
-      "Fettarm",
-      "Thermomix"
-    ],
-    "nutrients": [
-      {
-        "amount": 460,
-        "name": "Kalorien",
-        "unit": "kcal"
-      },
-      {
-        "amount": 32,
-        "name": "Eiweiß",
-        "unit": "g"
-      },
-      {
-        "amount": 24,
-        "name": "Fett",
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Zwiebel und Knoblauch im Thermomix 5 Sek./Stufe 5 zerkleinern.",
-      "1 EL Olivenöl zugeben und 3 Min./120°C/Stufe 1 andünsten.",
-      "Hackfleisch zugeben und 7 Min./Varoma/Stufe 1 braten, mit Spatel zerkleinern.",
-      "Zucchini in kleine Würfel schneiden und zugeben, 5 Min./100°C/Stufe 1 garen.",
-      "Kirschtomaten halbieren und zusammen mit Kräutern unterheben.",
-      "Mit Salz & Pfeffer abschmecken, in Schüsseln füllen und mit Feta bestreuen."
-    ],
-    "subtitle": "Mediterraner Genuss mit Feta und frischen Kräutern"
-  },
-  {
+    "id": "69c3089c85b2fb13e18e81a4",
     "title": "Kohlrouladen klassisch gefüllt",
     "duration": 90,
     "image": "https://eat.de/wp-content/uploads/2022/09/kohlrouladen-backofen-9873.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 1,
@@ -2411,9 +2124,11 @@
     "subtitle": "Mit Hackfleisch‑Reis‑Füllung und würziger Tomatensauce"
   },
   {
+    "id": "69c3089c85b2fb13e18e81a5",
     "title": "Gefüllte Zucchini mit Hackfleisch",
     "duration": 45,
     "image": "https://www.laux-deli.de/media/10/80/b7/1656938441/161474-gefuellte-zucchini-hackfleisch-r.jpeg?ts=1745570792",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 2,
@@ -2510,9 +2225,11 @@
     "subtitle": "Überbackene Zucchinihälften mit würziger Hackfleischfüllung"
   },
   {
+    "id": "69c3089c85b2fb13e18e81a6",
     "title": "Blue Cheese Burger",
     "duration": 40,
     "image": "https://www.diekuechebrennt.de/wp-content/uploads/2018/03/schweine-blauschimmelkaese-burger-mit-rucola-grillen.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 240,
@@ -2603,9 +2320,11 @@
     "subtitle": "Mit Blauschimmelkäse, Rucola & Kartoffelwedges"
   },
   {
+    "id": "69c3089c85b2fb13e18e81a7",
     "title": "Gnocchi mit Roter Bete und Bacon",
     "duration": 30,
     "image": "https://media.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/gnocchi-mit-roter-bete-und-bacon-thermomix-9ae5eff9.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 500,
@@ -2697,9 +2416,11 @@
     "subtitle": "Cremige Pfanne mit Bacon, frischer Roter Bete und Gnocchi"
   },
   {
+    "id": "69c3089c85b2fb13e18e81a8",
     "title": "Klassisches Rindergulasch im Römertopf",
     "duration": 180,
     "image": "https://emmikochteinfach.de/wp-content/uploads/2022/02/seo_Gulasch-Nah-200.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 700,
@@ -2813,9 +2534,11 @@
     "subtitle": "mit Kartoffeln"
   },
   {
+    "id": "69c3089c85b2fb13e18e81a9",
     "title": "Bifteki mit pikantem Tomatendip und knusprigen Knoblauch-Kartoffeln",
     "duration": 45,
     "image": "https://img.chefkoch-cdn.de/rezepte/1219651227438701/bilder/136093/crop-640x360/bifteki.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 500,
@@ -2954,9 +2677,11 @@
     "subtitle": "Saftige Hackfleisch-Frikadellen mit würzigem Dip und frittierten Kartoffeln aus dem Airfryer"
   },
   {
+    "id": "69c3089c85b2fb13e18e81aa",
     "title": "Königsberger Klopse nach DDR-Art mit Buttermilchsauce",
     "duration": 60,
     "image": "https://eat.de/wp-content/uploads/2021/10/koenigsberger-klopse-ddr-2976-2.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 500,
@@ -3041,9 +2766,11 @@
     "subtitle": "Klassische Hackfleischklopse in milder Buttermilch-Königsberger Sauce mit Kapern"
   },
   {
+    "id": "69c3089c85b2fb13e18e81ab",
     "title": "Hühnerfrikassee mit Champignons, Spargel und Kapern",
     "duration": 45,
     "image": "https://shop.drk-hochtaunus.de/media/8e/7c/0e/1598254396/13797-00.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 500,
@@ -3150,9 +2877,11 @@
     "subtitle": "Klassisches Frikassee mit besonders saftiger Hähnchenbrust"
   },
   {
+    "id": "69c3089c85b2fb13e18e81ac",
     "title": "Chicken Tikka Masala",
     "duration": 45,
     "image": "https://www.gaumenfreundin.de/wp-content/uploads/2025/01/Chicken-Tikka-Masala-einfaches-Rezept-680x453.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 10,
@@ -3292,9 +3021,11 @@
     "subtitle": "Saftige Hähnchenbrust in würziger Tomaten-Currysauce"
   },
   {
+    "id": "69c3089c85b2fb13e18e81ad",
     "title": "Fish and Chips",
     "duration": 60,
     "image": "https://www.eatclub.de/wp-content/uploads/2021/08/fish-and-chips-e1629461849951.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 500,
@@ -3388,9 +3119,11 @@
     "subtitle": "Pommes mit Backfisch nach englischer Art"
   },
   {
+    "id": "69c3089c85b2fb13e18e81ae",
     "title": "Schnitzel Jäger-Art",
     "duration": 25,
     "image": "https://storefront-prod.de.picnicinternational.com/static/images/recipes/65927a7586d5cfb7240fdc712056d0f42a5d877340ca9f40538e38f0a4b2279e/filled-2000x2000.webp",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 500,
@@ -3462,9 +3195,11 @@
     "subtitle": "Schweineschnitzel mit Champignonsauce und Kroketten"
   },
   {
+    "id": "69c3089c85b2fb13e18e81af",
     "title": "Gefüllte Paprikaschoten aus dem Römertopf",
     "duration": 120,
     "image": "https://images.eatsmarter.de/sites/default/files/styles/1600x1200/public/mit-hackfleisch-gefuellte-paprikaschoten-438166.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 4,
@@ -3595,9 +3330,11 @@
     "subtitle": "Langsam geschmort für maximalen Geschmack und besonders saftige Füllung"
   },
   {
+    "id": "69c3089c85b2fb13e18e81b0",
     "title": "Senfeier",
     "duration": 25,
     "image": "https://www.jackymalina.com/wp-content/uploads/2023/04/EAC68572-FD5F-45A3-81E4-A163F34D6CE5-500x500.jpeg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 700,
@@ -3680,9 +3417,11 @@
     "subtitle": "mit Kartoffeln"
   },
   {
+    "id": "69c3089c85b2fb13e18e81b1",
     "title": "Kaisergemüse-Auflauf",
     "duration": 40,
     "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/5021b723-cf2f-49c7-a808-3fe015f29fd4/Derivates/c1965bdf-f444-4536-83d6-981eb95424f0.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 10,
@@ -3774,9 +3513,11 @@
     "subtitle": "mit Kartoffeln"
   },
   {
+    "id": "69c3089c85b2fb13e18e81b2",
     "title": "Schweinenacken mit Zwiebel-Senf-Soße",
     "duration": 60,
     "image": "https://images.lecker.de/schweinenacken-mit-estragon-senf-haube/1x1,id=a62ac5d3,b=lecker,w=1600,h=,ca=0,1.78,100,98.22,rm=sk.jpeg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 600,
@@ -3879,9 +3620,11 @@
     "subtitle": "Zartes Schweinefleisch mit würziger Soße"
   },
   {
+    "id": "69c3089c85b2fb13e18e81b3",
     "title": "Klassische Rinderrouladen aus dem Römertopf",
     "duration": 150,
     "image": "https://www.familienkost.de/images/rinderrouladen.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 4,
@@ -4001,9 +3744,114 @@
     "subtitle": "Zart geschmorte Rouladen mit intensiver Bratensoße"
   },
   {
-    "title": "caprese-pasta mit ofen-mozzarella",
+    "id": "69c3089c85b2fb13e18e81be",
+    "title": "airfryer rinderhüftsteak mit parmesan-kartoffelstampf",
+    "duration": 45,
+    "image": "https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg",
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 500,
+        "name": "rinderhüftsteak",
+        "unit": "g"
+      },
+      {
+        "amount": 500,
+        "name": "kartoffeln (vorwiegend festkochend)",
+        "unit": "g"
+      },
+      {
+        "amount": 300,
+        "name": "grüne bohnen",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "rote zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "esslöffel olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "teelöffel grobes salz",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "teelöffel schwarzer pfeffer",
+        "unit": "TL"
+      },
+      {
+        "amount": 2,
+        "name": "esslöffel butter",
+        "unit": "EL"
+      },
+      {
+        "amount": 100,
+        "name": "kirschtomaten",
+        "unit": "g"
+      },
+      {
+        "amount": 50,
+        "name": "parmesan, frisch gerieben",
+        "unit": "g"
+      }
+    ],
+    "labels": [
+      "Rind",
+      "Airfryer",
+      "Thermomix",
+      "Eiweiß"
+    ],
+    "nutrients": [
+      {
+        "amount": 570,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 42,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 28,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 32,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "kartoffeln schälen und in grobe stücke schneiden. im thermomix 500 g wasser, 1 teelöffel salz und die kartoffeln in den gareinsatz geben. 25 minuten/varoma/stufe 1 garen.",
+      "währenddessen bohnen waschen und enden entfernen. in den thermomix varoma-einsatz geben, 15 minuten vor ende zu den kartoffeln aufsetzen.",
+      "zwiebel schälen und fein hacken, knoblauch andrücken. kirschtomaten halbieren.",
+      "die rinderhüftsteaks mit 1 esslöffel olivenöl bestreichen, salzen & pfeffern. steaks in den airfryer bei 200°c  für ca. 8–10 minuten (medium), anschließend in folie 3 minuten ruhen lassen.",
+      "in einer pfanne 1 esslöffel olivenöl und butter erhitzen, zwiebel und knoblauch darin anschwitzen. kirschtomaten ergänzen und kurz anbraten.",
+      "kartoffeln abgießen, zurück in den mixtopf geben. 1 esslöffel olivenöl, 1 esslöffel butter, parmesan und etwas pfeffer zufügen. 10 sekunden/stufe 4 zerstampfen.",
+      "bohnen mit den tomaten vermengen, alles abschmecken.",
+      "steaks aufschneiden, daneben kartoffel-parmesan-stampf und das bohnen-tomaten-gemüse anrichten."
+    ],
+    "subtitle": "zartes rinderhüftsteak aus dem airfryer mit parmesan-kartoffelstampf und bohnen-tomaten-gemüse"
+  },
+  {
+    "id": "69c7120cfb6ec84a3104d757",
+    "title": "Caprese-pasta mit ofen-mozzarella",
     "duration": 35,
-    "image": "https://images.kochbar.de/recipe/730x486/0/5e/90/89488146fc7fbc49aeb3bf2254781b3f.jpg",
+    "image": "https://www.giallozafferano.de/images/89-8939/pasta-caprese_650x433_wm.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 300,
@@ -4105,9 +3953,11 @@
     "subtitle": "frische pasta mit ofen-mozzarella, tomaten und basilikum"
   },
   {
-    "title": "bunte penne-gemüsepfanne",
+    "id": "69c71274fb6ec84a3104d758",
+    "title": "Bunte penne-gemüsepfanne",
     "duration": 35,
-    "image": "https://images.unsplash.com/photo-1519864600265-abb22972695c?auto=format&fit=crop&w=800&q=80",
+    "image": "https://www.zauberdergewuerze.de/magazin/wp-content/uploads/2024/10/istock-1182930316.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 200,
@@ -4209,9 +4059,11 @@
     "subtitle": "bunte penne-gemüse-pfanne mit mozzarella"
   },
   {
-    "title": "gnocchi-schinken-brokkoli-auflauf",
+    "id": "69c84004fb6ec84a3104d75a",
+    "title": "Gnocchi-schinken-brokkoli-auflauf",
     "duration": 55,
-    "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "image": "https://www.gaumenfreundin.de/wp-content/uploads/2023/08/Gnocchi-Brokkoli-Auflauf.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 300,
@@ -4329,9 +4181,434 @@
     "subtitle": "herzhafter gnocchi-schinken-brokkoli-auflauf mit knuspriger käsedecke"
   },
   {
-    "title": "bunter gemüse-kartoffel-auflauf",
+    "id": "69c840f2fb6ec84a3104d75b",
+    "title": "Rindersteak mit buntem gemüse-kartoffel-püree",
+    "duration": 35,
+    "image": "https://media.hellofresh.com/q_100,w_3840,f_auto,c_limit,fl_lossy/recipes/image/HF_Y26_R7021_W10_DE_EXP22725-1-SW-EXP48777-SP-1-3_Main_high-35d7c93c.jpg",
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 300,
+        "name": "rinderhüftsteak",
+        "unit": "g"
+      },
+      {
+        "amount": 300,
+        "name": "mehligkochende kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 150,
+        "name": "karotten",
+        "unit": "g"
+      },
+      {
+        "amount": 30,
+        "name": "butter",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "erbsen (tk oder frisch)",
+        "unit": "g"
+      },
+      {
+        "amount": 50,
+        "name": "milch",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "salz",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "pfeffer",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "paprikapulver, edelsüß",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "olivenöl",
+        "unit": "EL"
+      }
+    ],
+    "labels": [
+      "Rind",
+      "Thermomix",
+      "Airfryer"
+    ],
+    "nutrients": [
+      {
+        "amount": 420,
+        "name": "energie",
+        "unit": "kcal"
+      },
+      {
+        "amount": 34,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 18,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 30,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "die kartoffeln schälen und in grobe würfel schneiden. karotten in kleine stücke schneiden.",
+      "kartoffeln und karotten in den thermomix geben, 400ml wasser und 0,5tl salz zugeben. 20 min. / varoma / stufe 1 garen.",
+      "in den letzten 7 minuten die erbsen auf den mixtopfdeckel in den varomieinsatz geben und dämpfen.",
+      "rinderhüftsteak mit 1 prise salz, pfeffer und paprikapulver würzen, mit 1 el öl einreiben.",
+      "das steak im vorgeheizten airfryer bei 200°c ca. 8-10 minuten garen (medium), dabei nach hälfte der zeit einmal wenden.",
+      "kartoffeln, karotten abgießen. 30g butter und 50ml milch zugeben, 20 sek. / stufe 3,5 pürieren bis ein cremiges püree entsteht. nach geschmack nachwürzen.",
+      "das steak in streifen schneiden. püree und erbsen auf tellern anrichten, steaks daraufgeben.",
+      "nach belieben mit etwas frischer petersilie anrichten und direkt servieren."
+    ],
+    "subtitle": "saftiges rindersteak aus dem airfryer auf buntem kartoffel-karotten-püree mit erbsen"
+  },
+  {
+    "id": "69c841c8fb6ec84a3104d75c",
+    "title": "Kinderfreundlicher nudel-brokkoli-schinken-auflauf",
+    "duration": 50,
+    "image": "https://www.kuechengoetter.de/uploads/media/630x630/05/24815-schinken-brokkoli-nudeln.jpg",
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 200,
+        "name": "nudeln (z. b. penne oder hörnchen)",
+        "unit": "g"
+      },
+      {
+        "amount": 150,
+        "name": "brokkoli (frisch oder tk)",
+        "unit": "g"
+      },
+      {
+        "amount": 80,
+        "name": "gekochter schinken",
+        "unit": "g"
+      },
+      {
+        "amount": 120,
+        "name": "milch",
+        "unit": "ml"
+      },
+      {
+        "amount": 30,
+        "name": "sahne",
+        "unit": "ml"
+      },
+      {
+        "amount": 50,
+        "name": "geriebener gouda",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "ei",
+        "unit": "St"
+      },
+      {
+        "amount": 10,
+        "name": "butter",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "kleine zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "prise muskat",
+        "unit": "St"
+      }
+    ],
+    "labels": [
+      "Geflügel",
+      "Thermomix",
+      "Airfryer"
+    ],
+    "nutrients": [
+      {
+        "amount": 570,
+        "name": "energie",
+        "unit": "kcal"
+      },
+      {
+        "amount": 27,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 20,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 61,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "brokkoli in kleine röschen teilen. in den mixtopf des thermomix 500 ml wasser einfüllen, den brokkoli in den varoma legen und 15 minuten/varoma/stufe 1 dünsten. brokkoli zur seite stellen, wasser ausleeren.",
+      "nudeln in kochendem salzwasser auf dem herd oder im thermomix (mixtopf, 1200 ml wasser, nudeln und 1 tl salz, 10-12 minuten/100°c/linkslauf/sanftrührstufe) bissfest garen, abgießen.",
+      "zwiebel schälen, halbieren und im mixtopf 5 sekunden/stufe 5 zerkleinern. butter zugeben und 3 minuten/120°c/stufe 1 andünsten.",
+      "milch, sahne, ei, salz, pfeffer und muskat hinzufügen und 10 sekunden/stufe 3 vermischen.",
+      "schinken klein würfeln. nudeln, brokkoli und schinken in einer auflaufform vermengen.",
+      "sauce darüber geben und mit käse bestreuen.",
+      "im vorgeheizten ninja airfryer bei 180°c ca. 18-20 minuten goldgelb überbacken."
+    ],
+    "subtitle": "mit brokkoli, nudeln und schinken – kinderfreundlich & cremig"
+  },
+  {
+    "id": "69c8425bfb6ec84a3104d75d",
+    "title": "Hackfleisch-kartoffel-auflauf mit spinat & pilzen",
+    "duration": 50,
+    "image": "https://img.chefkoch-cdn.de/rezepte/2103861339509479/bilder/952314/crop-640x800/brokkoli-kartoffel-gratin-mit-schinken.jpg",
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 350,
+        "name": "hackfleisch gemischt",
+        "unit": "g"
+      },
+      {
+        "amount": 400,
+        "name": "kartoffeln (festkochend)",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "champignons",
+        "unit": "g"
+      },
+      {
+        "amount": 150,
+        "name": "blattspinat (frisch oder tk)",
+        "unit": "g"
+      },
+      {
+        "amount": 150,
+        "name": "crème fraîche",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "geriebener gouda oder emmentaler",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 150,
+        "name": "milch",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "ei",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "salz",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "pfeffer",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "muskatnuss (gerieben)",
+        "unit": "TL"
+      }
+    ],
+    "labels": [
+      "Thermomix",
+      "Airfryer",
+      "Eiweiß"
+    ],
+    "nutrients": [
+      {
+        "amount": 560,
+        "name": "kalorien (pro portion)",
+        "unit": "kcal"
+      },
+      {
+        "amount": 35,
+        "name": "eiweiß (pro portion)",
+        "unit": "g"
+      },
+      {
+        "amount": 32,
+        "name": "fett (pro portion)",
+        "unit": "g"
+      },
+      {
+        "amount": 30,
+        "name": "kohlenhydrate (pro portion)",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "kartoffeln schälen, in feine scheiben schneiden und in den varoma-einsatz des thermomix legen.",
+      "500 g wasser in den mixtopf geben, varoma aufsetzen und kartoffeln 22 minuten/varoma/stufe 1 vorgaren.",
+      "in der zwischenzeit zwiebel und knoblauch abziehen, im tm5 5 sekunden/stufe 5 zerkleinern.",
+      "2 el olivenöl zugeben, 3 minuten/120°c/stufe 1 andünsten.",
+      "hackfleisch im mixtopf 5 minuten/120°c/linkslauf/stufe 1 anbraten (ggf. spatel verwenden).",
+      "champignons in scheiben schneiden, mit dem spinat zum hackfleisch geben, weitere 4 minuten/100°c/linkslauf/stufe 1 garen.",
+      "crème fraîche, milch, ei, muskatnuss, salz und pfeffer zugeben, alles 10 sekunden/stufe 3 vermengen.",
+      "die hälfte der vorgegarten kartoffeln in eine leicht gefettete auflaufform legen (oder in einen passenden airfryer-einsatz).",
+      "hackfleisch-spinat-masse darauf verteilen, mit restlichen kartoffelscheiben bedecken.",
+      "mit geriebenem käse bestreuen.",
+      "im airfryer bei 180°c ca. 18-22 minuten backen (alternativ im backofen bei 180°c umluft ca. 25 minuten), bis der käse goldbraun ist."
+    ],
+    "subtitle": "herzhafter kartoffelauflauf mit hack, pilzen und spinat"
+  },
+  {
+    "id": "69c8434dfb6ec84a3104d75e",
+    "title": "Kaiserbraten mit Spargel und kräftiger Bratensoße",
+    "duration": 120,
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2FX5DcUQME3P0AQCG9tpYxT5XraqVNLo1CuvO1pwRruoToNgOyJVV-FdK0l4AXRFORQFBYfc-NL8hsi3j0ARvexthGVv0tHC9WLrqWFeTh40UqTeTIrV8VUAhqxJkOQKN-lDll6IwaWfY/s320/IMG_14080.JPG",
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 900,
+        "name": "Kaiserbraten (Schweinebauch ohne Knochen)",
+        "unit": "g"
+      },
+      {
+        "amount": 800,
+        "name": "Weißer Spargel",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "Zwiebeln",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "Knoblauch",
+        "unit": "St"
+      },
+      {
+        "amount": 40,
+        "name": "Butter",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "Olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "Tomatenmark",
+        "unit": "EL"
+      },
+      {
+        "amount": 400,
+        "name": "Rinderbrühe",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "Salz",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "Pfeffer",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "Zucker",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "Speisestärke",
+        "unit": "EL"
+      }
+    ],
+    "labels": [
+      "Schwein"
+    ],
+    "nutrients": [
+      {
+        "amount": 720,
+        "name": "Kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 45,
+        "name": "Eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 52,
+        "name": "Fett",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Backofen auf 180 Grad Ober-/Unterhitze vorheizen. Kaiserbraten rundherum mit Salz und Pfeffer würzen.",
+      "Olivenöl in einer großen Pfanne stark erhitzen und den Kaiserbraten rundherum kräftig anbraten bis sich eine goldbraune Kruste bildet.",
+      "Zwiebeln und Knoblauch grob hacken und im Bratfett kurz anrösten. Tomatenmark hinzufügen und ebenfalls anrösten.",
+      "Mit Rinderbrühe ablöschen und alles in einen Bräter oder Römertopf geben. Kaiserbraten hineinlegen und im Ofen etwa 90 Minuten schmoren lassen.",
+      "Spargel schälen und holzige Enden abschneiden. In einer großen Pfanne Butter schmelzen, Spargel hineingeben und mit Salz und Zucker würzen.",
+      "Spargel bei mittlerer Hitze etwa 12 Minuten braten bis er weich und leicht gebräunt ist.",
+      "Braten aus dem Ofen nehmen. Bratensoße durch ein Sieb gießen und in einem Topf aufkochen. Speisestärke mit etwas kaltem Wasser verrühren und die Soße damit binden.",
+      "Kaiserbraten in Scheiben schneiden und zusammen mit dem gebratenen Spargel und der kräftigen Bratensoße servieren."
+    ],
+    "subtitle": "Saftiger Schweine-Kaiserbraten aus dem Ofen mit gebratenem Spargel"
+  },
+  {
+    "id": "69c843c2fb6ec84a3104d75f",
+    "title": "Bunter gemüse-kartoffel-auflauf",
     "duration": 45,
-    "image": "https://images.kochbar.de/media/recipes/101/345261/1140955-960x720-kinder-gemueseauflauf-mit-kartoffelpueree.jpg",
+    "image": "https://emmikochteinfach.de/wp-content/uploads/2022/12/Bunter-Gemueseauflauf-ganz-einfach-1.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 400,
@@ -4423,261 +4700,11 @@
     "subtitle": "cremiger brokkoli-kartoffel-auflauf mit käse für kinder"
   },
   {
-    "title": "frikadellen mit kohlrabi-kartoffel-püree",
-    "duration": 40,
-    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
-    "ingredients": [
-      {
-        "amount": 400,
-        "name": "gemischtes hackfleisch",
-        "unit": "g"
-      },
-      {
-        "amount": 1,
-        "name": "zwiebel",
-        "unit": "St"
-      },
-      {
-        "amount": 2,
-        "name": "knoblauchzehen",
-        "unit": "St"
-      },
-      {
-        "amount": 80,
-        "name": "altbackenes brötchen",
-        "unit": "g"
-      },
-      {
-        "amount": 100,
-        "name": "milch",
-        "unit": "ml"
-      },
-      {
-        "amount": 1,
-        "name": "ei",
-        "unit": "St"
-      },
-      {
-        "amount": 2,
-        "name": "essiggurken",
-        "unit": "St"
-      },
-      {
-        "amount": 2,
-        "name": "esslöffel senf",
-        "unit": "EL"
-      },
-      {
-        "amount": 2,
-        "name": "esslöffel petersilie, frisch oder tiefgekühlt",
-        "unit": "EL"
-      },
-      {
-        "amount": 1,
-        "name": "teelöffel paprikapulver edelsüß",
-        "unit": "TL"
-      },
-      {
-        "amount": 1,
-        "name": "teelöffel salz",
-        "unit": "TL"
-      },
-      {
-        "amount": 1,
-        "name": "teelöffel pfeffer",
-        "unit": "TL"
-      },
-      {
-        "amount": 600,
-        "name": "kohlrabi",
-        "unit": "g"
-      },
-      {
-        "amount": 400,
-        "name": "kartoffeln",
-        "unit": "g"
-      },
-      {
-        "amount": 200,
-        "name": "kochcreme (oder sahne mit wenig fett)",
-        "unit": "ml"
-      },
-      {
-        "amount": 40,
-        "name": "butter",
-        "unit": "g"
-      },
-      {
-        "amount": 2,
-        "name": "esslöffel gehackte petersilie",
-        "unit": "EL"
-      },
-      {
-        "amount": 1,
-        "name": "prise muskatnuss",
-        "unit": "St"
-      }
-    ],
-    "labels": [
-      "Schwein",
-      "Thermomix",
-      "Airfryer"
-    ],
-    "nutrients": [
-      {
-        "amount": 580,
-        "name": "kalorien pro portion",
-        "unit": "kcal"
-      },
-      {
-        "amount": 33,
-        "name": "eiweiß pro portion",
-        "unit": "g"
-      },
-      {
-        "amount": 29,
-        "name": "fett pro portion",
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "brötchen in kleine stücke schneiden, mit der milch übergießen und ca. 5 minuten ziehen lassen.",
-      "zwiebel und knoblauch im thermomix 5 sek./stufe 6 zerkleinern, nach unten schieben.",
-      "essiggurken halbieren und 2 sek./stufe 5 kurz zerkleinern.",
-      "hackfleisch, ei, aufgeweichtes brötchen, senf, paprikapulver, salz, pfeffer, petersilie zugeben. 20 sek./stufe 4 mit linkslauf vermengen.",
-      "aus der masse 8 kleine frikadellen formen.",
-      "frikadellen in den ninja airfryer legen und 16 min. bei 180°c garen. nach der hälfte wenden.",
-      "währenddessen kohlrabi und kartoffeln schälen, in würfel schneiden.",
-      "kohlrabi und kartoffeln mit salz und etwas wasser in den mixtopf geben. 20 min./100°c/stufe 1 kochen.",
-      "wasser abgießen, butter, muskat, kochcreme und 2 el petersilie zugeben. 10 sek./stufe 4 pürieren.",
-      "das kohlrabi-kartoffel-püree mit den knusprigen frikadellen servieren und mit etwas petersilie bestreut genießen."
-    ],
-    "subtitle": "mit kohlrabi-kartoffel-püree aus dem thermomix und knusprigen airfryer-frikadellen"
-  },
-  {
-    "title": "mini-frikadellen mit käsekern & kartoffelwürfeln",
-    "duration": 40,
-    "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=800&q=80",
-    "ingredients": [
-      {
-        "amount": 300,
-        "name": "rinderhackfleisch",
-        "unit": "g"
-      },
-      {
-        "amount": 1,
-        "name": "zwiebel",
-        "unit": "St"
-      },
-      {
-        "amount": 1,
-        "name": "knoblauchzehe",
-        "unit": "St"
-      },
-      {
-        "amount": 1,
-        "name": "ei",
-        "unit": "St"
-      },
-      {
-        "amount": 40,
-        "name": "semmelbrösel",
-        "unit": "g"
-      },
-      {
-        "amount": 50,
-        "name": "gouda, in würfeln",
-        "unit": "g"
-      },
-      {
-        "amount": 1,
-        "name": "karotte, mittelgroß",
-        "unit": "St"
-      },
-      {
-        "amount": 3,
-        "name": "essiggurken",
-        "unit": "St"
-      },
-      {
-        "amount": 1,
-        "name": "tl senf",
-        "unit": "TL"
-      },
-      {
-        "amount": 2,
-        "name": "el milch",
-        "unit": "EL"
-      },
-      {
-        "amount": 1,
-        "name": "tl kräuter (petersilie oder schnittlauch, gehackt)",
-        "unit": "TL"
-      },
-      {
-        "amount": 0,
-        "name": "salz",
-        "unit": "g"
-      },
-      {
-        "amount": 0,
-        "name": "pfeffer",
-        "unit": "g"
-      },
-      {
-        "amount": 1,
-        "name": "rote paprika",
-        "unit": "St"
-      },
-      {
-        "amount": 200,
-        "name": "kartoffeln",
-        "unit": "g"
-      }
-    ],
-    "labels": [
-      "Rind",
-      "Thermomix",
-      "Airfryer"
-    ],
-    "nutrients": [
-      {
-        "amount": 550,
-        "name": "kalorien",
-        "unit": "kcal"
-      },
-      {
-        "amount": 32,
-        "name": "eiweiß",
-        "unit": "g"
-      },
-      {
-        "amount": 28,
-        "name": "fett",
-        "unit": "g"
-      },
-      {
-        "amount": 38,
-        "name": "kohlenhydrate",
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "zwiebel, knoblauch, essiggurken, karotte und paprika grob zerkleinern. alles im thermomix 5 sek./stufe 5 hacken, in eine große schüssel umfüllen.",
-      "rinderhack, ei, semmelbrösel, milch, kräuter, senf, salz und pfeffer hinzufügen und alles im thermomix 15 sek./stufe 4 mischen.",
-      "eine kleine kugel hackmasse in der hand flachdrücken, ein paar gouda-würfel in die mitte legen und mit dem hackfleisch umschließen, zu einer frikadelle formen. mit der restlichen masse so verfahren, es sollten 4-5 kleine frikadellen entstehen.",
-      "die kartoffeln schälen, in kleine würfel schneiden und mit wenigen tropfen öl mischen.",
-      "frikadellen und kartoffelwürfel nebeneinander in den korb des ninja airfryers legen.",
-      "bei 180°c ca. 18-20 minuten im airfryer garen, zwischendurch einmal wenden.",
-      "zu den frikadellen passt ein frischer dip: 2 el joghurt mit etwas zitronensaft und kräutern verrühren.",
-      "auf tellern frikadellen und kartoffeln zusammen mit paprika- und gurkenscheiben anrichten."
-    ],
-    "subtitle": "knusprige kinder-frikadellen mit käse im airfryer, dazu kartoffelwürfel und gemüsesnacks"
-  },
-  {
+    "id": "69c84599fb6ec84a3104d760",
     "title": "Chinesische Süß-Sauer-Scharf-Suppe (TM5)",
     "duration": 40,
-    "image": "https://ais.kochbar.de/kbrezept/553933_1122889/1200x1200/suess-sauer-scharf-suppe-ala-szechuan-rezept-bild-nr-2.jpg",
+    "image": "https://ais.kochbar.de/kbrezept/553933_1122889/1200x900/suess-sauer-scharf-suppe-ala-szechuan-rezept-bild-nr-2.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 300,
@@ -4809,136 +4836,343 @@
     "subtitle": "Klassische chinesische Suppe mit saftigem Hähnchen, Pilzen und feiner Schärfe – perfekt im Thermomix"
   },
   {
-    "title": "Kaiserbraten mit Spargel und kräftiger Bratensoße",
-    "duration": 120,
-    "image": "https://eat.de/wp-content/uploads/2022/04/spargel-mit-schweinebraten-1200x900.jpg",
-    "ingredients": [
-      {
-        "amount": 900,
-        "name": "Kaiserbraten (Schweinebauch ohne Knochen)",
-        "unit": "g"
-      },
-      {
-        "amount": 800,
-        "name": "Weißer Spargel",
-        "unit": "g"
-      },
-      {
-        "amount": 2,
-        "name": "Zwiebeln",
-        "unit": "St"
-      },
-      {
-        "amount": 2,
-        "name": "Knoblauch",
-        "unit": "St"
-      },
-      {
-        "amount": 40,
-        "name": "Butter",
-        "unit": "g"
-      },
-      {
-        "amount": 2,
-        "name": "Olivenöl",
-        "unit": "EL"
-      },
-      {
-        "amount": 1,
-        "name": "Tomatenmark",
-        "unit": "EL"
-      },
-      {
-        "amount": 400,
-        "name": "Rinderbrühe",
-        "unit": "ml"
-      },
-      {
-        "amount": 2,
-        "name": "Salz",
-        "unit": "TL"
-      },
-      {
-        "amount": 1,
-        "name": "Pfeffer",
-        "unit": "TL"
-      },
-      {
-        "amount": 1,
-        "name": "Zucker",
-        "unit": "TL"
-      },
-      {
-        "amount": 1,
-        "name": "Speisestärke",
-        "unit": "EL"
-      }
-    ],
-    "labels": [
-      "Schwein"
-    ],
-    "nutrients": [
-      {
-        "amount": 720,
-        "name": "Kalorien",
-        "unit": "kcal"
-      },
-      {
-        "amount": 45,
-        "name": "Eiweiß",
-        "unit": "g"
-      },
-      {
-        "amount": 52,
-        "name": "Fett",
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Backofen auf 180 Grad Ober-/Unterhitze vorheizen. Kaiserbraten rundherum mit Salz und Pfeffer würzen.",
-      "Olivenöl in einer großen Pfanne stark erhitzen und den Kaiserbraten rundherum kräftig anbraten bis sich eine goldbraune Kruste bildet.",
-      "Zwiebeln und Knoblauch grob hacken und im Bratfett kurz anrösten. Tomatenmark hinzufügen und ebenfalls anrösten.",
-      "Mit Rinderbrühe ablöschen und alles in einen Bräter oder Römertopf geben. Kaiserbraten hineinlegen und im Ofen etwa 90 Minuten schmoren lassen.",
-      "Spargel schälen und holzige Enden abschneiden. In einer großen Pfanne Butter schmelzen, Spargel hineingeben und mit Salz und Zucker würzen.",
-      "Spargel bei mittlerer Hitze etwa 12 Minuten braten bis er weich und leicht gebräunt ist.",
-      "Braten aus dem Ofen nehmen. Bratensoße durch ein Sieb gießen und in einem Topf aufkochen. Speisestärke mit etwas kaltem Wasser verrühren und die Soße damit binden.",
-      "Kaiserbraten in Scheiben schneiden und zusammen mit dem gebratenen Spargel und der kräftigen Bratensoße servieren."
-    ],
-    "subtitle": "Saftiger Schweine-Kaiserbraten aus dem Ofen mit gebratenem Spargel"
-  },
-  {
-    "title": "hackfleisch-kartoffel-auflauf mit spinat & pilzen",
+    "id": "69db772503a28bb3cc791898",
+    "title": "weißer bohnen-eintopf mit gemüse",
     "duration": 50,
-    "image": "https://images.kochbar.de/rezepte/167/167129/1000402/pilz-spinat-hack-auflauf-bild-5.jpg",
+    "image": null,
+    "imageBase64": null,
     "ingredients": [
       {
-        "amount": 350,
-        "name": "hackfleisch gemischt",
+        "amount": 400,
+        "name": "weiße bohnen, gekocht",
         "unit": "g"
       },
       {
-        "amount": 400,
-        "name": "kartoffeln (festkochend)",
+        "amount": 300,
+        "name": "kartoffeln",
         "unit": "g"
       },
       {
         "amount": 200,
-        "name": "champignons",
+        "name": "karotten",
         "unit": "g"
       },
       {
         "amount": 150,
-        "name": "blattspinat (frisch oder tk)",
+        "name": "lauch",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 750,
+        "name": "gemüsebrühe",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "lorbeerblätter",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "el tomatenmark",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl paprikapulver, edelsüß",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 3,
+        "name": "el petersilie, gehackt",
+        "unit": "EL"
+      }
+    ],
+    "labels": [
+      "Vegetarisch",
+      "Vegan",
+      "Kalorienarm",
+      "Fettarm"
+    ],
+    "nutrients": [
+      {
+        "amount": 345,
+        "name": "energie",
+        "unit": "kcal"
+      },
+      {
+        "amount": 20,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 4,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 60,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "kartoffeln, karotten und lauch putzen und in kleine stücke schneiden. zwiebel und knoblauch schälen und fein würfeln.",
+      "olivenöl in einem großen topf erhitzen. zwiebel, knoblauch und lauch darin sanft anbraten.",
+      "karotten und kartoffeln dazugeben und kurz mit anschwitzen. tomatenmark und paprikapulver unterrühren.",
+      "mit der gemüsebrühe ablöschen, lorbeerblätter zugeben.",
+      "eintopf aufkochen lassen, dann ca. 25 minuten bei mittlerer hitze köcheln lassen, bis das gemüse gar ist.",
+      "die gekochten weißen bohnen unterheben und weitere 10 minuten ziehen lassen.",
+      "mit salz und pfeffer abschmecken. lorbeerblätter entfernen.",
+      "mit frischer petersilie bestreut servieren."
+    ],
+    "subtitle": "würziger weißer bohnen-gemüseeintopf"
+  },
+  {
+    "id": "69dc00d503a28bb3cc791899",
+    "title": "bunter kinder-kartoffel-eintopf",
+    "duration": 40,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 400,
+        "name": "kartoffeln",
         "unit": "g"
       },
       {
         "amount": 150,
-        "name": "crème fraîche",
+        "name": "möhren",
         "unit": "g"
       },
       {
         "amount": 100,
-        "name": "geriebener gouda oder emmentaler",
+        "name": "lauch",
+        "unit": "g"
+      },
+      {
+        "amount": 70,
+        "name": "erbsen (tk oder frisch)",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "wiener würstchen",
+        "unit": "St"
+      },
+      {
+        "amount": 600,
+        "name": "gemüsebrühe",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "el rapsöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el gehackte petersilie",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Kids"
+    ],
+    "nutrients": [
+      {
+        "amount": 350,
+        "name": "energie",
+        "unit": "kcal"
+      },
+      {
+        "amount": 14,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 10,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 47,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "kartoffeln, möhren und zwiebel schälen und würfeln.",
+      "lauch waschen und in feine ringe schneiden.",
+      "öl in einem großen topf erhitzen und die zwiebel darin glasig dünsten.",
+      "kartoffeln und möhren zufügen, kurz mitdünsten. mit gemüsebrühe ablöschen.",
+      "20 minuten auf mittlerer hitze köcheln lassen.",
+      "lauchringe und erbsen dazugeben und 10 minuten weiterköcheln.",
+      "wiener würstchen in scheiben schneiden, in den topf geben und weitere 5 minuten erwärmen.",
+      "mit salz und pfeffer abschmecken, zum servieren mit petersilie bestreuen."
+    ],
+    "subtitle": "bunter kartoffel-eintopf mit wiener würstchen"
+  },
+  {
+    "id": "69dd394303a28bb3cc79189c",
+    "title": "bunter kinder-kartoffel-eintopf",
+    "duration": 40,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 400,
+        "name": "kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 150,
+        "name": "möhren",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "lauch",
+        "unit": "g"
+      },
+      {
+        "amount": 70,
+        "name": "erbsen (tk oder frisch)",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "wiener würstchen",
+        "unit": "St"
+      },
+      {
+        "amount": 600,
+        "name": "gemüsebrühe",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "el rapsöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el gehackte petersilie",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Kids"
+    ],
+    "nutrients": [
+      {
+        "amount": 350,
+        "name": "energie",
+        "unit": "kcal"
+      },
+      {
+        "amount": 14,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 10,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 47,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "kartoffeln, möhren und zwiebel schälen und würfeln.",
+      "lauch waschen und in feine ringe schneiden.",
+      "öl in einem großen topf erhitzen und die zwiebel darin glasig dünsten.",
+      "kartoffeln und möhren zufügen, kurz mitdünsten. mit gemüsebrühe ablöschen.",
+      "20 minuten auf mittlerer hitze köcheln lassen.",
+      "lauchringe und erbsen dazugeben und 10 minuten weiterköcheln.",
+      "wiener würstchen in scheiben schneiden, in den topf geben und weitere 5 minuten erwärmen.",
+      "mit salz und pfeffer abschmecken, zum servieren mit petersilie bestreuen."
+    ],
+    "subtitle": "bunter kartoffel-eintopf mit wiener würstchen"
+  },
+  {
+    "id": "69dd4330885b3d46da4bebb2",
+    "title": "cremige pasta mit champignon-spinat-soße",
+    "duration": 35,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 350,
+        "name": "pasta (z.b. tagliatelle, penne oder fusilli)",
+        "unit": "g"
+      },
+      {
+        "amount": 250,
+        "name": "frische champignons",
+        "unit": "g"
+      },
+      {
+        "amount": 150,
+        "name": "blattspinat (frisch oder tiefgefroren)",
         "unit": "g"
       },
       {
@@ -4952,13 +5186,1439 @@
         "unit": "St"
       },
       {
-        "amount": 150,
+        "amount": 200,
+        "name": "sahne oder pflanzliche alternative",
+        "unit": "ml"
+      },
+      {
+        "amount": 50,
+        "name": "parmesan gerieben",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 0.5,
+        "name": "pfeffer",
+        "unit": "TL"
+      },
+      {
+        "amount": 0.5,
+        "name": "muskat",
+        "unit": "TL"
+      }
+    ],
+    "labels": [
+      "Vegetarisch"
+    ],
+    "nutrients": [
+      {
+        "amount": 700,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 25,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 80,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      },
+      {
+        "amount": 28,
+        "name": "fett",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "pasta nach packungsanweisung in reichlich salzwasser al dente kochen.",
+      "zwiebel und knoblauch fein würfeln. champignons putzen und in scheiben schneiden.",
+      "in einer großen pfanne olivenöl erhitzen. zwiebeln glasig anbraten, dann den knoblauch zufügen.",
+      "champignons zugeben, kräftig anbraten, bis sie leicht gebräunt sind. mit salz und pfeffer würzen.",
+      "spinat hinzufügen und kurz zusammenfallen lassen (tiefgekühlten spinat gut ausdrücken).",
+      "sahne einrühren, auf mittlerer hitze einige minuten köcheln lassen, mit muskat abschmecken.",
+      "gekochte pasta und etwas kochwasser zur sauce geben, alles gut vermengen.",
+      "mit parmesan bestreut servieren."
+    ],
+    "subtitle": "mit champignons und spinat in cremiger sahnesoße"
+  },
+  {
+    "id": "69dd4330885b3d46da4bebb3",
+    "title": "bunte gemüse-nudeln für kinder",
+    "duration": 30,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 250,
+        "name": "pasta (z.b. penne oder fusilli)",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "rote paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "gelbe paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 100,
+        "name": "tk- oder frische erbsen",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "kirschtomaten",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "frischkäse natur",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "kleine zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 100,
+        "name": "milch",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 50,
+        "name": "geriebener parmesan",
+        "unit": "g"
+      }
+    ],
+    "labels": [
+      "Kids",
+      "Vegetarisch"
+    ],
+    "nutrients": [
+      {
+        "amount": 600,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 25,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 18,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 80,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "nudeln nach packungsanleitung in salzwasser kochen.",
+      "inzwischen paprika waschen, entkernen und in kleine würfel schneiden. kirschtomaten halbieren, zwiebel schälen und fein hacken.",
+      "in einer großen pfanne olivenöl erhitzen, zwiebeln glasig dünsten, paprikawürfel und erbsen zugeben. unter rühren etwa 5 minuten bissfest garen.",
+      "kirschtomaten zufügen und kurz mitdünsten.",
+      "frischkäse und milch einrühren, bei mittlerer hitze schmelzen lassen und alles gut vermengen. mit salz und pfeffer würzen.",
+      "gekochte nudeln abgießen und direkt zur sauce geben. alles vermengen und kurz gemeinsam erwärmen.",
+      "auf teller verteilen, mit parmesan bestreuen und servieren."
+    ],
+    "subtitle": "bunte gemüse-pasta mit frischkäse"
+  },
+  {
+    "id": "69dd4d3ec0c293f2688a5b3c",
+    "title": "kartoffel-gemüse-hack-auflauf",
+    "duration": 55,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 500,
+        "name": "kartoffeln (vorwiegend festkochend)",
+        "unit": "g"
+      },
+      {
+        "amount": 250,
+        "name": "hackfleisch gemischt",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "rote paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 200,
+        "name": "crème fraîche",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "geriebener gouda",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "milch",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "eier",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl paprikapulver edelsüß",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise muskat",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "tl salz",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl pfeffer",
+        "unit": "TL"
+      }
+    ],
+    "labels": [
+      "Ofen"
+    ],
+    "nutrients": [
+      {
+        "amount": 680,
+        "name": "kcal pro portion",
+        "unit": "kcal"
+      },
+      {
+        "amount": 31,
+        "name": "eiweiß pro portion",
+        "unit": "g"
+      },
+      {
+        "amount": 35,
+        "name": "fett pro portion",
+        "unit": "g"
+      },
+      {
+        "amount": 51,
+        "name": "kohlenhydrate pro portion",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "backofen auf 200 grad ober-/unterhitze vorheizen. eine auflaufform mit etwas olivenöl einfetten.",
+      "kartoffeln schälen und in dünne scheiben schneiden. zucchini und paprika waschen. zucchini in scheiben, paprika in kleine stücke schneiden. zwiebel und knoblauch schälen und fein würfeln.",
+      "öl in einer pfanne erhitzen. zwiebel und knoblauch darin glasig anschwitzen. hackfleisch zugeben und krümelig anbraten. paprika und zucchini hinzufügen, kurz mitbraten. mit paprikapulver, salz und pfeffer würzen.",
+      "die hälfte der kartoffelscheiben in die auflaufform schichten, das hack-gemüse darauf verteilen, restliche kartoffelscheiben darüberlegen.",
+      "eier, milch, crème fraîche und muskat verrühren, mit salz und pfeffer würzen. über den auflauf gießen.",
+      "mit geriebenem gouda bestreuen.",
+      "im ofen ca. 40 minuten backen, bis der auflauf goldbraun ist.",
+      "kurz auskühlen lassen und in portionsstücke schneiden."
+    ],
+    "subtitle": "herzhafter kartoffel-hackfleisch-auflauf mit gemüse"
+  },
+  {
+    "id": "69dd4d3ec0c293f2688a5b3d",
+    "title": "kinderfreundlicher kartoffel-brokkoli-auflauf",
+    "duration": 45,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 300,
+        "name": "kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "brokkoli (frisch oder tk)",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "gekochter schinken",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "geriebener gouda",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
         "name": "milch",
         "unit": "ml"
       },
       {
         "amount": 1,
         "name": "ei",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el butter",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "el mehl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "prise muskatnuss",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Ofen",
+      "Kids"
+    ],
+    "nutrients": [
+      {
+        "amount": 580,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 29,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 16,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 70,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "ofen auf 180°c ober-/unterhitze vorheizen.",
+      "kartoffeln schälen, in dünne scheiben schneiden und 5 minuten in kochendem salzwasser vorgaren, dann abgießen.",
+      "brokkoli in röschen teilen und 5 minuten in kochendem wasser vorgaren. abgießen.",
+      "zwiebel und knoblauch fein hacken. butter in einem topf schmelzen, zwiebel und knoblauch darin glasig dünsten.",
+      "mehl einrühren, mit milch ablöschen und unter rühren aufkochen. ei unterrühren, mit salz, pfeffer und muskat würzen.",
+      "eine kleine auflaufform leicht einfetten. kartoffelscheiben, brokkoli und gewürfelten schinken einschichten.",
+      "soße gleichmäßig über das gemüse gießen und mit geriebenem gouda bestreuen.",
+      "für etwa 25 minuten im ofen goldbraun backen."
+    ],
+    "subtitle": "kartoffel-brokkoli-schinken-auflauf"
+  },
+  {
+    "id": "69e550bcc0c293f2688a5b3e",
+    "title": "körniger reis mit hähnchen-curry-gemüse",
+    "duration": 40,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 250,
+        "name": "basmatireis",
+        "unit": "g"
+      },
+      {
+        "amount": 600,
+        "name": "hähnchenbrustfilet",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "rote paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "gelbe paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "möhren",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "frühlingszwiebeln",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 200,
+        "name": "kokosmilch",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "el sojasoße",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "el limettensaft",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "prise chili flocken",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "tl curry powder",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 10,
+        "name": "koriander (frisch)",
+        "unit": "g"
+      }
+    ],
+    "labels": [
+      "Geflügel"
+    ],
+    "nutrients": [
+      {
+        "amount": 650,
+        "name": "kcal",
+        "unit": "kcal"
+      },
+      {
+        "amount": 45,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 18,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 75,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "reis nach packungsanweisung kochen.",
+      "hähnchenbrust in ca. 2 cm große würfel schneiden.",
+      "paprika, zucchini und möhren waschen und in kleine stücke schneiden. frühlingszwiebeln in ringe schneiden. knoblauch schälen und fein hacken.",
+      "olivenöl in einer großen pfanne erhitzen. hähnchenwürfel darin 5 minuten scharf anbraten. knoblauch zugeben und 1 minute mitbraten.",
+      "gemüse hinzufügen und weitere 5-7 minuten anbraten, bis alles leicht gebräunt ist.",
+      "mit curry powder, chili flocken, salz und pfeffer würzen.",
+      "kokosmilch, sojasoße und limettensaft zufügen. alles gut verrühren und 10 minuten bei milder hitze köcheln lassen.",
+      "mit dem gekochten reis servieren. mit frischem koriander bestreuen."
+    ],
+    "subtitle": "mit buntem gemüse in kokos-curry-soße"
+  },
+  {
+    "id": "69e550bcc0c293f2688a5b3f",
+    "title": "bunter gebratener reis für kinder",
+    "duration": 35,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 150,
+        "name": "reis",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "eier",
+        "unit": "St"
+      },
+      {
+        "amount": 100,
+        "name": "tk-erbsen",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "möhre",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "frühlingszwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "sojasoße",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "neutrales öl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Kids",
+      "Vegetarisch"
+    ],
+    "nutrients": [
+      {
+        "amount": 450,
+        "name": "energie",
+        "unit": "kcal"
+      },
+      {
+        "amount": 14,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 6,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 78,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "reis nach packungsanleitung in leicht gesalzenem wasser kochen, anschließend abgießen und abkühlen lassen.",
+      "möhre schälen und in kleine würfel schneiden. frühlingszwiebel in feine ringe schneiden.",
+      "öl in einer großen pfanne oder im wok erhitzen. möhrenwürfel und erbsen darin bei mittlerer hitze 3 minuten anbraten.",
+      "reis, frühlingszwiebel und weiteres öl hinzufügen und alles unter rühren weitere 3 minuten braten.",
+      "eier in einer schale verquirlen und in die pfanne gießen. unter ständigem rühren stocken lassen, bis das ei komplett gar ist.",
+      "sojasoße dazugeben, alles mit salz und pfeffer abschmecken.",
+      "den gebratenen reis auf zwei tellern anrichten und servieren."
+    ],
+    "subtitle": "kinderfreundlicher gebratener reis mit erbsen, möhre und ei"
+  },
+  {
+    "id": "69f25e80f155a8278c37bc98",
+    "title": "hausgemachte frikadellen mit buntem kartoffel-gemüse-stampf",
+    "duration": 45,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 400,
+        "name": "gemischtes hackfleisch",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "ei",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 60,
+        "name": "altbackenes brötchen",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "schmand",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "bund petersilie",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "karotten",
+        "unit": "St"
+      },
+      {
+        "amount": 50,
+        "name": "haferflocken",
+        "unit": "g"
+      },
+      {
+        "amount": 500,
+        "name": "kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 10,
+        "name": "öl",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "el senf",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl paprikapulver edelsüß",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl salz",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 250,
+        "name": "erbsen tiefgekühlt",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "milch",
+        "unit": "ml"
+      },
+      {
+        "amount": 20,
+        "name": "butter",
+        "unit": "g"
+      }
+    ],
+    "labels": [
+      "Kids"
+    ],
+    "nutrients": [
+      {
+        "amount": 680,
+        "name": "energie",
+        "unit": "kcal"
+      },
+      {
+        "amount": 41,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 28,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 65,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "brötchen in etwas wasser einweichen. zwiebel und knoblauch schälen und fein würfeln. petersilie fein hacken.",
+      "das hackfleisch mit ei, dem ausgedrückten brötchen, haferflocken, zwiebel, knoblauch, senf, paprikapulver, salz, pfeffer und der hälfte der petersilie vermengen, gut durchkneten.",
+      "aus der masse mit feuchten händen 6 kleine frikadellen formen.",
+      "öl in einer großen pfanne erhitzen und die frikadellen bei mittlerer hitze von beiden seiten ca. 8–10 minuten goldbraun braten.",
+      "inzwischen kartoffeln schälen, grob würfeln und in salzwasser ca. 15 minuten weich kochen. die karotten schälen, in kleine würfel schneiden, nach 8 minuten garzeit zusammen mit den erbsen zu den kartoffeln geben und mitgaren.",
+      "gemüse abgießen und mit milch, butter und schmand grob zerstampfen. gut abschmecken und restliche petersilie unterrühren.",
+      "die frikadellen zusammen mit dem bunten kartoffel-gemüse-stampf servieren."
+    ],
+    "subtitle": "frikadellen auf buntem gemüsestampf mit erbsen, karotten und kartoffeln"
+  },
+  {
+    "id": "69f25e80f155a8278c37bc99",
+    "title": "frikadellen mit buntem kartoffel-möhren-stampf",
+    "duration": 35,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 250,
+        "name": "gemischtes hackfleisch",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "ei",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "scheiben toastbrot",
+        "unit": "St"
+      },
+      {
+        "amount": 50,
+        "name": "milch",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "kleine zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "kleines bündel petersilie",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "el rapsöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 250,
+        "name": "kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "möhren",
+        "unit": "g"
+      },
+      {
+        "amount": 25,
+        "name": "butter",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "prise muskatnuss",
+        "unit": "Prise"
+      },
+      {
+        "amount": 100,
+        "name": "tk-erbsen",
+        "unit": "g"
+      }
+    ],
+    "labels": [
+      "Kids",
+      "Schwein"
+    ],
+    "nutrients": [
+      {
+        "amount": 500,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 28,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 20,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 48,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "toastbrot würfeln und in der milch einweichen.",
+      "die zwiebel fein würfeln, petersilie hacken.",
+      "hackfleisch mit ei, eingeweichtem toast, zwiebeln, petersilie, salz und pfeffer in eine schüssel geben und gut verkneten.",
+      "aus der masse ca. 4 kleine frikadellen formen.",
+      "das öl in einer pfanne erhitzen, frikadellen von beiden seiten goldbraun braten (insgesamt ca. 12 minuten).",
+      "kartoffeln schälen, würfeln und mit möhren in salzwasser kochen (ca. 15 minuten) bis alles weich ist.",
+      "kartoffeln und möhren abgießen, butter und muskat zugeben und alles zu einem lockeren stampf zerstampfen.",
+      "erbsen in heißem wasser ca. 4 minuten garen, abgießen.",
+      "frikadellen mit kartoffel-möhren-stampf und erbsen auf tellern anrichten – guten appetit!"
+    ],
+    "subtitle": "kleine frikadellen für kinder mit kartoffel-möhren-stampf und erbsen"
+  },
+  {
+    "id": "69f7c5c4f155a8278c37bc9a",
+    "title": "zartes rindergeschnetzeltes mit bandnudeln und pilzsahnesoße",
+    "duration": 45,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 450,
+        "name": "rinderfilet",
+        "unit": "g"
+      },
+      {
+        "amount": 300,
+        "name": "braune champignons",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "rote zwiebeln",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 200,
+        "name": "crème fraîche",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "bund petersilie",
+        "unit": "St"
+      },
+      {
+        "amount": 400,
+        "name": "bandnudeln",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "el butter",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 100,
+        "name": "rinderfonds",
+        "unit": "ml"
+      },
+      {
+        "amount": 12,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 6,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Rind"
+    ],
+    "nutrients": [
+      {
+        "amount": 780,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 44,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 78,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      },
+      {
+        "amount": 32,
+        "name": "fett",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "bandnudeln nach packungsanleitung in reichlich salzwasser al dente kochen, abgießen und abtropfen lassen.",
+      "rinderfilet in streifen schneiden. mit 2 prisen salz und 1 prise pfeffer würzen.",
+      "champignons in scheiben schneiden, zwiebeln schälen und halbieren, längs in dünne spalten schneiden. knoblauch fein hacken. petersilie fein hacken.",
+      "butter und 1 el olivenöl in einer großen pfanne erhitzen. rinderfiletstreifen portionsweise scharf anbraten (je 1–2 minuten). herausnehmen und warm halten.",
+      "im bratfett restliches olivenöl erhitzen. zwiebeln, knoblauch und champignons anbraten, mit salz und pfeffer würzen. bei starker hitze 5–6 minuten braten, gelegentlich rühren.",
+      "mit rinderfonds ablöschen, kurz einkochen lassen. crème fraîche unterrühren und kurz aufkochen.",
+      "fleisch samt fleischsaft zur sauce geben und in der sauce bei geringer hitze 2 minuten ziehen lassen.",
+      "nudeln mit pilz-sahne-rindergeschnetzeltem anrichten, mit frischer petersilie bestreuen und sofort servieren."
+    ],
+    "subtitle": "rindergeschnetzeltes mit champignon-crème und bandnudeln"
+  },
+  {
+    "id": "69f7c5c4f155a8278c37bc9b",
+    "title": "bunte rinderhack-pfanne für kinder",
+    "duration": 35,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 250,
+        "name": "rinderhackfleisch",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "kleine zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "kartoffel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "möhre",
+        "unit": "St"
+      },
+      {
+        "amount": 100,
+        "name": "tk-erbsen",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "rinderbrühe",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "el tomatenmark",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "el öl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "tl paprikapulver, edelsüß",
+        "unit": "TL"
+      }
+    ],
+    "labels": [
+      "Kids",
+      "Rind"
+    ],
+    "nutrients": [
+      {
+        "amount": 480,
+        "name": "energie",
+        "unit": "kcal"
+      },
+      {
+        "amount": 34,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 30,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      },
+      {
+        "amount": 19,
+        "name": "fett",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "kartoffeln und möhren schälen und in kleine würfel schneiden.",
+      "zwiebel und knoblauch schälen und fein hacken.",
+      "das öl in einer pfanne erhitzen. zwiebel und knoblauch darin glasig dünsten.",
+      "rinderhackfleisch dazugeben, krümelig anbraten.",
+      "tomatenmark einrühren und kurz mitschwitzen.",
+      "kartoffel- und möhrenwürfel zufügen, kurz mitbraten.",
+      "mit der rinderbrühe ablöschen und alles aufkochen lassen.",
+      "paprikapulver, salz und pfeffer hinzufügen.",
+      "bei mittlerer hitze mit deckel ca. 20 min. köcheln lassen, bis das gemüse gar ist.",
+      "die tk-erbsen in den letzten 5 min. untermischen und heiß werden lassen.",
+      "mit salz und pfeffer abschmecken und servieren."
+    ],
+    "subtitle": "rinderhack-gemüse-pfanne mit kartoffeln & erbsen"
+  },
+  {
+    "id": "6a010025f155a8278c37bc9c",
+    "title": "kichererbsen-mangold-curry",
+    "duration": 35,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 300,
+        "name": "kichererbsen (abgetropft)",
+        "unit": "g"
+      },
+      {
+        "amount": 250,
+        "name": "basmatireis",
+        "unit": "g"
+      },
+      {
+        "amount": 400,
+        "name": "stückige tomaten (dose)",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "mangold",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "große zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 180,
+        "name": "naturjoghurt",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "el currypulver (mild)",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl kreuzkümmel (gemahlen)",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl paprika edelsüß",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl zucker",
+        "unit": "TL"
+      },
+      {
+        "amount": 450,
+        "name": "wasser",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "bio-zitrone",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Vegetarisch",
+      "Kalorienarm",
+      "Fettarm"
+    ],
+    "nutrients": [
+      {
+        "amount": 530,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 19,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 8,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 85,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "reis in 400 ml wasser mit etwas salz nach packungsanleitung garen.",
+      "zwiebel und knoblauch fein schneiden. mangold waschen, stiele klein schneiden, blätter grob zerteilen.",
+      "öl in einer großen pfanne erhitzen. zwiebel und knoblauch glasig anbraten. gewürze (currypulver, kreuzkümmel, paprika, zucker) zufügen und kurz mitrösten.",
+      "kichererbsen abspülen und hinzufügen, mangoldstiele mit in die pfanne geben. etwa 2 minuten anbraten.",
+      "stückige tomaten zugeben, 50 ml wasser einrühren, salzen und pfeffern.",
+      "5 minuten leise köcheln lassen, dann mangoldblätter unterrühren.",
+      "weitere 5 minuten schmoren. abschmecken mit zitronensaft und eventuellem nachsalzen.",
+      "servieren: reis auf teller geben, darauf das kichererbsen-mangold-curry verteilen, zum schluss einen löffel naturjoghurt und etwas zitronenschale darüber geben."
+    ],
+    "subtitle": "kichererbsen-mangold-curry mit reis und joghurt"
+  },
+  {
+    "id": "6a010025f155a8278c37bc9d",
+    "title": "gemüse-puffer für kinder",
+    "duration": 35,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 300,
+        "name": "kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "karotten",
+        "unit": "St"
+      },
+      {
+        "amount": 100,
+        "name": "erbsen (tk oder frisch)",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "eier",
+        "unit": "St"
+      },
+      {
+        "amount": 60,
+        "name": "reibekäse (z.b. gouda oder emmentaler)",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "el öl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 100,
+        "name": "joghurt (natur)",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "tl zitronensaft",
+        "unit": "TL"
+      }
+    ],
+    "labels": [
+      "Kids",
+      "Vegetarisch"
+    ],
+    "nutrients": [
+      {
+        "amount": 430,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 20,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 12,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 62,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "kartoffeln und karotten schälen, beides grob raspeln. die zucchini ebenfalls raspeln. zwiebel fein hacken.",
+      "kartoffel-, karotten- und zucchiniraspel mit den erbsen in eine schüssel geben. zwiebel, eier, reibekäse, salz und pfeffer dazugeben und gut vermengen.",
+      "aus der masse mit einem esslöffel kleine pflanzerl formen und in einer pfanne mit öl von beiden seiten bei mittlerer hitze ca. 5-6 minuten goldbraun braten.",
+      "den joghurt mit zitronensaft und einer prise salz zu einem schnellen dip verrühren.",
+      "die gemüse-puffer warm mit dem erfrischenden joghurt-dip servieren."
+    ],
+    "subtitle": "knusprig-köstliche gemüse-puffer mit joghurtdip"
+  },
+  {
+    "id": "6a0a3ab1360c5b8dd26519b3",
+    "title": "mediterrane penne",
+    "duration": 30,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 300,
+        "name": "penne nudeln",
+        "unit": "g"
+      },
+      {
+        "amount": 250,
+        "name": "kirschtomaten",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 200,
+        "name": "mozzarella",
+        "unit": "g"
+      },
+      {
+        "amount": 60,
+        "name": "rucola",
+        "unit": "g"
+      },
+      {
+        "amount": 3,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl getrockneter oregano",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl salz",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Vegetarisch"
+    ],
+    "nutrients": [
+      {
+        "amount": 600,
+        "name": "kalorien pro portion",
+        "unit": "kcal"
+      },
+      {
+        "amount": 20,
+        "name": "eiweiß pro portion",
+        "unit": "g"
+      },
+      {
+        "amount": 18,
+        "name": "fett pro portion",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "nudeln nach packungsanleitung in reichlich salzwasser bissfest kochen.",
+      "währenddessen kirschtomaten waschen und halbieren. knoblauch schälen und fein hacken.",
+      "mozzarella abtropfen und würfeln. rucola waschen und trocken schleudern.",
+      "in einer großen pfanne 2 el olivenöl erhitzen, knoblauch darin 1 minute bei mittlerer hitze anschwitzen.",
+      "tomatenhälften und oregano zugeben, 4 minuten anbraten. mit salz und pfeffer würzen.",
+      "nudeln abgießen (etwas kochwasser auffangen) und mit 1 el olivenöl zu den tomaten geben.",
+      "mozzarella unterheben, alles kurz vermengen, evtl. mit etwas nudelwasser verlängern.",
+      "zuletzt rucola vorsichtig unter die nudeln heben und sofort servieren."
+    ],
+    "subtitle": "penne mit kirschtomaten, rucola und mozzarella"
+  },
+  {
+    "id": "6a0a3ab1360c5b8dd26519b4",
+    "title": "bunte penne caprese",
+    "duration": 25,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 200,
+        "name": "penne-nudeln",
+        "unit": "g"
+      },
+      {
+        "amount": 150,
+        "name": "kirschtomaten",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "mozzarella",
+        "unit": "g"
+      },
+      {
+        "amount": 20,
+        "name": "basilikum frisch",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "knoblauchzehe",
         "unit": "St"
       },
       {
@@ -4969,95 +6629,723 @@
       {
         "amount": 1,
         "name": "salz",
-        "unit": "TL"
+        "unit": "Prise"
       },
       {
         "amount": 1,
         "name": "pfeffer",
-        "unit": "TL"
-      },
-      {
-        "amount": 1,
-        "name": "muskatnuss (gerieben)",
-        "unit": "TL"
+        "unit": "Prise"
       }
     ],
     "labels": [
-      "Thermomix",
-      "Airfryer",
-      "Eiweiß"
+      "Vegetarisch",
+      "Kids"
     ],
     "nutrients": [
       {
-        "amount": 560,
-        "name": "kalorien (pro portion)",
+        "amount": 550,
+        "name": "energie",
         "unit": "kcal"
       },
       {
-        "amount": 35,
-        "name": "eiweiß (pro portion)",
+        "amount": 22,
+        "name": "eiweiß",
         "unit": "g"
       },
       {
-        "amount": 32,
-        "name": "fett (pro portion)",
+        "amount": 16,
+        "name": "fett",
         "unit": "g"
       },
       {
-        "amount": 30,
-        "name": "kohlenhydrate (pro portion)",
+        "amount": 78,
+        "name": "kohlenhydrate",
         "unit": "g"
       }
     ],
     "preparation": [
-      "kartoffeln schälen, in feine scheiben schneiden und in den varoma-einsatz des thermomix legen.",
-      "500 g wasser in den mixtopf geben, varoma aufsetzen und kartoffeln 22 minuten/varoma/stufe 1 vorgaren.",
-      "in der zwischenzeit zwiebel und knoblauch abziehen, im tm5 5 sekunden/stufe 5 zerkleinern.",
-      "2 el olivenöl zugeben, 3 minuten/120°c/stufe 1 andünsten.",
-      "hackfleisch im mixtopf 5 minuten/120°c/linkslauf/stufe 1 anbraten (ggf. spatel verwenden).",
-      "champignons in scheiben schneiden, mit dem spinat zum hackfleisch geben, weitere 4 minuten/100°c/linkslauf/stufe 1 garen.",
-      "crème fraîche, milch, ei, muskatnuss, salz und pfeffer zugeben, alles 10 sekunden/stufe 3 vermengen.",
-      "die hälfte der vorgegarten kartoffeln in eine leicht gefettete auflaufform legen (oder in einen passenden airfryer-einsatz).",
-      "hackfleisch-spinat-masse darauf verteilen, mit restlichen kartoffelscheiben bedecken.",
-      "mit geriebenem käse bestreuen.",
-      "im airfryer bei 180°c ca. 18-22 minuten backen (alternativ im backofen bei 180°c umluft ca. 25 minuten), bis der käse goldbraun ist."
+      "penne-nudeln laut packungsanweisung in salzwasser kochen.",
+      "kirschtomaten halbieren. knoblauch schälen und fein hacken.",
+      "in einer großen pfanne das olivenöl erhitzen. knoblauch darin kurz anbraten, dann die kirschtomaten hinzufügen und einige minuten dünsten.",
+      "mit salz und pfeffer würzen.",
+      "nudeln abgießen und zu den tomaten in die pfanne geben. alles vermengen.",
+      "mozzarella in kleine würfel schneiden und unter die nudeln rühren, bis er leicht schmilzt.",
+      "zum schluss den frisch gehackten basilikum unterheben.",
+      "alles auf zwei tellern anrichten und servieren."
     ],
-    "subtitle": "herzhafter kartoffelauflauf mit hack, pilzen und spinat"
+    "subtitle": "bunte penne mit frischen tomaten, mozzarella und basilikum"
   },
   {
-    "title": "kinderfreundlicher nudel-brokkoli-schinken-auflauf",
-    "duration": 50,
-    "image": "https://images.chefkoch-cdn.de/rezepte/3384981510856659/bilder/1348920/crop-960x720/kinderfreundlicher-nudel-brokkoli-schinken-auflauf.jpg",
+    "id": "6a0ae6a2360c5b8dd26519b5",
+    "title": "Teriyaki-Hähnchenpfanne mit Pak Choi",
+    "duration": 40,
+    "image": "https://media.hellofresh.com/q_100,w_3840,f_auto,c_limit,fl_lossy/recipes/image/asiatische-hahnchenpfanne-mit-pak-choi-65e2eeba.jpg",
+    "imageBase64": null,
     "ingredients": [
       {
-        "amount": 200,
-        "name": "nudeln (z. b. penne oder hörnchen)",
+        "amount": 250,
+        "name": "Kokosmilch",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "Knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 50,
+        "name": "Sojasauce",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "Frühlingszwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "Pak Choi",
+        "unit": "St"
+      },
+      {
+        "amount": 225,
+        "name": "Basmatireis",
+        "unit": "g"
+      },
+      {
+        "amount": 20,
+        "name": "Ingwer",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "Rote Paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 375,
+        "name": "Hähnchenbrustfilet",
+        "unit": "g"
+      }
+    ],
+    "labels": [
+      "Geflügel",
+      "Eiweiß",
+      "Thermomix"
+    ],
+    "nutrients": [
+      {
+        "amount": 2.05,
+        "name": "Zucker",
+        "unit": "g"
+      },
+      {
+        "amount": 0.716,
+        "name": "Salz",
+        "unit": "g"
+      },
+      {
+        "amount": 6.65,
+        "name": "Eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 2.62,
+        "name": "Gesättigte Fettsäuren",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Knoblauch und Ingwer (geschält) im Mixtopf 3 Sek. Stufe 8 zerkleinern und mit dem Spatel nach unten schieben",
+      "Sojasauce, 2 TL Honig, und 2 EL Wasser zugeben und 10 Sek. Stufe 8 vermengen, anschließend alles umfüllen",
+      "Hähnchenbrustfilet in Stücke schneiden, salzen und pfeffern und in den Varoma-Behälter geben",
+      "1200 g Wasser in den Mixtopf geben, Gareinsatz mit Reis einsetzen und Reis leicht salzen",
+      "Varoma-Behälter draufsetzen und 18 Min. Varoma Stufe 1 garen",
+      "Gemüse zerkleinern und in einer Pfanne mit Öl ca. 2 Min. anbraten",
+      "Reis aus dem Gareinsatz umfüllen, Hähnchenbrust-Stücke in die Pfanne dazugeben und ca. 2 Min mitbraten",
+      "Im Mixtopf Kokosmilch mit etwas Salz 3 Min. 98 °C Stufe 1 erhitzen und über den Reis geben (nicht umrühren!)",
+      "Teriyaki-Sauce in die Pfanne dazugeben und ca. 3-4 Min. kochen (ggf. andicken)",
+      "Reis mit Teriyaki-Hähnchenpfanne anrichten und mit grünen Frühlingszwiebeln toppen"
+    ],
+    "subtitle": "und Paprika, dazu Kokosreis"
+  },
+  {
+    "id": "6a10cf94ae103b6c9c762db0",
+    "title": "spaghetti carbonara",
+    "duration": 30,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 300,
+        "name": "spaghetti",
+        "unit": "g"
+      },
+      {
+        "amount": 3,
+        "name": "ei",
+        "unit": "St"
+      },
+      {
+        "amount": 120,
+        "name": "parmesan, gerieben",
         "unit": "g"
       },
       {
         "amount": 150,
-        "name": "brokkoli (frisch oder tk)",
+        "name": "schwarzwälder schinken",
         "unit": "g"
       },
       {
-        "amount": 80,
-        "name": "gekochter schinken",
+        "amount": 2,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "frühlingszwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Kids"
+    ],
+    "nutrients": [
+      {
+        "amount": 670,
+        "name": "kcal",
+        "unit": "kcal"
+      },
+      {
+        "amount": 38,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 78,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      },
+      {
+        "amount": 23,
+        "name": "fett",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "spaghetti in reichlich salzwasser nach packungsanweisung al dente kochen.",
+      "schinken in streifen schneiden. knoblauch und frühlingszwiebeln fein hacken.",
+      "olivenöl in einer großen pfanne erhitzen, schinkenstreifen darin knusprig braten, knoblauch und frühlingszwiebeln zugeben und kurz mitdünsten.",
+      "eier in einer schüssel mit parmesan und einer prise salz und pfeffer verquirlen.",
+      "spaghetti abgießen und direkt tropfnass zur schinkenmischung geben. hitze reduzieren.",
+      "eier-parmesan-mischung über die nudeln geben und alles zügig mischen, bis die sauce cremig wird und die spaghetti überzieht (nicht zu heiß werden lassen, sonst stockt das ei).",
+      "nach belieben mit weiterem parmesan servieren."
+    ],
+    "subtitle": "klassische spaghetti carbonara für die ganze familie"
+  },
+  {
+    "id": "6a10cff0ae103b6c9c762db1",
+    "title": "lauwarmer rucola-pak choi-salat",
+    "duration": 30,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 100,
+        "name": "rucola",
+        "unit": "g"
+      },
+      {
+        "amount": 300,
+        "name": "pak choi",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "kirschtomaten",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "rote zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 6,
+        "name": "olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "zitronensaft",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 150,
+        "name": "feta",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Vegetarisch",
+      "Kalorienarm",
+      "Fettarm"
+    ],
+    "nutrients": [
+      {
+        "amount": 280,
+        "name": "kalorien",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "pak choi waschen, die stiele in streifen schneiden. rucola waschen und grob hacken.",
+      "kirschtomaten halbieren. rote zwiebel schälen, in feine streifen schneiden. knoblauch fein hacken.",
+      "in einer großen pfanne 2 el olivenöl erhitzen, pak choi-stiele mit zwiebeln und knoblauch 4 minuten andünsten.",
+      "tomaten zugeben, 2 minuten mitdünsten. mit salz und pfeffer würzen.",
+      "pfanne vom herd nehmen, rucola unterheben.",
+      "aus 4 el olivenöl, zitronensaft, salz und pfeffer ein dressing herstellen.",
+      "das gemüse auf tellern anrichten, dressing darüber geben und feta zerkrümelt darauf verteilen."
+    ],
+    "subtitle": "lauwarmer salat mit rucola, pak choi & feta"
+  },
+  {
+    "id": "6a10d05eae103b6c9c762db2",
+    "title": "rucola-pak-choi-salat",
+    "duration": 25,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 90,
+        "name": "rucola",
+        "unit": "g"
+      },
+      {
+        "amount": 300,
+        "name": "pak choi",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "kirschtomaten",
         "unit": "g"
       },
       {
         "amount": 120,
-        "name": "milch",
-        "unit": "ml"
+        "name": "mozzarella",
+        "unit": "g"
       },
       {
-        "amount": 30,
+        "amount": 6,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 3,
+        "name": "el balsamico",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el zitronensaft",
+        "unit": "EL"
+      },
+      {
+        "amount": 3,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 2,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Vegetarisch",
+      "Kalorienarm",
+      "Fettarm"
+    ],
+    "nutrients": [
+      {
+        "amount": 210,
+        "name": "energie",
+        "unit": "kcal"
+      },
+      {
+        "amount": 10,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 14,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      },
+      {
+        "amount": 11,
+        "name": "fett",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "pak choi waschen, trocknen und in streifen schneiden.",
+      "rucola ebenfalls waschen und grob hacken.",
+      "kirschtomaten halbieren.",
+      "mozzarella in würfel schneiden.",
+      "knoblauchzehe schälen und fein hacken.",
+      "in einer großen pfanne 2 el olivenöl erhitzen, knoblauch kurz andünsten.",
+      "pak choi dazugeben und ca. 3 minuten bei mittlerer hitze anbraten. mit salz und pfeffer würzen, vom herd nehmen und abkühlen lassen.",
+      "für das dressing restliches olivenöl, balsamico und zitronensaft vermengen; mit salz und pfeffer abschmecken.",
+      "pak choi, rucola, kirschtomaten und mozzarella in einer schüssel vermengen.",
+      "mit dem dressing übergießen, gut durchmischen und servieren."
+    ],
+    "subtitle": "schneller rucola-pak-choi-salat mit mozzarella"
+  },
+  {
+    "id": "6a116062ae103b6c9c762db4",
+    "title": "penne mit rucola und pak choi",
+    "duration": 25,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 300,
+        "name": "penne",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "rucola",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "pak choi",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 80,
+        "name": "parmesan (optional)",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "zitrone",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Vegetarisch"
+    ],
+    "nutrients": [
+      {
+        "amount": 500,
+        "name": "kalorien (ca.)",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "penne in reichlich salzwasser nach packungsanleitung al dente kochen.",
+      "währenddessen pak choi waschen und grob schneiden. rucola waschen und trocken schütteln.",
+      "knoblauch fein hacken.",
+      "in einer großen pfanne das olivenöl erhitzen und den knoblauch kurz anbraten.",
+      "pak choi dazugeben und für 3-4 minuten mitbraten, bis er zusammenfällt.",
+      "die gekochte penne abgießen, dabei etwas nudelwasser auffangen.",
+      "penne und rucola zum pak choi in die pfanne geben, vermischen. etwas nudelwasser nach bedarf hinzufügen.",
+      "mit zitronensaft, salz und pfeffer abschmecken.",
+      "optional parmesan darüberreiben und sofort servieren."
+    ],
+    "subtitle": "schnelle vegetarische pasta-pfanne mit knackigem rucola und pak choi"
+  },
+  {
+    "id": "6a137532ae103b6c9c762db5",
+    "title": "kartoffel-brokkoli-auflauf mit schinken",
+    "duration": 60,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 600,
+        "name": "kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 300,
+        "name": "brokkoli",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "kochschinken",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
         "name": "sahne",
         "unit": "ml"
       },
       {
-        "amount": 50,
+        "amount": 150,
+        "name": "milch",
+        "unit": "ml"
+      },
+      {
+        "amount": 120,
         "name": "geriebener gouda",
         "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "eier",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el öl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "prise muskatnuss",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Ofen",
+      "Kids"
+    ],
+    "nutrients": [
+      {
+        "amount": 630,
+        "name": "kalorien",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "backofen auf 180 grad ober-/unterhitze vorheizen.",
+      "kartoffeln schälen, in dünne scheiben schneiden und in salzwasser ca. 10 minuten vorgaren. abgießen und etwas abkühlen lassen.",
+      "brokkoli in kleine röschen teilen, ebenfalls in salzwasser ca. 5 minuten vorgaren, abgießen.",
+      "zwiebel und knoblauch fein hacken, schinken in streifen schneiden.",
+      "öl in einer pfanne erhitzen, zwiebel und knoblauch glasig dünsten, dann schinken kurz mitbraten.",
+      "eier, sahne und milch verquirlen. mit salz, pfeffer und muskatnuss würzen.",
+      "eine auflaufform einfetten, die hälfte der kartoffelscheiben einschichten, dann brokkoli und schinken-zwiebel-gemisch darauf verteilen. mit den restlichen kartoffeln bedecken.",
+      "die eier-sahne-milch-mischung darüber gießen und mit geriebenem gouda bestreuen.",
+      "im ofen 35-40 minuten backen, bis die oberfläche goldbraun ist."
+    ],
+    "subtitle": "herzhafter kartoffel-brokkoli-auflauf mit schinken und cremigem guss"
+  },
+  {
+    "id": "6a137532ae103b6c9c762db6",
+    "title": "bunter kartoffel-schinken-auflauf",
+    "duration": 55,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 500,
+        "name": "kartoffeln (vorwiegend festkochend)",
+        "unit": "g"
+      },
+      {
+        "amount": 250,
+        "name": "brokkoli (frisch oder tk)",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "kochschinken",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "sahne",
+        "unit": "ml"
+      },
+      {
+        "amount": 150,
+        "name": "frische milch",
+        "unit": "ml"
+      },
+      {
+        "amount": 100,
+        "name": "geriebener gouda",
+        "unit": "g"
+      },
+      {
+        "amount": 3,
+        "name": "eier",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el butter",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl salz",
+        "unit": "TL"
+      },
+      {
+        "amount": 0.5,
+        "name": "tl pfeffer",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl paprikapulver, edelsüß",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "el schnittlauchröllchen (frisch oder tk)",
+        "unit": "EL"
+      }
+    ],
+    "labels": [
+      "Ofen",
+      "Kids"
+    ],
+    "nutrients": [
+      {
+        "amount": 520,
+        "name": "kalorien pro portion",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "kartoffeln schälen und in ca. 0,5 cm dicke scheiben schneiden. brokkoli in kleine röschen teilen.",
+      "einen topf mit salzwasser zum kochen bringen. die kartoffelscheiben darin 8 minuten vorgaren, brokkoliröschen nach 4 minuten hinzugeben und mitgaren. dann alles abgießen.",
+      "backofen auf 180°c ober-/unterhitze vorheizen.",
+      "zwiebel und knoblauch abziehen und fein hacken. in einer pfanne butter erhitzen, zwiebel- und knoblauchwürfel glasig dünsten.",
+      "schinken in kleine würfel schneiden.",
+      "eier, sahne und milch in einer schüssel verquirlen. zwiebel, knoblauch, salz, pfeffer, paprikapulver und die schnittlauchröllchen einrühren.",
+      "eine auflaufform fetten. die hälfte der kartoffeln und des brokkolis in die form geben, hälfte der schinkenwürfel darauf, dann die restlichen kartoffeln, brokkoli und schinken verteilen.",
+      "die eier-sahne-mischung gleichmäßig darüber gießen.",
+      "geriebenen gouda darüber streuen.",
+      "im vorgeheizten ofen ca. 30-35 minuten goldgelb backen.",
+      "vor dem servieren etwas abkühlen lassen. guten appetit!"
+    ],
+    "subtitle": "kartoffel-brokkoli-auflauf mit schinken und käse"
+  },
+  {
+    "id": "6a1593b5ae103b6c9c762db7",
+    "title": "asiatische hackbällchen mit pak choi und paprika",
+    "duration": 40,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 400,
+        "name": "rinderhackfleisch",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "pak choi",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "rote paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "frühlingszwiebeln",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
       },
       {
         "amount": 1,
@@ -5065,88 +7353,166 @@
         "unit": "St"
       },
       {
-        "amount": 10,
-        "name": "butter",
+        "amount": 2,
+        "name": "el sojasauce",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "el sesamöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "el speisestärke",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "tl ingwer (gerieben)",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "el öl zum braten",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el süß-sauer-sauce (optional)",
+        "unit": "EL"
+      },
+      {
+        "amount": 200,
+        "name": "basmatireis",
         "unit": "g"
-      },
-      {
-        "amount": 1,
-        "name": "kleine zwiebel",
-        "unit": "St"
-      },
-      {
-        "amount": 1,
-        "name": "prise salz",
-        "unit": "St"
-      },
-      {
-        "amount": 1,
-        "name": "prise pfeffer",
-        "unit": "St"
-      },
-      {
-        "amount": 1,
-        "name": "prise muskat",
-        "unit": "St"
       }
     ],
     "labels": [
-      "Geflügel",
-      "Thermomix",
-      "Airfryer"
+      "Rind"
     ],
     "nutrients": [
       {
-        "amount": 570,
-        "name": "energie",
+        "amount": 500,
+        "name": "kcal pro portion (ca.)",
         "unit": "kcal"
-      },
-      {
-        "amount": 27,
-        "name": "eiweiß",
-        "unit": "g"
-      },
-      {
-        "amount": 20,
-        "name": "fett",
-        "unit": "g"
-      },
-      {
-        "amount": 61,
-        "name": "kohlenhydrate",
-        "unit": "g"
       }
     ],
     "preparation": [
-      "brokkoli in kleine röschen teilen. in den mixtopf des thermomix 500 ml wasser einfüllen, den brokkoli in den varoma legen und 15 minuten/varoma/stufe 1 dünsten. brokkoli zur seite stellen, wasser ausleeren.",
-      "nudeln in kochendem salzwasser auf dem herd oder im thermomix (mixtopf, 1200 ml wasser, nudeln und 1 tl salz, 10-12 minuten/100°c/linkslauf/sanftrührstufe) bissfest garen, abgießen.",
-      "zwiebel schälen, halbieren und im mixtopf 5 sekunden/stufe 5 zerkleinern. butter zugeben und 3 minuten/120°c/stufe 1 andünsten.",
-      "milch, sahne, ei, salz, pfeffer und muskat hinzufügen und 10 sekunden/stufe 3 vermischen.",
-      "schinken klein würfeln. nudeln, brokkoli und schinken in einer auflaufform vermengen.",
-      "sauce darüber geben und mit käse bestreuen.",
-      "im vorgeheizten ninja airfryer bei 180°c ca. 18-20 minuten goldgelb überbacken."
+      "den reis nach packungsanleitung kochen.",
+      "pak choi und paprika waschen. pak choi längs halbieren und in streifen schneiden. paprika entkernen und in streifen schneiden. frühlingszwiebeln in ringe schneiden, knoblauch sowie ingwer schälen und fein hacken.",
+      "für die hackfleischklößchen das hackfleisch mit dem ei, 1 el sojasauce, speisestärke, der hälfte des knoblauchs und ingwers sowie etwas salz und pfeffer gründlich vermengen. kleine klößchen formen.",
+      "in einer großen pfanne oder einem wok das öl erhitzen und die klößchen rundherum 3-4 minuten kräftig anbraten, bis sie braun sind. aus der pfanne nehmen und beiseite stellen.",
+      "im verbliebenen fett sesamöl erhitzen, restlichen knoblauch, ingwer und frühlingszwiebeln kurz anbraten. pak choi und paprika hinzufügen und bei hoher hitze unter rühren 4-5 minuten bissfest garen.",
+      "hackfleischklößchen wieder in die pfanne geben, mit 1 el sojasauce und, falls gewünscht, mit süß-sauer-sauce ablöschen. alles gut vermengen und noch 2 minuten zusammen erhitzen.",
+      "mit reis servieren."
     ],
-    "subtitle": "mit brokkoli, nudeln und schinken – kinderfreundlich & cremig"
+    "subtitle": "asiatische hackfleischklößchen mit pak choi und paprika auf basmatireis"
   },
   {
-    "title": "airfryer rinderhüftsteak mit parmesan-kartoffelstampf",
-    "duration": 45,
-    "image": "https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg",
+    "id": "6a1be157ae103b6c9c762db8",
+    "title": "penne mit grünem spargel, pak choi und rucola",
+    "duration": 30,
+    "image": null,
+    "imageBase64": null,
     "ingredients": [
       {
-        "amount": 500,
+        "amount": 350,
+        "name": "penne",
+        "unit": "g"
+      },
+      {
+        "amount": 400,
+        "name": "grüner spargel",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "pak choi",
+        "unit": "St"
+      },
+      {
+        "amount": 60,
+        "name": "rucola",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zitrone (saft und abrieb)",
+        "unit": "St"
+      },
+      {
+        "amount": 80,
+        "name": "parmesan",
+        "unit": "g"
+      },
+      {
+        "amount": 3,
+        "name": "olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 3,
+        "name": "pfeffer, frisch gemahlen",
+        "unit": "Prise"
+      },
+      {
+        "amount": 3,
+        "name": "salz",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Vegetarisch",
+      "Kalorienarm",
+      "Fettarm"
+    ],
+    "nutrients": [
+      {
+        "amount": 590,
+        "name": "kalorien (pro portion)",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "penne nach packungsanleitung in reichlich salzwasser al dente kochen. parallel das gemüse zubereiten.",
+      "spargel waschen, das untere drittel schälen und die holzigen enden abschneiden. spargel schräg in stücke schneiden.",
+      "pak choi längs halbieren, den strunk entfernen und grob hacken.",
+      "knoblauch fein hacken. zitrone heiß abwaschen, schale abreiben, dann auspressen.",
+      "in einer pfanne 2 el olivenöl erhitzen und spargelstücke darin ca. 5 minuten anbraten. anschließend knoblauch und pak choi zugeben und weitere 3 minuten mitbraten.",
+      "mit salz, pfeffer, zitronenabrieb und -saft würzen. 1 el olivenöl zugeben.",
+      "penne abgießen und tropfnass mit dem gemüse in der pfanne vermengen.",
+      "rucola unterheben und alles noch einmal kurz erhitzen.",
+      "mit frisch geriebenem parmesan bestreuen und sofort servieren."
+    ],
+    "subtitle": "spargel-pak choi penne mit rucola und parmesan"
+  },
+  {
+    "id": "6a1cafb0ae103b6c9c762db9",
+    "title": "rinderstreifen auf balsamico-zwiebeln mit speckbohnen und bratkartoffeln",
+    "duration": 45,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 450,
         "name": "rinderhüftsteak",
         "unit": "g"
       },
       {
         "amount": 500,
-        "name": "kartoffeln (vorwiegend festkochend)",
+        "name": "speckbohnen (frisch oder tk)",
         "unit": "g"
       },
       {
-        "amount": 300,
-        "name": "grüne bohnen",
-        "unit": "g"
+        "amount": 6,
+        "name": "kleine kartoffeln",
+        "unit": "St"
       },
       {
         "amount": 1,
@@ -5159,50 +7525,57 @@
         "unit": "St"
       },
       {
-        "amount": 3,
-        "name": "esslöffel olivenöl",
+        "amount": 2,
+        "name": "el olivenöl",
         "unit": "EL"
       },
       {
-        "amount": 2,
-        "name": "teelöffel grobes salz",
+        "amount": 1,
+        "name": "el butter",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl dijonsenf",
         "unit": "TL"
       },
       {
         "amount": 1,
-        "name": "teelöffel schwarzer pfeffer",
-        "unit": "TL"
-      },
-      {
-        "amount": 2,
-        "name": "esslöffel butter",
+        "name": "el balsamicoessig",
         "unit": "EL"
       },
       {
-        "amount": 100,
-        "name": "kirschtomaten",
-        "unit": "g"
+        "amount": 1,
+        "name": "el frisch gehackte petersilie",
+        "unit": "EL"
       },
       {
-        "amount": 50,
-        "name": "parmesan, frisch gerieben",
-        "unit": "g"
+        "amount": 1,
+        "name": "prise zucker",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise schwarzer pfeffer",
+        "unit": "Prise"
       }
     ],
     "labels": [
-      "Rind",
-      "Airfryer",
-      "Thermomix",
-      "Eiweiß"
+      "Rind"
     ],
     "nutrients": [
       {
-        "amount": 570,
-        "name": "kalorien",
+        "amount": 540,
+        "name": "energie",
         "unit": "kcal"
       },
       {
-        "amount": 42,
+        "amount": 37,
         "name": "eiweiß",
         "unit": "g"
       },
@@ -5212,116 +7585,1197 @@
         "unit": "g"
       },
       {
+        "amount": 33,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "die kleinen kartoffeln gründlich abbürsten und ungeschält in leicht gesalzenem wasser etwa 20 minuten gar kochen. anschließend abgießen und ausdampfen lassen.",
+      "währenddessen die speckbohnen in einer pfanne mit 1 el olivenöl rund 8-10 minuten anbraten, dabei zwischendurch wenden.",
+      "die rote zwiebel in feine ringe schneiden und die knoblauchzehen fein hacken.",
+      "die kartoffeln halbieren, mit 1 el butter in einer weiteren pfanne goldgelb anbraten und beiseitestellen.",
+      "das rinderhüftsteak mit salz und pfeffer würzen. 1 el olivenöl in einer heißen pfanne erhitzen und das steak von jeder seite ca. 2-3 minuten scharf anbraten (oder nach gewünschtem gargrad). anschließend in alufolie wickeln und 5 minuten ruhen lassen.",
+      "in der noch warmen steakpfanne die zwiebelringe und den knoblauch kurz anschwitzen, mit balsamicoessig ablöschen und den senf unterrühren. eine prise zucker zufügen und 2-3 minuten reduzieren lassen.",
+      "das steak in streifen schneiden. kartoffeln, speckbohnen, zwiebel-balsamico-soße und steakstreifen auf tellern anrichten, alles mit frisch gehackter petersilie bestreuen und servieren."
+    ],
+    "subtitle": "zartes rind mit speckbohnen und bratkartoffeln"
+  },
+  {
+    "id": "6a1cafb0ae103b6c9c762dba",
+    "title": "bunte rinderhack-gemüsepfanne aus dem ofen",
+    "duration": 35,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 350,
+        "name": "rinderhackfleisch",
+        "unit": "g"
+      },
+      {
+        "amount": 3,
+        "name": "kleine kartoffeln",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "karotten",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "schalotte",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 200,
+        "name": "stückige tomaten aus der dose",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "mais (dose, abgetropft)",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "tl paprikapulver, mild",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl oregano, getrocknet",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl zucker",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 60,
+        "name": "geriebener gouda",
+        "unit": "g"
+      }
+    ],
+    "labels": [
+      "Kids",
+      "Rind"
+    ],
+    "nutrients": [
+      {
+        "amount": 525,
+        "name": "energie",
+        "unit": "kcal"
+      },
+      {
+        "amount": 37,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 28,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 29,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "kartoffeln und karotten schälen und in kleine würfel schneiden. die zucchini ebenfalls waschen und würfeln. schalotte und knoblauch fein hacken.",
+      "das olivenöl in einer großen pfanne erhitzen und das rinderhackfleisch darin krümelig anbraten. schalotten und knoblauch dazugeben und kurz mitdünsten.",
+      "gemüsewürfel (kartoffeln, karotten, zucchini) zufügen und alles etwa 5 minuten anbraten.",
+      "stückige tomaten sowie mais unterrühren. paprikapulver, oregano, zucker, salz und pfeffer dazugeben.",
+      "die pfanne mit einem deckel abdecken und das ganze bei mittlerer hitze ca. 15 minuten köcheln lassen, bis die kartoffeln und karotten weich sind.",
+      "zum schluss die masse in eine ofenfeste form geben, mit dem geriebenen gouda bestreuen und im vorgeheizten ofen bei 200 °c (ober-/unterhitze) etwa 8 minuten überbacken, bis der käse goldgelb ist.",
+      "heiß servieren und genießen!"
+    ],
+    "subtitle": "herzhafte rinderhack-gemüsepfanne mit mais und überbackenem gouda"
+  },
+  {
+    "id": "6a22dc85ae103b6c9c762dbc",
+    "title": "burrata mit tomaten, basilikum und karamellisierten zwiebeln",
+    "duration": 35,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 3,
+        "name": "burrata",
+        "unit": "St"
+      },
+      {
+        "amount": 450,
+        "name": "tomaten (z.b. rispentomaten oder gemischte sorten)",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "rote zwiebeln",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el balsamico-essig",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "el zucker",
+        "unit": "EL"
+      },
+      {
+        "amount": 15,
+        "name": "basilikumblätter",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "tl salz",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Vegetarisch"
+    ],
+    "nutrients": [
+      {
+        "amount": 350,
+        "name": "kilokalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 13,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 14,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
         "amount": 32,
         "name": "kohlenhydrate",
         "unit": "g"
       }
     ],
     "preparation": [
-      "kartoffeln schälen und in grobe stücke schneiden. im thermomix 500 g wasser, 1 teelöffel salz und die kartoffeln in den gareinsatz geben. 25 minuten/varoma/stufe 1 garen.",
-      "währenddessen bohnen waschen und enden entfernen. in den thermomix varoma-einsatz geben, 15 minuten vor ende zu den kartoffeln aufsetzen.",
-      "zwiebel schälen und fein hacken, knoblauch andrücken. kirschtomaten halbieren.",
-      "die rinderhüftsteaks mit 1 esslöffel olivenöl bestreichen, salzen & pfeffern. steaks in den airfryer bei 200°c  für ca. 8–10 minuten (medium), anschließend in folie 3 minuten ruhen lassen.",
-      "in einer pfanne 1 esslöffel olivenöl und butter erhitzen, zwiebel und knoblauch darin anschwitzen. kirschtomaten ergänzen und kurz anbraten.",
-      "kartoffeln abgießen, zurück in den mixtopf geben. 1 esslöffel olivenöl, 1 esslöffel butter, parmesan und etwas pfeffer zufügen. 10 sekunden/stufe 4 zerstampfen.",
-      "bohnen mit den tomaten vermengen, alles abschmecken.",
-      "steaks aufschneiden, daneben kartoffel-parmesan-stampf und das bohnen-tomaten-gemüse anrichten."
+      "tomaten waschen und je nach größe vierteln oder in scheiben schneiden.",
+      "zwiebeln schälen, halbieren und in feine streifen schneiden.",
+      "1 el olivenöl in einer pfanne erhitzen und die zwiebeln darin bei mittlerer hitze glasig dünsten.",
+      "zucker zugeben und ca. 5 minuten karamellisieren lassen. mit balsamico ablöschen und kurz einkochen lassen. leicht salzen und etwas abkühlen lassen.",
+      "tomaten auf 3 tellern verteilen und mit salz und pfeffer würzen.",
+      "je 1 burrata auf die tomaten setzen.",
+      "karamellisierte zwiebeln über die burrata und tomaten geben.",
+      "mit restlichem olivenöl beträufeln und mit basilikumblättern garnieren."
     ],
-    "subtitle": "zartes rinderhüftsteak aus dem airfryer mit parmesan-kartoffelstampf und bohnen-tomaten-gemüse"
+    "subtitle": "frische tomaten mit cremiger burrata, frischem basilikum und karamellisierten zwiebeln"
   },
   {
-    "title": "rindersteak mit buntem gemüse-kartoffel-püree",
-    "duration": 35,
-    "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+    "id": "6a25ea2bae103b6c9c762dbd",
+    "title": "bunte penne primavera",
+    "duration": 30,
+    "image": null,
+    "imageBase64": null,
     "ingredients": [
       {
         "amount": 300,
-        "name": "rinderhüftsteak",
+        "name": "penne",
         "unit": "g"
       },
       {
+        "amount": 250,
+        "name": "cherrytomaten",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "rote zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 125,
+        "name": "mozzarella",
+        "unit": "g"
+      },
+      {
+        "amount": 40,
+        "name": "parmesan",
+        "unit": "g"
+      },
+      {
+        "amount": 3,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl getrockneter oregano",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl getrocknetes basilikum",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise zucker",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "tl salz",
+        "unit": "TL"
+      },
+      {
+        "amount": 0.5,
+        "name": "tl schwarzer pfeffer",
+        "unit": "TL"
+      },
+      {
+        "amount": 10,
+        "name": "blätter frisches basilikum",
+        "unit": "St"
+      }
+    ],
+    "labels": [
+      "Vegetarisch",
+      "Kids"
+    ],
+    "nutrients": [
+      {
+        "amount": 560,
+        "name": "kalorien pro portion",
+        "unit": "kcal"
+      },
+      {
+        "amount": 22,
+        "name": "eiweiß pro portion",
+        "unit": "g"
+      },
+      {
+        "amount": 14,
+        "name": "fett pro portion",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "die pasta nach packungsanweisung in reichlich salzwasser al dente kochen.",
+      "währenddessen die cherrytomaten waschen und halbieren, zucchini würfeln, zwiebel schälen und in feine streifen schneiden, knoblauch fein hacken.",
+      "in einer großen pfanne olivenöl erhitzen, zwiebel und knoblauch glasig andünsten.",
+      "zucchiniwürfel zugeben und bei mittlerer hitze ca. 5 minuten anbraten, dann cherrytomaten hinzufügen.",
+      "mit getrocknetem oregano, getrocknetem basilikum, zucker, salz und pfeffer würzen.",
+      "die abgetropfte pasta zur sauce geben und alles gut vermengen.",
+      "den mozzarella in kleine würfel schneiden und unter die pasta mischen, bis er leicht schmilzt.",
+      "parmesan reiben und ebenfalls über die pasta geben.",
+      "anrichten und mit frischen basilikumblättern bestreut servieren."
+    ],
+    "subtitle": "mit zucchini, cherrytomaten und mozzarella"
+  },
+  {
+    "id": "6a25ea2bae103b6c9c762dbe",
+    "title": "bunter kinder-nudel-auflauf",
+    "duration": 30,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
         "amount": 300,
-        "name": "mehligkochende kartoffeln",
+        "name": "bunte muschelnudeln",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "rote paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "gelbe paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 150,
+        "name": "tk-erbsen",
         "unit": "g"
       },
       {
         "amount": 150,
-        "name": "karotten",
+        "name": "kochschinken",
         "unit": "g"
       },
       {
-        "amount": 30,
-        "name": "butter",
+        "amount": 200,
+        "name": "kinderfreundlicher sahne-frischkäse",
         "unit": "g"
       },
       {
         "amount": 100,
-        "name": "erbsen (tk oder frisch)",
-        "unit": "g"
-      },
-      {
-        "amount": 50,
         "name": "milch",
         "unit": "ml"
       },
       {
-        "amount": 1,
-        "name": "salz",
-        "unit": "TL"
-      },
-      {
-        "amount": 1,
-        "name": "pfeffer",
-        "unit": "TL"
-      },
-      {
-        "amount": 1,
-        "name": "paprikapulver, edelsüß",
-        "unit": "TL"
-      },
-      {
-        "amount": 1,
-        "name": "olivenöl",
+        "amount": 2,
+        "name": "el butter",
         "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 50,
+        "name": "geriebener gouda",
+        "unit": "g"
       }
     ],
     "labels": [
-      "Rind",
-      "Thermomix",
-      "Airfryer"
+      "Kids",
+      "Vegetarisch"
     ],
     "nutrients": [
       {
-        "amount": 420,
-        "name": "energie",
+        "amount": 540,
+        "name": "kalorien pro portion",
         "unit": "kcal"
       },
       {
-        "amount": 34,
-        "name": "eiweiß",
+        "amount": 22,
+        "name": "eiweiß pro portion",
         "unit": "g"
       },
       {
-        "amount": 18,
+        "amount": 14,
+        "name": "fett pro portion",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "nudeln nach packungsanleitung in reichlich salzwasser gar kochen, abgießen.",
+      "zwischenzeitlich paprika waschen, entkernen und in kleine würfel schneiden.",
+      "kochschinken ebenfalls klein würfeln.",
+      "in einer großen pfanne butter schmelzen, paprika und erbsen ca. 3 minuten darin anschwitzen.",
+      "kochschinken zugeben und kurz mitbraten.",
+      "sahne-frischkäse und milch unterrühren, 2 minuten köcheln lassen.",
+      "nudeln untermischen, mit salz und pfeffer abschmecken.",
+      "alles in eine große auflaufform geben, mit gouda bestreuen.",
+      "im vorgeheizten ofen bei 200 grad (ober-/unterhitze) ca. 8 minuten überbacken – bis der käse geschmolzen ist.",
+      "heiß servieren und genießen!"
+    ],
+    "subtitle": "nudel-gemüse-auflauf mit schinken und frischkäse"
+  },
+  {
+    "id": "6a2ac6d4ae103b6c9c762dbf",
+    "title": "gong bao hähnchen mit reis",
+    "duration": 40,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 400,
+        "name": "hähnchenbrustfilet",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "jasmimreis",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "paprika, rot",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "frühlingszwiebeln",
+        "unit": "St"
+      },
+      {
+        "amount": 70,
+        "name": "erdnüsse, geröstet",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "chilischote, rot",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el sojasauce",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el dunkle sojasauce",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el reisessig",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el zucker",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "el maisstärke",
+        "unit": "EL"
+      },
+      {
+        "amount": 3,
+        "name": "el sonnenblumenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl sesamöl",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Geflügel"
+    ],
+    "nutrients": [
+      {
+        "amount": 600,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 50,
+        "name": "Eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 20,
         "name": "fett",
         "unit": "g"
       },
       {
-        "amount": 30,
+        "amount": 70,
         "name": "kohlenhydrate",
         "unit": "g"
       }
     ],
     "preparation": [
-      "die kartoffeln schälen und in grobe würfel schneiden. karotten in kleine stücke schneiden.",
-      "kartoffeln und karotten in den thermomix geben, 400ml wasser und 0,5tl salz zugeben. 20 min. / varoma / stufe 1 garen.",
-      "in den letzten 7 minuten die erbsen auf den mixtopfdeckel in den varomieinsatz geben und dämpfen.",
-      "rinderhüftsteak mit 1 prise salz, pfeffer und paprikapulver würzen, mit 1 el öl einreiben.",
-      "das steak im vorgeheizten airfryer bei 200°c ca. 8-10 minuten garen (medium), dabei nach hälfte der zeit einmal wenden.",
-      "kartoffeln, karotten abgießen. 30g butter und 50ml milch zugeben, 20 sek. / stufe 3,5 pürieren bis ein cremiges püree entsteht. nach geschmack nachwürzen.",
-      "das steak in streifen schneiden. püree und erbsen auf tellern anrichten, steaks daraufgeben.",
-      "nach belieben mit etwas frischer petersilie anrichten und direkt servieren."
+      "reis nach packungsanleitung kochen.",
+      "hähnchenbrustfilet würfeln und mit 1 el sojasauce, 1 el maisstärke und einer prise pfeffer vermengen. 10 minuten marinieren lassen.",
+      "paprika und frühlingszwiebeln in stücke schneiden, knoblauch und chilischote fein hacken.",
+      "für die sauce: restliche sojasauce, dunkle sojasauce, reisessig und zucker in einer schale verrühren.",
+      "sonnenblumenöl in einer großen pfanne oder einem wok erhitzen. hähnchen portionsweise anbraten, bis es leicht gebräunt und fast durch ist. aus der pfanne nehmen.",
+      "paprika, knoblauch, frühlingszwiebel und chili kurz anbraten.",
+      "hähnchen wieder zugeben, die sauce dazugeben und alles bei mittlerer hitze einige minuten schmoren lassen, bis die sauce andickt.",
+      "erdnüsse und sesamöl unterrühren, alles mit salz und ggf. weiterem pfeffer abschmecken.",
+      "mit dem reis servieren."
     ],
-    "subtitle": "saftiges rindersteak aus dem airfryer auf buntem kartoffel-karotten-püree mit erbsen"
+    "subtitle": "hähnchenbrust, paprika, erdnüsse und reis nach gong bao art"
+  },
+  {
+    "id": "6a2f24c4df29b975ad797950",
+    "title": "rinderhüftwürfel mit paprika-tomaten-soße und reis",
+    "duration": 55,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 450,
+        "name": "rinderhüftsteak",
+        "unit": "g"
+      },
+      {
+        "amount": 3,
+        "name": "mittelgroße zwiebeln",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "rote paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 400,
+        "name": "stückige tomaten (dose)",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "lorbeerblatt",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "tl paprikapulver (edelsüß)",
+        "unit": "TL"
+      },
+      {
+        "amount": 2,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 240,
+        "name": "reis",
+        "unit": "g"
+      },
+      {
+        "amount": 500,
+        "name": "rinderbrühe",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "prise zucker",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 2,
+        "name": "el gehackte petersilie",
+        "unit": "EL"
+      }
+    ],
+    "labels": [
+      "Rind"
+    ],
+    "nutrients": [
+      {
+        "amount": 600,
+        "name": "kcal pro portion (ca.)",
+        "unit": "kcal"
+      },
+      {
+        "amount": 38,
+        "name": "eiweiß pro portion (ca.)",
+        "unit": "g"
+      },
+      {
+        "amount": 18,
+        "name": "fett pro portion (ca.)",
+        "unit": "g"
+      },
+      {
+        "amount": 66,
+        "name": "kohlenhydrate pro portion (ca.)",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "die rinderhüftsteaks trocken tupfen und in ca. 2 cm große würfel schneiden.",
+      "zwiebeln und knoblauch schälen und fein hacken. paprika entkernen und in streifen schneiden.",
+      "in einer großen pfanne das olivenöl erhitzen und die fleischwürfel darin rundum scharf anbraten. anschließend herausnehmen und beiseite stellen.",
+      "zwiebeln und knoblauch im bratfett glasig dünsten, dann paprikastreifen hinzufügen und kurz mitbraten.",
+      "paprikapulver einrühren, dann stückige tomaten, lorbeerblatt, eine prise zucker sowie salz und pfeffer hinzufügen.",
+      "mit rinderbrühe aufgießen und zum kochen bringen. die rinderwürfel zurück in die pfanne geben.",
+      "alles bei niedriger hitze abgedeckt ca. 35 minuten sanft schmoren, dabei gelegentlich umrühren.",
+      "inzwischen den reis nach packungsangabe in leicht gesalzenem wasser garen.",
+      "kurz vor ende der garzeit mit salz und pfeffer abschmecken und das lorbeerblatt entfernen.",
+      "mit frisch gehackter petersilie bestreuen und mit dem reis servieren."
+    ],
+    "subtitle": "zart geschmorte rinderhüftwürfel in paprika-tomaten-soße auf reis"
+  },
+  {
+    "id": "6a2f24c4df29b975ad797951",
+    "title": "spaghetti-hackfleisch-käse-teller",
+    "duration": 40,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 400,
+        "name": "rinderhackfleisch",
+        "unit": "g"
+      },
+      {
+        "amount": 150,
+        "name": "mozzarella",
+        "unit": "g"
+      },
+      {
+        "amount": 250,
+        "name": "spaghetti",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "tomaten",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 400,
+        "name": "passierte tomaten",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "karotte",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl italienische kräuter (getrocknet)",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl paprikapulver",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 2,
+        "name": "el tomatenmark",
+        "unit": "EL"
+      }
+    ],
+    "labels": [
+      "Kids",
+      "Rind"
+    ],
+    "nutrients": [
+      {
+        "amount": 700,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 32,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 22,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 89,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "zwiebel, karotte und knoblauch fein würfeln. tomaten in kleine würfel schneiden.",
+      "das olivenöl in einer großen pfanne erhitzen. zwiebel, knoblauch und karotte darin anbraten.",
+      "rinderhackfleisch dazugeben und krümelig braten.",
+      "tomatenmark, gewürfelte tomaten und passierte tomaten hinzufügen, alles gut verrühren.",
+      "mit paprikapulver, italienischen kräutern, salz und pfeffer abschmecken.",
+      "sauce bei mittlerer hitze 15-20 minuten köcheln lassen.",
+      "in der zwischenzeit die spaghetti nach packungsanweisung in salzwasser kochen.",
+      "mozzarella würfeln.",
+      "spaghetti auf teller verteilen, mit der hackfleisch-tomatensauce bedecken und mozzarella darauf verteilen. kurz unter dem grill gratinieren oder direkt heiß servieren, damit der käse schmilzt."
+    ],
+    "subtitle": "spaghetti-hackfleisch-auflauf mit mozzarella – das schnelle lieblingsgericht"
+  },
+  {
+    "id": "6a385f11df29b975ad797952",
+    "title": "rindereintopf mit kartoffeln, bohnen und paprika",
+    "duration": 55,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 400,
+        "name": "rinderhackfleisch",
+        "unit": "g"
+      },
+      {
+        "amount": 400,
+        "name": "kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 300,
+        "name": "weiße bohnen (aus der dose, abgetropft)",
+        "unit": "g"
+      },
+      {
+        "amount": 3,
+        "name": "karotten",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 600,
+        "name": "rinderbrühe",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "rote paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el tomatenmark",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl paprikapulver (edelsüß)",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl getrockneter thymian",
+        "unit": "TL"
+      },
+      {
+        "amount": 3,
+        "name": "el öl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "lorbeerblatt",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Rind",
+      "Kids"
+    ],
+    "nutrients": [
+      {
+        "amount": 540,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 35,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 17,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 60,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "kartoffeln und karotten schälen, in mittelgroße würfel bzw. scheiben schneiden. zwiebel und knoblauch fein hacken. paprika entkernen und würfeln.",
+      "in einem großen topf das öl erhitzen. das hackfleisch darin krümelig anbraten. zwiebel und knoblauch hinzufügen und glasig dünsten.",
+      "karotten, paprika und kartoffeln zugeben, einige minuten mit anschwitzen.",
+      "tomatenmark einrühren, dann mit paprikapulver und thymian würzen.",
+      "mit der rinderbrühe ablöschen. lorbeerblatt zugeben, alles zum kochen bringen.",
+      "weiße bohnen mit in den topf geben, hitze reduzieren und etwa 35 minuten zugedeckt köcheln lassen, bis alles gar ist.",
+      "mit salz und pfeffer abschmecken, lorbeerblatt entfernen und servieren."
+    ],
+    "subtitle": "herzhafter hackfleisch-kartoffel-eintopf"
+  },
+  {
+    "id": "6a385f11df29b975ad797953",
+    "title": "kinderfreundlicher hähnchen-gemüse-eintopf",
+    "duration": 40,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 500,
+        "name": "kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 300,
+        "name": "bio-hähnchenbrust",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "karotten",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "kleiner brokkoli",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "große zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 1000,
+        "name": "gemüsebrühe",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "el rapsöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 3,
+        "name": "el gehackte petersilie",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl salz",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl pfeffer (frisch gemahlen)",
+        "unit": "TL"
+      }
+    ],
+    "labels": [
+      "Kids",
+      "Geflügel"
+    ],
+    "nutrients": [
+      {
+        "amount": 410,
+        "name": "kalorien pro portion",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "kartoffeln schälen und in kleine würfel schneiden.",
+      "karotten waschen, schälen und in scheiben schneiden.",
+      "brokkoli in röschen teilen, den strunk würfeln.",
+      "zwiebel schälen und fein würfeln.",
+      "hähnchenbrust in mundgerechte würfel schneiden.",
+      "in einem großen topf das rapsöl erhitzen, zwiebel und hähnchen darin 3 minuten anbraten.",
+      "kartoffeln und karotten dazugeben und kurz mitbraten.",
+      "mit gemüsebrühe ablöschen, kurz aufkochen lassen.",
+      "bei mittlerer hitze mit geschlossenem deckel ca. 20 minuten köcheln lassen.",
+      "nach 10 minuten brokkoliröschen hinzufügen.",
+      "mit salz und pfeffer würzen.",
+      "zum schluss gehackte petersilie untermischen und servieren."
+    ],
+    "subtitle": "bunter hähnchen-gemüse-eintopf"
+  },
+  {
+    "id": "6a3907f4df29b975ad797954",
+    "title": "zucchini hackfleisch pfanne mit feta",
+    "duration": 35,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 400,
+        "name": "zucchini",
+        "unit": "g"
+      },
+      {
+        "amount": 350,
+        "name": "hackfleisch (gemischt)",
+        "unit": "g"
+      },
+      {
+        "amount": 150,
+        "name": "feta",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "tomaten",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "paprika (rot)",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "paprikapulver",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "oregano (getrocknet)",
+        "unit": "TL"
+      }
+    ],
+    "labels": [
+      "Kalorienarm",
+      "Fettarm",
+      "Eiweiß",
+      "Kids",
+      "Rind"
+    ],
+    "nutrients": [
+      {
+        "amount": 420,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 33,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 23,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 16,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "zucchini waschen und in kleine würfel schneiden.",
+      "paprika und tomaten ebenfalls würfeln. zwiebel und knoblauch fein hacken.",
+      "olivenöl in einer großen pfanne erhitzen. zwiebel und knoblauch darin glasig anschwitzen.",
+      "hackfleisch hinzufügen und krümelig anbraten, salzen und pfeffern.",
+      "zucchini, paprika, und tomaten zugeben und alles etwa 10 minuten unter gelegentlichem rühren garen.",
+      "mit paprikapulver und oregano würzen.",
+      "feta würfeln und in die pfanne geben, vorsichtig untermischen.",
+      "alles noch 2-3 minuten weiter erhitzen, bis der feta leicht angeschmolzen ist.",
+      "nochmals abschmecken und direkt servieren."
+    ],
+    "subtitle": "schnelle pfanne mit hackfleisch, zucchini, paprika und feta"
+  },
+  {
+    "id": "6a398506df29b975ad797955",
+    "title": "Zucchini-Hackfleisch-Pfanne mit Tomaten und Feta",
+    "duration": 30,
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/zucchini-hackfleisch-pfanne-12736879.jpg",
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 300,
+        "name": "Zucchini",
+        "unit": "g"
+      },
+      {
+        "amount": 300,
+        "name": "Hackfleisch (gemischt oder Rind)",
+        "unit": "g"
+      },
+      {
+        "amount": 150,
+        "name": "Kirschtomaten",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "Zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "Knoblauch",
+        "unit": "St"
+      },
+      {
+        "amount": 100,
+        "name": "Feta",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "Olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "Italienische Kräuter (getrocknet)",
+        "unit": "TL"
+      }
+    ],
+    "labels": [
+      "Schwein",
+      "Rind",
+      "Eiweiß",
+      "Fettarm",
+      "Thermomix"
+    ],
+    "nutrients": [
+      {
+        "amount": 460,
+        "name": "Kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 32,
+        "name": "Eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 24,
+        "name": "Fett",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Zwiebel und Knoblauch im Thermomix 5 Sek./Stufe 5 zerkleinern.",
+      "1 EL Olivenöl zugeben und 3 Min./120°C/Stufe 1 andünsten.",
+      "Hackfleisch zugeben und 7 Min./Varoma/Stufe 1 braten, mit Spatel zerkleinern.",
+      "Zucchini in kleine Würfel schneiden und zugeben, 5 Min./100°C/Stufe 1 garen.",
+      "Kirschtomaten halbieren und zusammen mit Kräutern unterheben.",
+      "Mit Salz & Pfeffer abschmecken, in Schüsseln füllen und mit Feta bestreuen."
+    ],
+    "subtitle": "Mediterraner Genuss mit Feta und frischen Kräutern"
   }
 ]
