@@ -8777,5 +8777,2950 @@
       "Mit Salz & Pfeffer abschmecken, in Schüsseln füllen und mit Feta bestreuen."
     ],
     "subtitle": "Mediterraner Genuss mit Feta und frischen Kräutern"
+  },
+  {
+    "id": "6a3d0266df29b975ad797956",
+    "title": "gelbe zucchini pfanne",
+    "duration": 35,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 3,
+        "name": "gelbe zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "tomaten",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "rote paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "feta",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zitrone",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "bund petersilie",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Vegetarisch",
+      "Kalorienarm",
+      "Fettarm"
+    ],
+    "nutrients": [
+      {
+        "amount": 250,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 9,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 12,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 20,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "zucchini, tomaten und paprika waschen, die enden entfernen und in kleine würfel schneiden.",
+      "zwiebel und knoblauch schälen und fein hacken.",
+      "in einer großen pfanne das olivenöl erhitzen. zwiebel und knoblauch darin glasig dünsten.",
+      "paprika, zucchini und tomaten hinzufügen, einige minuten unter gelegentlichem rühren anbraten.",
+      "mit salz und pfeffer würzen. alles bei mittlerer hitze etwa 15 minuten garen, bis das gemüse weich ist.",
+      "feta in kleine würfel schneiden und unter das heiße gemüse mischen.",
+      "zitrone auspressen, ein wenig saft zum gemüse geben. petersilie fein hacken und darüberstreuen.",
+      "das gericht kann warm oder lauwarm serviert werden."
+    ],
+    "subtitle": "gemüsepfanne mit gelber zucchini und feta"
+  },
+  {
+    "id": "6a3d07e7df29b975ad797957",
+    "title": "gegrillte gelbe zucchini",
+    "duration": 20,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 3,
+        "name": "gelbe zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "el zitronensaft",
+        "unit": "EL"
+      }
+    ],
+    "labels": [
+      "Vegan",
+      "Vegetarisch",
+      "Fettarm",
+      "Kalorienarm"
+    ],
+    "nutrients": [
+      {
+        "amount": 120,
+        "name": "kalorien",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "zucchini waschen und längs in circa 1 cm dicke scheiben schneiden.",
+      "knoblauch schälen und fein hacken.",
+      "olivenöl, knoblauch, zitronensaft, salz und pfeffer in einer schüssel verrühren.",
+      "zucchinischeiben mit der marinade bestreichen.",
+      "grill vorheizen und zucchini auf den rost legen.",
+      "zucchini für etwa 4-5 minuten pro seite grillen, bis sie goldbraun und bissfest sind.",
+      "sofort servieren."
+    ],
+    "subtitle": "einfaches grillgemüse mit frischer zitronen-marinade"
+  },
+  {
+    "id": "6a4199a7df29b975ad797958",
+    "title": "herzhafter gemüseeintopf mit wursteinlage",
+    "duration": 60,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 400,
+        "name": "gemischtes wurzelgemüse (z.b. möhren, sellerie, pastinaken)",
+        "unit": "g"
+      },
+      {
+        "amount": 300,
+        "name": "festkochende kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "porreestange",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "rote paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "weißwurst (alternativ: debreziner oder bockwurst)",
+        "unit": "St"
+      },
+      {
+        "amount": 850,
+        "name": "gemüsebrühe",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "lorbeerblätter",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zweig thymian",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "prise muskat",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 3,
+        "name": "el gehackte petersilie",
+        "unit": "EL"
+      }
+    ],
+    "labels": [
+      "Kids"
+    ],
+    "nutrients": [
+      {
+        "amount": 430,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 22,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 12,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 60,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "wurzelgemüse, kartoffeln, paprika und zucchini waschen, schälen (bei bedarf) und in würfel schneiden. porree in ringe schneiden.",
+      "in einem großen topf olivenöl erhitzen und das wurzelgemüse und die kartoffelwürfel darin 2–3 minuten anbraten.",
+      "porree, paprika und zucchini zufügen und weitere 3 minuten mitdünsten. knoblauch fein hacken und mitdünsten.",
+      "mit gemüsebrühe ablöschen, thymianzweig und lorbeerblätter zugeben. bei mittlerer hitze ca. 25 minuten köcheln lassen, gelegentlich umrühren.",
+      "weißwurst (oder andere wurst) in scheiben schneiden, nach ca. 20 minuten garzeit zum eintopf geben.",
+      "mit salz, pfeffer, muskat abschmecken, lorbeer und thymian entfernen.",
+      "vor dem servieren mit frisch gehackter petersilie bestreuen."
+    ],
+    "subtitle": "gemüseeintopf mit feiner weißwurst"
+  },
+  {
+    "id": "6a4199a7df29b975ad797959",
+    "title": "kinderfreundlicher hähnchen-kartoffel-eintopf",
+    "duration": 45,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 600,
+        "name": "kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 400,
+        "name": "hähnchenbrustfilet",
+        "unit": "g"
+      },
+      {
+        "amount": 300,
+        "name": "karotten",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "tk-erbsen",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 750,
+        "name": "geflügelbrühe",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "sonnenblumenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 100,
+        "name": "sahne",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "lorbeerblatt",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "paprikapulver, edelsüß",
+        "unit": "TL"
+      }
+    ],
+    "labels": [
+      "Kids",
+      "Geflügel"
+    ],
+    "nutrients": [
+      {
+        "amount": 480,
+        "name": "energie",
+        "unit": "kcal"
+      },
+      {
+        "amount": 39,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 46,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      },
+      {
+        "amount": 13,
+        "name": "fett",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "kartoffeln und karotten schälen und in kleine würfel schneiden.",
+      "zwiebel und knoblauch schälen und fein hacken.",
+      "hähnchenbrustfilet in mundgerechte stücke schneiden.",
+      "in einem großen topf das öl erhitzen. zwiebel und knoblauch darin glasig dünsten.",
+      "hähnchenwürfel zugeben und rundherum anbraten.",
+      "kartoffeln und karotten zufügen, kurz mitbraten.",
+      "mit der geflügelbrühe ablöschen, lorbeerblatt dazugeben.",
+      "alles ca. 20 minuten bei mittlerer hitze köcheln lassen.",
+      "erbsen und sahne hinzufügen, noch einmal 10 minuten weiterköcheln.",
+      "mit salz, pfeffer und paprikapulver abschmecken. lorbeerblatt entfernen.",
+      "eintopf in tiefen tellern servieren."
+    ],
+    "subtitle": "cremiger hähnchen-kartoffel-eintopf mit karotten und erbsen"
+  },
+  {
+    "id": "6a45416fdf29b975ad79795a",
+    "title": "scharfe gewürzgurken mit knoblauch und pfeffer",
+    "duration": 60,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 600,
+        "name": "kleine gurken",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 250,
+        "name": "wasser",
+        "unit": "ml"
+      },
+      {
+        "amount": 130,
+        "name": "weißweinessig",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "chilischoten",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "lorbeerblätter",
+        "unit": "St"
+      },
+      {
+        "amount": 10,
+        "name": "pfefferkörner",
+        "unit": "St"
+      },
+      {
+        "amount": 5,
+        "name": "senfkörner",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "dillzweig",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zucker",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "salz",
+        "unit": "EL"
+      }
+    ],
+    "labels": [
+      "Kalorienarm",
+      "Fettarm",
+      "Vegetarisch",
+      "Vegan"
+    ],
+    "nutrients": [
+      {
+        "amount": 40,
+        "name": "kalorien",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "gurken gründlich waschen, die enden abschneiden und je nach gewünschter größe ganz lassen oder halbieren.",
+      "knoblauchzehen schälen und grob hacken, chilischoten längs halbieren.",
+      "einmachgläser mit kochendem wasser ausspülen und trocknen lassen.",
+      "wasser, essig, zucker und salz in einem topf aufkochen, dann lorbeerblätter, pfefferkörner und senfkörner zugeben und 5 minuten leicht köcheln lassen.",
+      "gurken, knoblauch, chili und dillzweig in die gläser schichten.",
+      "den heißen sud auf die gläser verteilen, sodass alles gut bedeckt ist.",
+      "gläser fest verschließen und für mindestens 1 woche an einem kühlen, dunklen ort ziehen lassen, danach sind die gurken verzehrfertig."
+    ],
+    "subtitle": "pikant eingelegte gurken mit knoblauch und chili"
+  },
+  {
+    "id": "6a463fa5df29b975ad79795b",
+    "title": "gelbe zucchini eingelegt",
+    "duration": 40,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 600,
+        "name": "gelbe zucchini",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 250,
+        "name": "weißweinessig",
+        "unit": "ml"
+      },
+      {
+        "amount": 250,
+        "name": "wasser",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "karotten",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "lorbeerblätter",
+        "unit": "St"
+      },
+      {
+        "amount": 10,
+        "name": "pfefferkörner",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "chilischote",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el zucker",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "el salz",
+        "unit": "EL"
+      }
+    ],
+    "labels": [
+      "Kalorienarm",
+      "Fettarm",
+      "Vegetarisch",
+      "Vegan"
+    ],
+    "nutrients": [
+      {
+        "amount": 60,
+        "name": "kcal",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "zucchini waschen, längs halbieren und in etwa 1 cm dicke scheiben schneiden.",
+      "zwiebel und karotten schälen und in dünne scheiben schneiden.",
+      "knoblauch schälen und in feine scheiben schneiden.",
+      "chilischote waschen, entkernen und klein hacken.",
+      "essig, wasser, zucker, salz, lorbeerblätter und pfefferkörner in einen topf geben und aufkochen.",
+      "zucchini, karotten, zwiebel, knoblauch und chili in ein steriles einmachglas schichten.",
+      "den heißen sud darüber gießen, bis alles bedeckt ist.",
+      "gläser sofort verschließen und auf dem kopf auskühlen lassen.",
+      "die zucchini mindestens 2 tage durchziehen lassen, bevor sie serviert werden."
+    ],
+    "subtitle": "eingelegte gelbe zucchini in essig-sud"
+  },
+  {
+    "id": "6a47a087df29b975ad79795c",
+    "title": "mangold-pfanne kalorienarm",
+    "duration": 25,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 600,
+        "name": "mangold",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "zwiebeln",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 200,
+        "name": "kirschtomaten",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "zitrone",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 100,
+        "name": "gemüsebrühe",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Kalorienarm",
+      "Fettarm",
+      "Vegetarisch",
+      "Vegan"
+    ],
+    "nutrients": [
+      {
+        "amount": 115,
+        "name": "kalorien pro portion",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "mangold gründlich waschen. die stiele in kleine stücke, die blätter in streifen schneiden.",
+      "zwiebeln und knoblauch schälen und fein hacken.",
+      "kirschtomaten waschen und halbieren. zitrone auspressen.",
+      "olivenöl in einer großen pfanne erhitzen. zwiebeln und knoblauch darin bei mittlerer hitze glasig dünsten.",
+      "mangoldstiele zugeben und etwa 3 minuten anbraten. dann mangoldblätter und kirschtomaten hinzufügen.",
+      "mit gemüsebrühe ablöschen und alles offen für etwa 8 minuten dünsten, bis der mangold zusammenfällt.",
+      "mit zitronensaft, salz und pfeffer abschmecken. heiß servieren."
+    ],
+    "subtitle": "leichter mangold-gemüse-pfanne"
+  },
+  {
+    "id": "6a480097df29b975ad79795d",
+    "title": "eingelegte gelbe zucchini mit zitrone, minze und senfkörnern",
+    "duration": 30,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 2,
+        "name": "gelbe zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "bio-zitrone",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "zweige minze",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 400,
+        "name": "wasser",
+        "unit": "ml"
+      },
+      {
+        "amount": 200,
+        "name": "weißweinessig",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "senfkörner",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "salz",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "zucker",
+        "unit": "TL"
+      }
+    ],
+    "labels": [
+      "Kalorienarm",
+      "Fettarm",
+      "Vegetarisch",
+      "Vegan"
+    ],
+    "nutrients": [
+      {
+        "amount": 40,
+        "name": "kcal",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "zucchini waschen und in ca. 0,5 cm dicke scheiben schneiden.",
+      "zitrone heiß waschen, trocknen und in dünne scheiben schneiden.",
+      "minzblätter von den zweigen zupfen, knoblauch schälen und in scheiben schneiden.",
+      "einmachgläser gründlich ausspülen und bereitstellen.",
+      "zucchini, zitronenscheiben, minze und knoblauch abwechselnd in die gläser schichten.",
+      "wasser, essig, salz, zucker und senfkörner in einem topf aufkochen lassen.",
+      "die heiße flüssigkeit über die eingelegten zutaten gießen, sodass alles bedeckt ist.",
+      "gläser sofort verschließen und mindestens 24 stunden an einem kühlen ort durchziehen lassen."
+    ],
+    "subtitle": "gelbe zucchini lecker eingelegt mit zitrone, minze und senfkörnern"
+  },
+  {
+    "id": "6a4ad417df29b975ad79795e",
+    "title": "frikadellen auf buntem wirsing-gemüse-stampf",
+    "duration": 45,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 400,
+        "name": "gemischtes hackfleisch",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "ei",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 80,
+        "name": "altbackenes brötchen",
+        "unit": "g"
+      },
+      {
+        "amount": 80,
+        "name": "milch",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el petersilie, gehackt",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl senf",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl paprika edelsüß",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise muskatnuss",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 3,
+        "name": "el sonnenblumenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 650,
+        "name": "wirsing",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "möhre",
+        "unit": "St"
+      },
+      {
+        "amount": 400,
+        "name": "kartoffel",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "el butter",
+        "unit": "EL"
+      },
+      {
+        "amount": 120,
+        "name": "sahne",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "prise muskatnuss",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Kids"
+    ],
+    "nutrients": [
+      {
+        "amount": 650,
+        "name": "kcal",
+        "unit": "kcal"
+      },
+      {
+        "amount": 32,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 37,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 45,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "das brötchen in kleine stücke zupfen und in der milch einweichen.",
+      "zwiebel und knoblauch fein würfeln und in einer pfanne mit 1 el öl glasig andünsten. anschließend abkühlen lassen.",
+      "hackfleisch in eine schüssel geben. ei, abgekühlte zwiebel-knoblauch-mischung, ausgedrücktes brötchen, senf, paprika, muskat, petersilie, salz und pfeffer hinzufügen sowie alles gut vermengen.",
+      "mit feuchten händen 9 kleine frikadellen formen.",
+      "2 el öl in einer großen pfanne erhitzen. frikadellen darin bei mittlerer hitze pro seite ca. 5–7 minuten braten, bis sie außen schön gebräunt und innen durch sind.",
+      "währenddessen wirsing in feine streifen schneiden, möhren und kartoffeln schälen. möhren in scheiben, kartoffeln in würfel schneiden.",
+      "kartoffeln und möhren in einen topf geben, mit wasser bedecken und etwa 10 minuten vorgaren. wirsing zugeben und weitere 7 minuten garen, bis alles weich ist.",
+      "gemüse abgießen und zurück in den topf geben. butter und sahne zufügen, mit muskatnuss, salz und pfeffer würzen, alles zerstampfen bzw. grob vermengen.",
+      "frikadellen gemeinsam mit dem wirsing-kartoffel-möhren-stampf servieren."
+    ],
+    "subtitle": "frikadellen mit wirsing-kartoffel-möhren-stampf"
+  },
+  {
+    "id": "6a4ad417df29b975ad79795f",
+    "title": "frikadellen-gemüse-bällchen mit bunter stampfbeilage",
+    "duration": 40,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 400,
+        "name": "rinderhackfleisch",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "ei",
+        "unit": "St"
+      },
+      {
+        "amount": 70,
+        "name": "haferflocken (zart)",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "möhre",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "kleine zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "kleine zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el sonnenblumenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl senf",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 400,
+        "name": "kartoffeln (mehligkochend)",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "tiefkühlerbsen",
+        "unit": "g"
+      },
+      {
+        "amount": 100,
+        "name": "milch",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "el butter",
+        "unit": "EL"
+      }
+    ],
+    "labels": [
+      "Kids",
+      "Rind"
+    ],
+    "nutrients": [
+      {
+        "amount": 550,
+        "name": "kalorien (ca. pro portion)",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "möhre und zucchini fein reiben, zwiebel fein würfeln.",
+      "hackfleisch mit ei, haferflocken, senf, möhre, zucchini, zwiebel sowie salz und pfeffer in eine schüssel geben und gut verkneten.",
+      "aus der masse 9 kleine frikadellen formen.",
+      "öl in einer großen pfanne erhitzen. frikadellen darin bei mittlerer hitze ca. 6-7 minuten pro seite goldbraun braten.",
+      "währenddessen kartoffeln schälen, würfeln und in einem topf mit salz gar kochen (ca. 15 minuten).",
+      "wenn die kartoffeln fast weich sind, tiefkühlerbsen zugeben und noch 3 minuten mitkochen.",
+      "wasser abgießen, butter und milch zugeben, alles stampfen und mit salz abschmecken.",
+      "frikadellen mit dem kartoffel-erbsen-stampf auf tellern anrichten und servieren."
+    ],
+    "subtitle": "kleine gemüse-frikadellen mit kartoffel-erbsen-stampf"
+  },
+  {
+    "id": "6a4d2ba7df29b975ad797960",
+    "title": "fermentierte salzgurken",
+    "duration": 4320,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 600,
+        "name": "kleine gartengurken",
+        "unit": "g"
+      },
+      {
+        "amount": 600,
+        "name": "wasser",
+        "unit": "ml"
+      },
+      {
+        "amount": 18,
+        "name": "meersalz",
+        "unit": "g"
+      },
+      {
+        "amount": 3,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "dillzweige",
+        "unit": "St"
+      },
+      {
+        "amount": 6,
+        "name": "schwarze pfefferkörner",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "lorbeerblätter",
+        "unit": "St"
+      }
+    ],
+    "labels": [
+      "Kalorienarm",
+      "Fettarm",
+      "Vegetarisch",
+      "Vegan"
+    ],
+    "nutrients": [
+      {
+        "amount": 35,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 2,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 0,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 6,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "die gurken gründlich waschen. eventuell abgestoßene enden abschneiden.",
+      "wasser mit dem meersalz verrühren, bis sich das salz komplett aufgelöst hat.",
+      "die gurken zusammen mit knoblauch, dill, pfefferkörnern und lorbeerblättern in ein großes, sauberes einmachglas geben.",
+      "mit der salzlake vollständig bedecken. gurken müssen komplett unter wasser bleiben, ggf. mit einem sauberen gewicht beschweren.",
+      "das glas mit einem locker aufliegenden deckel oder tuch abdecken (damit die entweichenden gase entweichen können, aber nichts hineingelangt).",
+      "das glas bei zimmertemperatur (ca. 20–22 °c) für etwa 3–5 tage stehen lassen. täglich kontrollieren, ob die gurken unter der lake bleiben. falls notwendig, schaum an der oberfläche abschöpfen.",
+      "nach ca. 5 tagen probieren. je nach gewünschtem säuregrad weitere tage fermentieren lassen. anschließend die gurken kühl lagern (z. b. im kühlschrank)."
+    ],
+    "subtitle": "klassische fermentierte gurken – würzig und knackig"
+  },
+  {
+    "id": "6a4f7b3cdf29b975ad797961",
+    "title": "mangold-rührei mit kartoffelstampf",
+    "duration": 40,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 700,
+        "name": "kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "bund mangold",
+        "unit": "St"
+      },
+      {
+        "amount": 6,
+        "name": "eier",
+        "unit": "St"
+      },
+      {
+        "amount": 150,
+        "name": "milch",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "zwiebeln",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el butter",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 100,
+        "name": "buttermilch oder sahne für kartoffelstampf",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "prise muskatnuss",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Vegetarisch"
+    ],
+    "nutrients": [
+      {
+        "amount": 500,
+        "name": "kalorien",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "kartoffeln schälen, in grobe stücke schneiden und in salzwasser etwa 20 minuten weich kochen.",
+      "mangold waschen. stiele und blätter getrennt schneiden. zwiebeln und knoblauch schälen und fein würfeln.",
+      "in einer großen pfanne olivenöl erhitzen. zwiebeln und knoblauch darin glasig dünsten.",
+      "mangoldstiele zugeben und einige minuten anbraten. dann die mangoldblätter hinzufügen und warten, bis sie zusammenfallen. mit salz und pfeffer würzen, warm halten.",
+      "eier in eine schüssel schlagen, milch zugeben, kräftig verquirlen und mit salz, pfeffer und muskatnuss würzen.",
+      "in einer beschichteten pfanne butter schmelzen. eimasse hineingeben und bei mittlerer hitze unter rühren zart stocken lassen.",
+      "kartoffeln abgießen. milch und butter zufügen und mit einem kartoffelstampfer alles grob oder fein zerstampfen. falls gewünscht, buttermilch oder sahne unterrühren.",
+      "kartoffelstampf mit mangold und rührei auf tellern anrichten und servieren."
+    ],
+    "subtitle": "schnelles gemüsegericht mit cremigem stampf"
+  },
+  {
+    "id": "6a540eb0df29b975ad797962",
+    "title": "rustikaler rindergulasch-eintopf",
+    "duration": 70,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 500,
+        "name": "rindergulasch",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "zwiebeln",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "karotten",
+        "unit": "St"
+      },
+      {
+        "amount": 700,
+        "name": "kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "kleiner knollensellerie",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "tomaten",
+        "unit": "St"
+      },
+      {
+        "amount": 1000,
+        "name": "rinderbrühe",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "lorbeerblätter",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el pflanzenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "el tomatenmark",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl paprikapulver edelsüß",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl kümmel",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl salz",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl pfeffer",
+        "unit": "TL"
+      },
+      {
+        "amount": 0.5,
+        "name": "bund petersilie (frisch)",
+        "unit": "St"
+      }
+    ],
+    "labels": [
+      "Rind"
+    ],
+    "nutrients": [
+      {
+        "amount": 520,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 44,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 14,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 55,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "zwiebeln und knoblauch schälen, fein hacken.",
+      "karotten, sellerie und kartoffeln schälen und in würfel schneiden.",
+      "tomaten grob würfeln.",
+      "rindergulasch in mundgerechte stücke schneiden, falls nötig.",
+      "pflanzenöl in einem großen topf erhitzen und das rindfleisch portionsweise von allen seiten scharf anbraten, wieder herausnehmen.",
+      "im selben topf zwiebeln und knoblauch glasig dünsten. tomatenmark zufügen und kurz mitrösten.",
+      "mit paprikapulver, kümmel, salz und pfeffer würzen.",
+      "karotten, sellerie, kartoffeln und tomaten in den topf geben, alles gut vermengen.",
+      "das angebratene fleisch zurück in den topf geben, lorbeerblätter hinzufügen.",
+      "mit brühe auffüllen und alles aufkochen lassen.",
+      "eintopf zugedeckt bei kleiner hitze etwa 60 minuten köcheln lassen, gelegentlich umrühren.",
+      "zum schluss mit salz und pfeffer abschmecken, lorbeerblätter entfernen.",
+      "petersilie fein hacken und über den eintopf streuen. heiß servieren."
+    ],
+    "subtitle": "herzhafter rindergulasch-eintopf mit kartoffeln, karotten und sellerie"
+  },
+  {
+    "id": "6a540eb0df29b975ad797963",
+    "title": "bunter kinder-eintopf",
+    "duration": 50,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 400,
+        "name": "kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 250,
+        "name": "karotten",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "tk-ernbsen",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 650,
+        "name": "gemüsebrühe",
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 100,
+        "name": "würstchen (gebrühte)",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "lorbeerblatt",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise muskat",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "bund petersilie",
+        "unit": "St"
+      }
+    ],
+    "labels": [
+      "Kids"
+    ],
+    "nutrients": [
+      {
+        "amount": 350,
+        "name": "energie",
+        "unit": "kcal"
+      },
+      {
+        "amount": 16,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 6,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 59,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "kartoffeln und karotten schälen und in würfel schneiden. zucchini und würstchen ebenfalls klein würfeln. zwiebel und knoblauch schälen und fein hacken.",
+      "in einem großen topf das olivenöl erhitzen. zwiebel und knoblauch darin glasig dünsten.",
+      "kartoffeln, karotten und zucchini zugeben, kurz mitdünsten.",
+      "mit gemüsebrühe aufgießen, lorbeerblatt zugeben und alles mit salz, pfeffer und muskat würzen.",
+      "bei mittlerer hitze abgedeckt etwa 20 minuten köcheln lassen.",
+      "ernbsen und würstchen zugeben und weitere 10 minuten köcheln.",
+      "lorbeerblatt entfernen. mit gehackter petersilie bestreut servieren."
+    ],
+    "subtitle": "bunter gemüse-kinder-eintopf mit würstchen"
+  },
+  {
+    "id": "6a56116bdf29b975ad797964",
+    "title": "gaeng-kiew-wan-ped",
+    "duration": 40,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 450,
+        "name": "entenbrust",
+        "unit": "g"
+      },
+      {
+        "amount": 400,
+        "name": "kokosmilch",
+        "unit": "ml"
+      },
+      {
+        "amount": 100,
+        "name": "grüne currypaste",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "aubergine",
+        "unit": "g"
+      },
+      {
+        "amount": 75,
+        "name": "bambussprossen",
+        "unit": "g"
+      },
+      {
+        "amount": 75,
+        "name": "zuckerschoten",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "rote paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "grüne paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 30,
+        "name": "fischsauce",
+        "unit": "ml"
+      },
+      {
+        "amount": 10,
+        "name": "zucker",
+        "unit": "g"
+      },
+      {
+        "amount": 4,
+        "name": "kefirlimettenblätter",
+        "unit": "St"
+      },
+      {
+        "amount": 10,
+        "name": "frischer basilikum",
+        "unit": "g"
+      },
+      {
+        "amount": 10,
+        "name": "frischer koriander",
+        "unit": "g"
+      },
+      {
+        "amount": 300,
+        "name": "jasminreis",
+        "unit": "g"
+      }
+    ],
+    "labels": [
+      "Geflügel"
+    ],
+    "nutrients": [
+      {
+        "amount": 650,
+        "name": "kcal",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "entenbrust in scheiben schneiden.",
+      "grüne currypaste in einer pfanne ohne öl leicht anrösten, bis sie duftet.",
+      "die hälfte der kokosmilch langsam zur currypaste geben und leicht einkochen lassen.",
+      "entenbrustscheiben hinzufügen und kurz anbraten.",
+      "aubergine in würfel schneiden. paprika sowie zuckerschoten in streifen schneiden.",
+      "aubergine, paprika, zuckerschoten und bambussprossen in die pfanne geben und unter rühren anbraten.",
+      "restliche kokosmilch und etwas wasser angießen. limettenblätter, fischsauce und zucker hinzufügen.",
+      "alles ca. 15 minuten auf niedriger bis mittlerer hitze köcheln lassen, bis das gemüse gar ist.",
+      "frische kräuter (basilikum, koriander) kurz vor dem servieren einrühren.",
+      "mit jasminreis servieren."
+    ],
+    "subtitle": "entencurry in grüner sauce mit kokosmilch und gemüse"
+  },
+  {
+    "id": "6a5611bbdf29b975ad797965",
+    "title": "gaeng-kiew-wan-ped",
+    "duration": 40,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 450,
+        "name": "entenbrust",
+        "unit": "g"
+      },
+      {
+        "amount": 400,
+        "name": "kokosmilch",
+        "unit": "ml"
+      },
+      {
+        "amount": 100,
+        "name": "aubergine",
+        "unit": "g"
+      },
+      {
+        "amount": 80,
+        "name": "bambussprossen",
+        "unit": "g"
+      },
+      {
+        "amount": 50,
+        "name": "rote paprika",
+        "unit": "g"
+      },
+      {
+        "amount": 5,
+        "name": "grüne currypaste",
+        "unit": "EL"
+      },
+      {
+        "amount": 8,
+        "name": "fischsauce",
+        "unit": "EL"
+      },
+      {
+        "amount": 3,
+        "name": "zucker",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "limette",
+        "unit": "St"
+      },
+      {
+        "amount": 10,
+        "name": "thai-basilikumblätter",
+        "unit": "g"
+      },
+      {
+        "amount": 5,
+        "name": "kaffir-limettenblätter",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "rote chilischote",
+        "unit": "St"
+      },
+      {
+        "amount": 180,
+        "name": "jasminreis",
+        "unit": "g"
+      }
+    ],
+    "labels": [
+      "Geflügel"
+    ],
+    "nutrients": [
+      {
+        "amount": 600,
+        "name": "kalorien",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "entenbrust in feine scheiben schneiden.",
+      "die currypaste in einer großen pfanne mit etwas kokosmilch unter rühren erhitzen, bis sie aromatisch duftet.",
+      "die restliche kokosmilch nach und nach dazugeben.",
+      "entenbrust in die pfanne geben und kurz anbraten.",
+      "aubergine in würfel schneiden, paprika in streifen und beides zusammen mit bambussprossen und kaffir-limettenblättern hinzufügen.",
+      "alles einige minuten köcheln lassen.",
+      "fischsauce und zucker einrühren.",
+      "mit limettensaft abschmecken.",
+      "chilischote in feine ringe schneiden und zusammen mit basilikum kurz vor dem servieren unterheben.",
+      "mit jasminreis servieren."
+    ],
+    "subtitle": "grünes curry mit ente"
+  },
+  {
+    "id": "6a576befdf29b975ad797966",
+    "title": "schweinenackensteak & gelbe zucchini vom grill",
+    "duration": 45,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 600,
+        "name": "schweinenackensteak, roh",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "gelbe zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 4,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el zitronensaft",
+        "unit": "EL"
+      },
+      {
+        "amount": 3,
+        "name": "tl paprikapulver edelsüß",
+        "unit": "TL"
+      },
+      {
+        "amount": 2,
+        "name": "tl salz",
+        "unit": "TL"
+      },
+      {
+        "amount": 2,
+        "name": "tl schwarzer pfeffer",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl rosmarin, getrocknet",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl thymian, getrocknet",
+        "unit": "TL"
+      }
+    ],
+    "labels": [
+      "Schwein"
+    ],
+    "nutrients": [
+      {
+        "amount": 540,
+        "name": "kalorien pro portion",
+        "unit": "kcal"
+      },
+      {
+        "amount": 45,
+        "name": "protein pro portion",
+        "unit": "g"
+      },
+      {
+        "amount": 38,
+        "name": "fett pro portion",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "schweinenackensteaks mit 2 el olivenöl, 2 tl salz, 2 tl pfeffer, 2 tl paprikapulver, 1 tl rosmarin und 1 gepressten knoblauchzehe einreiben. für mindestens 30 minuten marinieren lassen.",
+      "gelbe zucchini längs in etwa 1 cm dicke scheiben schneiden.",
+      "zucchinischeiben mit restlichem olivenöl, zitronensaft, 1 tl paprikapulver, 1 tl thymian, restlichem knoblauch (gepresst), salz und pfeffer vermengen.",
+      "den grill vorheizen.",
+      "schweinenackensteaks auf dem heißen grill von beiden seiten je ca. 5–6 minuten grillen, bis sie schön gebräunt und durchgegart sind.",
+      "zucchinischeiben ebenfalls auf den grill legen und von jeder seite ca. 3–4 minuten grillen, bis sie leicht gebräunt, aber noch bissfest sind.",
+      "fleisch und zucchini zusammen servieren."
+    ],
+    "subtitle": "würzige schweinenackensteaks und saftige gelbe zucchini vom grill"
+  },
+  {
+    "id": "6a5a82c0df29b975ad797968",
+    "title": "bohnen mit speck wie bei bud spencer & terence hill",
+    "duration": 45,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 800,
+        "name": "weiße bohnen (aus der dose oder gekocht)",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "speck (durchwachsener bauchspeck, gewürfelt)",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "zwiebeln",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "tomaten (frisch oder aus der dose)",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "paprikaschoten (rot)",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "tl paprikapulver, edelsüß",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise chili, gemahlen (optional)",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Schwein"
+    ],
+    "nutrients": [
+      {
+        "amount": 600,
+        "name": "kalorien (gesamt)",
+        "unit": "kcal"
+      },
+      {
+        "amount": 30,
+        "name": "eiweiß (pro portion)",
+        "unit": "g"
+      },
+      {
+        "amount": 20,
+        "name": "fett (pro portion)",
+        "unit": "g"
+      },
+      {
+        "amount": 50,
+        "name": "kohlenhydrate (pro portion)",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "zwiebeln und knoblauch schälen und fein würfeln. paprikaschoten sowie tomaten klein schneiden.",
+      "olivenöl in einer großen pfanne oder einem topf erhitzen. würfel vom speck darin auslassen, bis sie leicht knusprig sind.",
+      "zwiebeln und knoblauch zum speck geben und glasig andünsten.",
+      "paprika und tomaten hinzufügen und einige minuten mitbraten.",
+      "die abgetropften bohnen hinzugeben und alles gut vermengen.",
+      "paprikapulver, chili, salz und pfeffer einrühren.",
+      "alles auf kleiner bis mittlerer hitze ca. 25-30 minuten köcheln lassen, dabei gelegentlich umrühren.",
+      "abschmecken, eventuell nachwürzen und servieren."
+    ],
+    "subtitle": "herzhafte cowboy-bohnenpfanne wie aus den klassikern"
+  },
+  {
+    "id": "6a5d4943df29b975ad797969",
+    "title": "frikadellen mit möhren-kartoffel-stampf und erbsen",
+    "duration": 50,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 500,
+        "name": "gemischtes hackfleisch",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "altbackenes brötchen",
+        "unit": "St"
+      },
+      {
+        "amount": 150,
+        "name": "milch",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "ei",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el senf",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el petersilie, gehackt",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 3,
+        "name": "el öl",
+        "unit": "EL"
+      },
+      {
+        "amount": 600,
+        "name": "kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 250,
+        "name": "möhren",
+        "unit": "g"
+      },
+      {
+        "amount": 60,
+        "name": "butter",
+        "unit": "g"
+      },
+      {
+        "amount": 120,
+        "name": "milch für das püree",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "prise muskat",
+        "unit": "Prise"
+      },
+      {
+        "amount": 200,
+        "name": "erbsen (tk)",
+        "unit": "g"
+      }
+    ],
+    "labels": [],
+    "nutrients": [
+      {
+        "amount": 720,
+        "name": "kalorien",
+        "unit": "kcal"
+      },
+      {
+        "amount": 41,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 30,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 72,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "das altbackene brötchen in kleine stücke schneiden und mit 150 ml milch übergießen. einweichen lassen.",
+      "zwiebel und knoblauch fein würfeln. zusammen mit dem hackfleisch, dem ausgedrückten brötchen, dem ei, senf, petersilie, salz und pfeffer gründlich in einer schüssel vermengen.",
+      "mit angefeuchteten händen aus der masse 9 gleich große frikadellen formen.",
+      "öl in einer großen pfanne erhitzen. die frikadellen darin bei mittlerer hitze von jeder seite ca. 6-8 minuten goldbraun braten. anschließend im backofen bei 80 grad warmhalten.",
+      "kartoffeln und möhren schälen, in stücke schneiden und in salzwasser ca. 20 minuten weich kochen.",
+      "währenddessen tk-erbsen in wenig salzwasser 5 minuten kochen und abgießen.",
+      "gekochte kartoffeln und möhren abgießen, butter und milch zufügen und mit einem stampfer zu einem cremigen püree verarbeiten. mit salz, pfeffer und muskat abschmecken.",
+      "püree auf teller geben, erbsen darauf verteilen und zusammen mit den warmen frikadellen servieren."
+    ],
+    "subtitle": "klassische frikadellen mit möhren-kartoffel-stampf und erbsen"
+  },
+  {
+    "id": "6a5d4943df29b975ad79796a",
+    "title": "bunte gemüse-frikadellen mit kartoffel-erbsen-stampf",
+    "duration": 35,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 400,
+        "name": "gemischtes hackfleisch",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "karotte",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "ei",
+        "unit": "St"
+      },
+      {
+        "amount": 60,
+        "name": "semmelbrösel (paniermehl)",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "kleine zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el ketchup",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "tl senf",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 2,
+        "name": "el rapsöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 350,
+        "name": "kartoffeln",
+        "unit": "g"
+      },
+      {
+        "amount": 250,
+        "name": "tiefkühlerbsen",
+        "unit": "g"
+      },
+      {
+        "amount": 30,
+        "name": "butter",
+        "unit": "g"
+      },
+      {
+        "amount": 70,
+        "name": "milch",
+        "unit": "ml"
+      }
+    ],
+    "labels": [
+      "Kids"
+    ],
+    "nutrients": [
+      {
+        "amount": 650,
+        "name": "energie",
+        "unit": "kcal"
+      },
+      {
+        "amount": 34,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 34,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 58,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "kartoffeln schälen, kleinschneiden und in salzwasser ca. 20 minuten weich kochen.",
+      "währenddessen karotte, zucchini und zwiebel fein reiben bzw. würfeln.",
+      "hackfleisch, geriebene karotte und zucchini, ei, semmelbrösel, gewürfelte zwiebel, ketchup, senf, salz und pfeffer in eine schüssel geben und gut verkneten.",
+      "aus der masse kleine frikadellen formen.",
+      "öl in einer großen pfanne erhitzen, frikadellen darin auf mittlerer stufe von jeder seite je 5–6 minuten braten.",
+      "inzwischen erbsen in einem kleinen topf mit etwas wasser 5 minuten garen, danach abgießen.",
+      "weich gekochte kartoffeln abgießen, mit butter und milch zerstampfen. nach geschmack mit salz abschmecken.",
+      "kartoffelstampf mit butter unterrühren und die erbsen dazu mischen.",
+      "frikadellen zusammen mit dem kartoffel-erbsen-stampf servieren. guten appetit!"
+    ],
+    "subtitle": "saftige frikadellen mit verstecktem gemüse und kartoffel-erbsen-stampf"
+  },
+  {
+    "id": "6a5dfd78df29b975ad79796b",
+    "title": "penne mit gorgonzola sauce",
+    "duration": 25,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 300,
+        "name": "penne rigate",
+        "unit": "g"
+      },
+      {
+        "amount": 150,
+        "name": "gorgonzola",
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "sahne",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 20,
+        "name": "butter",
+        "unit": "g"
+      },
+      {
+        "amount": 30,
+        "name": "parmesan (gerieben)",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Vegetarisch"
+    ],
+    "nutrients": [
+      {
+        "amount": 750,
+        "name": "kcal",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "die penne in einem großen topf mit reichlich gesalzenem wasser nach packungsanleitung al dente kochen.",
+      "währenddessen die zwiebel fein würfeln und die knoblauchzehe hacken.",
+      "die butter in einer tiefen pfanne schmelzen. zwiebel und knoblauch darin glasig anschwitzen.",
+      "gorgonzola grob zerkleinern und zusammen mit der sahne zu den zwiebeln geben. unter rühren schmelzen lassen.",
+      "die sauce mit salz und pfeffer würzen.",
+      "die abgegossenen penne in die sauce geben und gut vermengen.",
+      "mit parmesan bestreuen und sofort servieren."
+    ],
+    "subtitle": "cremige pasta mit würziger gorgonzolasauce"
+  },
+  {
+    "id": "6a64b0f2df29b975ad79796c",
+    "title": "kirschpflaumenlikör",
+    "duration": 43200,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 450,
+        "name": "kirschpflaumen",
+        "unit": "g"
+      },
+      {
+        "amount": 225,
+        "name": "zucker",
+        "unit": "g"
+      },
+      {
+        "amount": 375,
+        "name": "vodka",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "vanilleschote",
+        "unit": "St"
+      }
+    ],
+    "labels": [
+      "Vegetarisch",
+      "Vegan"
+    ],
+    "nutrients": [],
+    "preparation": [
+      "die kirschpflaumen waschen, entsteinen und halbieren.",
+      "die kirschpflaumen zusammen mit dem zucker in ein großes, sauberes glas füllen.",
+      "die vanilleschote längs aufschneiden, das mark herauskratzen und beides (mark und schote) zu den früchten geben.",
+      "den vodka darüber gießen, sodass die früchte vollständig bedeckt sind.",
+      "das glas gut verschließen und an einem dunklen, kühlen ort für 30 tage ziehen lassen. gelegentlich vorsichtig schwenken.",
+      "nach der ziehzeit den likör durch ein feines sieb oder tuch abfiltern und in saubere flaschen füllen.",
+      "gut verschlossen hält sich der kirschpflaumenlikör mehrere monate."
+    ],
+    "subtitle": "fruchtiger likör mit kirschpflaumen selbst gemacht"
+  },
+  {
+    "id": "6a663374df29b975ad79796d",
+    "title": "selbstgemachte pizza für 3 personen",
+    "duration": 90,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 300,
+        "name": "weizenmehl",
+        "unit": "g"
+      },
+      {
+        "amount": 180,
+        "name": "wasser",
+        "unit": "ml"
+      },
+      {
+        "amount": 10,
+        "name": "olivenöl",
+        "unit": "ml"
+      },
+      {
+        "amount": 7,
+        "name": "trockenhefe",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 400,
+        "name": "passierte tomaten",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "priese zucker",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "oregano (getrocknet)",
+        "unit": "TL"
+      },
+      {
+        "amount": 250,
+        "name": "mozzarella",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "tomaten",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "rote zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "olivenöl zum bestreichen",
+        "unit": "EL"
+      }
+    ],
+    "labels": [
+      "Vegetarisch",
+      "Ofen"
+    ],
+    "nutrients": [
+      {
+        "amount": 600,
+        "name": "kcal pro portion (ca.)",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "das mehl in eine schüssel geben und mit trockenhefe und salz vermischen.",
+      "wasser und olivenöl hinzufügen. alles zu einem glatten teig verkneten.",
+      "den pizzateig abgedeckt an einem warmen ort für ca. 1 stunde gehen lassen, bis er deutlich aufgegangen ist.",
+      "in der zwischenzeit die tomatensauce vorbereiten: passierte tomaten in eine schüssel geben, knoblauch fein hacken und mit oregano, einer prise zucker und etwas salz vermengen.",
+      "mozzarella abtropfen lassen und in scheiben schneiden. gemüse (tomaten, zwiebel, paprika) waschen und nach belieben schneiden.",
+      "backofen auf 250°c ober-/unterhitze vorheizen.",
+      "teig in 3 portionen teilen und auf einer bemehlten fläche zu runden fladen ausrollen.",
+      "die teigfladen auf backpapier legen, mit etwas olivenöl bestreichen und mit tomatensauce bestreichen.",
+      "mit mozzarella und gemüse belegen.",
+      "die pizzen nacheinander 10–12 minuten auf dem heißen blech im ofen backen, bis der rand goldbraun und knusprig ist.",
+      "pizzen aus dem ofen holen, nach wunsch mit frischem basilikum garnieren, servieren und genießen."
+    ],
+    "subtitle": "pizza mit selbstgemachtem teig und gemüse"
+  },
+  {
+    "id": "6a6683bddf29b975ad79796e",
+    "title": "rinderhüftsteak mit bohnen-paprika-soße",
+    "duration": 60,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 500,
+        "name": "rinderhüftsteak",
+        "unit": "g"
+      },
+      {
+        "amount": 600,
+        "name": "kartoffeln (festkochend)",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "rote zwiebeln",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "große paprika (rot)",
+        "unit": "St"
+      },
+      {
+        "amount": 200,
+        "name": "grüne bohnen frisch oder tk",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "el butter",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "tl dijon-senf",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl grobkörniger senf",
+        "unit": "TL"
+      },
+      {
+        "amount": 120,
+        "name": "sahne",
+        "unit": "ml"
+      },
+      {
+        "amount": 50,
+        "name": "rinderbrühe",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise schwarzer pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "tl paprika edelsüß",
+        "unit": "TL"
+      },
+      {
+        "amount": 2,
+        "name": "el gehackte petersilie",
+        "unit": "EL"
+      }
+    ],
+    "labels": [
+      "Rind"
+    ],
+    "nutrients": [
+      {
+        "amount": 560,
+        "name": "kalorien (pro portion)",
+        "unit": "kcal"
+      },
+      {
+        "amount": 40,
+        "name": "eiweiß (pro portion)",
+        "unit": "g"
+      },
+      {
+        "amount": 26,
+        "name": "fett (pro portion)",
+        "unit": "g"
+      },
+      {
+        "amount": 38,
+        "name": "kohlenhydrate (pro portion)",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "kartoffeln schälen, grob würfeln und in salzwasser in ca. 20 min. gar kochen.",
+      "die grünen bohnen in kochendem salzwasser 6-8 min. bissfest garen, dann abgießen. paprika entkernen und in streifen schneiden. zwiebeln schälen und in halbmonde schneiden. knoblauch fein hacken.",
+      "rinderhüftsteaks ca. 30 min. vor dem braten aus dem kühlschrank nehmen, salzen und pfeffern.",
+      "1 el olivenöl und 1 el butter in einer großen pfanne erhitzen. die steaks bei starker hitze je seite ca. 2-3 min. braten (medium). herausnehmen und abgedeckt 5 min. ruhen lassen.",
+      "in derselben pfanne 2 el olivenöl zugeben. zwiebeln und knoblauch bei mittlerer hitze anschwitzen. paprikastreifen kurz mitbraten. mit paprika edelsüß bestäuben.",
+      "senf, brühe und sahne einrühren. kurz aufkochen, bohnen dazugeben und alles einige minuten sanft köcheln lassen. mit salz und pfeffer abschmecken.",
+      "die gegarten kartoffeln abgießen und mit der hälfte der petersilie vermengen.",
+      "kartoffeln auf tellern verteilen, steak in scheiben schneiden und darauf anrichten. die senf-bohnen-paprika-soße darübergeben, mit restlicher petersilie bestreuen."
+    ],
+    "subtitle": "rinderhüftsteak mit senf-bohnen-paprika-soße und petersilienkartoffeln"
+  },
+  {
+    "id": "6a6683bddf29b975ad79796f",
+    "title": "bunter rinder-hack-gemüse-auflauf",
+    "duration": 35,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 400,
+        "name": "rinderhackfleisch",
+        "unit": "g"
+      },
+      {
+        "amount": 300,
+        "name": "möhren",
+        "unit": "g"
+      },
+      {
+        "amount": 300,
+        "name": "kartoffeln, festkochend",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "frühlingszwiebeln",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "eier",
+        "unit": "St"
+      },
+      {
+        "amount": 80,
+        "name": "geriebener gouda",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 200,
+        "name": "saure sahne",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "tl paprikapulver, edelsüß",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Kids",
+      "Rind"
+    ],
+    "nutrients": [
+      {
+        "amount": 550,
+        "name": "kalorien gesamt (pro portion)",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "backofen auf 180 grad ober-/unterhitze vorheizen.",
+      "möhren und kartoffeln schälen und grob raspeln. zucchini waschen und grob raspeln. frühlingszwiebeln in kleine ringe schneiden. knoblauchzehen fein hacken.",
+      "eine große ofenfeste auflaufform mit 1 el olivenöl ausstreichen.",
+      "in einer pfanne 1 el olivenöl erhitzen und rinderhackfleisch darin kräftig anbraten. knoblauch zufügen und kurz mitbraten. mit paprikapulver, salz und pfeffer würzen.",
+      "gemüse (möhren, kartoffeln, zucchini, frühlingszwiebeln) unter das hack mischen und alles in der pfanne kurz anbraten. danach in die auflaufform füllen.",
+      "eier mit saurer sahne verquirlen, etwas salz und pfeffer einrühren. diese mischung über das hack-gemüse gießen.",
+      "mit dem geriebenen gouda bestreuen.",
+      "auflauf im vorgeheizten ofen ca. 25-30 minuten goldgelb überbacken.",
+      "auflauf aus dem ofen nehmen, kurz abkühlen lassen und in stücke teilen."
+    ],
+    "subtitle": "bunter rinder-hack-gemüse-auflauf für kinder"
+  },
+  {
+    "id": "6a673c19df29b975ad797970",
+    "title": "gong bao ji ding",
+    "duration": 35,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 400,
+        "name": "hähnchenbrustfilet",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "frühlingszwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "rote paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 50,
+        "name": "erdnüsse (ungesalzen)",
+        "unit": "g"
+      },
+      {
+        "amount": 3,
+        "name": "knoblauchzehe",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "stück ingwer (walnussgroß)",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "getrocknete chilischoten",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "el sojasauce",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el dunkle sojasauce",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el reiswein oder sherry",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el reisessig (oder weißweinessig)",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el zucker",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "tl maisstärke",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "el sesamöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 3,
+        "name": "el pflanzenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 300,
+        "name": "reis (als beilage, optional)",
+        "unit": "g"
+      }
+    ],
+    "labels": [
+      "Geflügel"
+    ],
+    "nutrients": [
+      {
+        "amount": 550,
+        "name": "kalorien",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "hähnchenbrust in mundgerechte würfel schneiden und mit 1 el sojasauce, 1 el reiswein und maisstärke vermischen. 10 minuten marinieren lassen.",
+      "paprika, frühlingszwiebel, knoblauch und ingwer klein schneiden.",
+      "für die sauce: 2 el sojasauce, 2 el dunkle sojasauce, 1 el reiswein, 2 el zucker, 2 el reisessig und eine prise salz in einer schüssel verrühren.",
+      "pflanzenöl in einer pfanne oder wok erhitzen. chilischoten, knoblauch und ingwer kurz anschwitzen.",
+      "hähnchenwürfel zugeben und rundum scharf anbraten.",
+      "paprika und frühlingszwiebeln hinzufügen und 3 minuten braten.",
+      "erdnüsse zugeben, anschließend die sauce hinzufügen und alles bei mittlerer hitze unter rühren in 3 minuten glasieren.",
+      "zum schluss mit sesamöl beträufeln und mit reis servieren."
+    ],
+    "subtitle": "klassischer chinesischer wok-gericht mit hähnchen, erdnüssen und chili"
+  },
+  {
+    "id": "6a687fcfdf29b975ad797971",
+    "title": "mangold-tomaten-feta-auflauf aus dem airfryer",
+    "duration": 35,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 500,
+        "name": "mangold",
+        "unit": "g"
+      },
+      {
+        "amount": 4,
+        "name": "tomaten",
+        "unit": "St"
+      },
+      {
+        "amount": 200,
+        "name": "fetakäse",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "zwiebeln",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Vegetarisch",
+      "Airfryer"
+    ],
+    "nutrients": [
+      {
+        "amount": 220,
+        "name": "kalorien",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "mangold waschen, grob hacken. tomaten in scheiben schneiden. zwiebeln und knoblauch schälen, fein hacken.",
+      "airfryer auf 180 grad vorheizen.",
+      "olivenöl in die airfryer-backform geben. zwiebeln und knoblauch kurz 3 minuten im airfryer anrösten.",
+      "mangold darauf geben, mit salz und pfeffer würzen und 5 minuten garen.",
+      "tomatenscheiben auf dem gemüse verteilen. danach fetakäse zerbröseln und darüberstreuen.",
+      "weitere 15 minuten bei 180 grad im airfryer überbacken.",
+      "gericht etwas abkühlen lassen und servieren."
+    ],
+    "subtitle": "vegetarisch mit würzigem feta und frischem gemüse"
+  },
+  {
+    "id": "6a6de0e4df29b975ad797972",
+    "title": "rote beete eingelegt",
+    "duration": 60,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 600,
+        "name": "rote beete",
+        "unit": "g"
+      },
+      {
+        "amount": 300,
+        "name": "wasser",
+        "unit": "ml"
+      },
+      {
+        "amount": 150,
+        "name": "apfelessig",
+        "unit": "ml"
+      },
+      {
+        "amount": 40,
+        "name": "zucker",
+        "unit": "g"
+      },
+      {
+        "amount": 10,
+        "name": "salz",
+        "unit": "g"
+      },
+      {
+        "amount": 3,
+        "name": "lorbeerblatt",
+        "unit": "St"
+      },
+      {
+        "amount": 6,
+        "name": "pfefferk_rner schwarz",
+        "unit": "St"
+      },
+      {
+        "amount": 6,
+        "name": "nelken",
+        "unit": "St"
+      }
+    ],
+    "labels": [
+      "Vegan",
+      "Vegetarisch",
+      "Kalorienarm",
+      "Fettarm"
+    ],
+    "nutrients": [
+      {
+        "amount": 120,
+        "name": "kalorien",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "rote beete waschen und mit schale in kochendem wasser 35 minuten garen.",
+      "anschlie_ end abgie_en, mit kaltem wasser abschrecken und schale abziehen.",
+      "rote beete in scheiben oder st_cke schneiden.",
+      "wasser mit essig, zucker, salz, lorbeerbl_ttern, pfefferk_rnern und nelken in einem topf aufkochen.",
+      "rote beete in sterilisierte gl_ser geben, den hei_en sud dar_ber gie_en, so dass alles bedeckt ist.",
+      "gl_ser sofort verschlie_en und f_r 10 minuten auf den kopf stellen.",
+      "rote beete an einem k_hlen, dunklen ort mindestens 3 tage ziehen lassen."
+    ],
+    "subtitle": "klassisches rezept f_r eingemachte rote beete"
+  },
+  {
+    "id": "6a6fbe1adf29b975ad797973",
+    "title": "bunte hähnchen-kokos-pfanne mit reis",
+    "duration": 40,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 240,
+        "name": "basmatireis",
+        "unit": "g"
+      },
+      {
+        "amount": 450,
+        "name": "hähnchenbrustfilet",
+        "unit": "g"
+      },
+      {
+        "amount": 2,
+        "name": "paprika (rot und gelb)",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "knoblauchzehen",
+        "unit": "St"
+      },
+      {
+        "amount": 3,
+        "name": "el olivenöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 200,
+        "name": "kokosmilch",
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "limette",
+        "unit": "St"
+      },
+      {
+        "amount": 4,
+        "name": "el sojasoße",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "tl honig",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl currypulver",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "tl paprikapulver edelsüß",
+        "unit": "TL"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      },
+      {
+        "amount": 2,
+        "name": "frühlingszwiebeln",
+        "unit": "St"
+      }
+    ],
+    "labels": [
+      "Geflügel",
+      "Kids"
+    ],
+    "nutrients": [
+      {
+        "amount": 612,
+        "name": "kalorien pro portion",
+        "unit": "kcal"
+      }
+    ],
+    "preparation": [
+      "den basmatireis gründlich waschen und nach packungsanleitung in salzwasser kochen.",
+      "währenddessen das hähnchenbrustfilet in mundgerechte stücke schneiden. paprika, zucchini und zwiebel ebenfalls in stücke schneiden, den knoblauch fein würfeln.",
+      "olivenöl in einer großen pfanne erhitzen. das hähnchenfleisch darin rundherum scharf anbraten, dann herausnehmen und zur seite legen.",
+      "zwiebeln und knoblauch im heißen öl anbraten. paprika und zucchini hinzugeben und für 3-4 minuten mitbraten.",
+      "das fleisch wieder zufügen, sojasoße, honig, currypulver, paprikapulver, salz und pfeffer hinzugeben, alles umrühren.",
+      "die kokosmilch in die pfanne gießen und das ganze bei mittlerer hitze etwa 8 minuten köcheln lassen.",
+      "die limette auspressen, saft zum gericht geben. noch einmal abschmecken.",
+      "mit in ringe geschnittenen frühlingszwiebeln bestreut zusammen mit dem reis servieren."
+    ],
+    "subtitle": "saftige hähnchenpfanne mit buntem gemüse und kokos-limetten-soße zu basmatireis"
+  },
+  {
+    "id": "6a6fbe1adf29b975ad797974",
+    "title": "bunter gemüsereis mit ei",
+    "duration": 35,
+    "image": null,
+    "imageBase64": null,
+    "ingredients": [
+      {
+        "amount": 240,
+        "name": "reis",
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "rote paprika",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "möhre",
+        "unit": "St"
+      },
+      {
+        "amount": 1,
+        "name": "zucchini",
+        "unit": "St"
+      },
+      {
+        "amount": 200,
+        "name": "mais (dose, abgetropft)",
+        "unit": "g"
+      },
+      {
+        "amount": 3,
+        "name": "ei",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "frühlingszwiebel",
+        "unit": "St"
+      },
+      {
+        "amount": 2,
+        "name": "el sojasauce (mild)",
+        "unit": "EL"
+      },
+      {
+        "amount": 2,
+        "name": "el rapsöl",
+        "unit": "EL"
+      },
+      {
+        "amount": 1,
+        "name": "prise salz",
+        "unit": "Prise"
+      },
+      {
+        "amount": 1,
+        "name": "prise pfeffer",
+        "unit": "Prise"
+      }
+    ],
+    "labels": [
+      "Kids",
+      "Vegetarisch"
+    ],
+    "nutrients": [
+      {
+        "amount": 535,
+        "name": "energie",
+        "unit": "kcal"
+      },
+      {
+        "amount": 16,
+        "name": "eiweiß",
+        "unit": "g"
+      },
+      {
+        "amount": 9,
+        "name": "fett",
+        "unit": "g"
+      },
+      {
+        "amount": 90,
+        "name": "kohlenhydrate",
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "reis nach packungsanweisung in wasser mit einer prise salz kochen.",
+      "inzwischen paprika, möhren und zucchini waschen. paprika in kleine würfel schneiden. möhren schälen und in dünne scheiben schneiden. zucchini längs halbieren und in halbmonde schneiden. frühlingszwiebeln in feine ringe schneiden.",
+      "das gemüse in einer großen pfanne mit rapsöl ca. 5 minuten bei mittlerer hitze anbraten. mais zugeben und alles zusammen etwa 3 minuten braten.",
+      "gekochten reis abgießen und mit in die pfanne geben.",
+      "die eier in einer schüssel mit einer prise salz und pfeffer verquirlen. in das reis-gemüse in die pfanne eine mulde machen, die eier hineingeben und unter rühren stocken lassen.",
+      "sojasauce darüberträufeln, alles sorgfältig mischen und weitere 2 minuten braten.",
+      "abschmecken und nach wunsch mit frühlingszwiebeln bestreut servieren."
+    ],
+    "subtitle": "bunter gemüsereis mit ei – fix und richtig lecker"
   }
 ]
